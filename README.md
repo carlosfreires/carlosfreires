@@ -40,7 +40,7 @@
 - [**Tocador De Radio Online**](https://github.com/carlosfreires/TocadorDeRadioOnline)  
   *Este projeto é um tocador de rádio online, desenvolvido com o framework Angular CLI version 19.0.2., que permite a reprodução de links de áudio de rádios online ou de outras fontes no mesmo formato. O layout do projeto homenageia a astronomia e a ufologia, com uma réplica animada do sistema solar e uma nave espacial no ponteiro do mouse.*
 
-  🔗 **GitHubPages**: https://github.com/carlosfreires/TocadorDeRadioOnline
+  🔗 **GitHubPages**: https://carlosfreires.github.io/TocadorDeRadioOnline/
 
 - [**TV Online**](https://github.com/carlosfreires/tvOnline)  
   *Este é um projeto simples de TV ao vivo em que o usuário pode assistir canais ao vivo através de URLs M3U. O sistema carrega uma lista de canais de uma URL M3U pública, exibe os canais com seus nomes e logos, e permite que o usuário selecione um canal para reprodução ao vivo.*
