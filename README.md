@@ -55,19 +55,19 @@
 - [**gerador De Hash - bcrypt**](https://github.com/carlosfreires/geradorDeHash-bcrypt)  
   *Este é um script em Node.js que utiliza o algoritmo de hash bcrypt para gerar hashes seguros de senhas. O bcrypt é amplamente utilizado para armazenar senhas de forma segura em bancos de dados, pois é resistente a ataques de força bruta.*
 
-- [**Monitor De Dispositivos Em Rede**](https://github.com/Projeto_MonitorDeDispositivosEmRede_backend)  
+- [**Monitor De Dispositivos Em Rede**](https://github.com/carlosfreires/Projeto_MonitorDeDispositivosEmRede_backend)  
   *Este projeto é um sistema para monitoramento de equipamentos, incluindo gerenciamento de usuários, solicitações de acesso e logs de monitoramento. Ele também oferece ferramentas de teste de conectividade (Ping, Telnet, Tracert) para avaliar o desempenho dos dispositivos.*
 
-- [**freires - botpress - dev**](https://github.com/freires-botpress-dev)  
+- [**freires - botpress - dev**](https://github.com/carlosfreires/freires-botpress-dev)  
   *Este repositório contém uma configuração pronta para você iniciar rapidamente com o Botpress utilizando Docker. O objetivo é facilitar a criação e personalização de chatbots, utilizando a versão mais recente do Botpress disponível em 27 janeiro de 2025.*
 
-- [**Docker PostgreSQL - V13**](https://github.com/Docker_PostgreSQL-V13)  
+- [**Docker PostgreSQL - V13**](https://github.com/carlosfreires/Docker_PostgreSQL-V13)  
   *Este repositório fornece um ambiente isolado para desenvolvimento e testes com PostgreSQL utilizando Docker e Docker Compose. Inclui persistência de dados e um banco de dados inicial configurado.*
 
-- [**Docker MongoDB - V4.4**](https://github.com/Docker_MongoDB-V4.4)  
+- [**Docker MongoDB - V4.4**](https://github.com/carlosfreires/Docker_MongoDB-V4.4)  
   *Este repositório tem o objetivo de fornecer um ambiente isolado para desenvolvimento e testes com o MongoDB, facilitando a configuração e a persistência de dados através do Docker e Docker Compose.*
 
-- [**Docker MySQL - V8**](https://github.com/Docker_MySQL-V8)  
+- [**Docker MySQL - V8**](https://github.com/carlosfreires/Docker_MySQL-V8)  
   *Este repositório fornece um ambiente isolado para desenvolvimento e testes com MySQL utilizando Docker e Docker Compose. Inclui persistência de dados e um banco de dados inicial configurado.*
 
 ---
