@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevPortfolio | Professional & Modern</title>
+    <meta name="description" content="Portfolio profissional desenvolvido com foco em UX/UI, Acessibilidade e Performance.">
+    
+    <!-- Google Fonts: Inter (Global) & Noto Sans SC (Chinês) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Noto+Sans+SC:wght@300;400;700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome para Ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">DevPortfolio.</a>
+                
+                <ul class="nav-links">
+                    <li><a href="#hero" data-i18n="nav.home">Home</a></li>
+                    <li><a href="#about" data-i18n="nav.about">Sobre</a></li>
+                    <li><a href="#skills" data-i18n="nav.skills">Skills</a></li>
+                    <li><a href="#projects" data-i18n="nav.projects">Projetos</a></li>
+                    <li><a href="#documents" data-i18n="nav.docs">Docs</a></li>
+                    <li><a href="#contact" data-i18n="nav.contact">Contato</a></li>
+                </ul>
+
+                <div class="header-controls">
+                    <select id="languageSelect" class="lang-switch" aria-label="Mudar idioma">
+                        <option value="pt">PT</option>
+                        <option value="en">EN</option>
+                        <option value="es">ES</option>
+                        <option value="zh">中文</option>
+                    </select>
+
+                    <button id="themeToggle" class="theme-toggle" aria-label="Alternar tema">
+                        <i class="fas fa-moon"></i>
+                    </button>
+
+                    <button class="mobile-menu-btn" aria-label="Menu">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 data-i18n="hero.title">Transformando Ideias em Realidade Digital</h1>
+                    <p data-i18n="hero.subtitle">Desenvolvedor Full Stack especializado em experiências web modernas e Machine Learning.</p>
+                    <a href="#projects" class="btn" data-i18n="hero.cta">Ver Projetos</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <h2 class="section-title" data-i18n="section.about">Sobre Mim</h2>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p data-i18n="about.p1">Olá! Sou um desenvolvedor apaixonado por criar aplicações web que resolvem problemas reais. Com foco em código limpo e interfaces intuitivas, busco sempre as melhores práticas do mercado.</p>
+                        <p data-i18n="about.p2">Tenho experiência em projetos internacionais e colaboração em equipes ágeis. Meu foco recente tem sido a integração de IA em interfaces web.</p>
+                    </div>
+                    <div class="profile-placeholder">
+                        <i class="fas fa-user-code fa-3x"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="container">
+                <h2 class="section-title" data-i18n="section.skills">Habilidades</h2>
+                <div id="skillsContainer" class="skills-container">
+                    <!-- Preenchido via JS -->
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="container">
+                <h2 class="section-title" data-i18n="section.projects">Projetos Recentes</h2>
+                <div id="projectsContainer" class="projects-grid">
+                    <!-- Preenchido via JS -->
+                </div>
+            </div>
+        </section>
+
+        <section id="documents">
+            <div class="container">
+                <h2 class="section-title" data-i18n="section.docs">Documentos</h2>
+                <div id="docsContainer" class="docs-list">
+                    <!-- Preenchido via JS -->
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2 class="section-title" data-i18n="section.contact">Vamos Conversar?</h2>
+                <div class="contact-wrapper">
+                    <p data-i18n="contact.text">Estou disponível para novas oportunidades e projetos freelance. Entre em contato!</p>
+                    <div id="contactContainer" class="contact-links">
+                        <!-- Preenchido via JS -->
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 DevPortfolio. <span data-i18n="footer.rights">Todos os direitos reservados.</span></p>
+    </footer>
+
+    <script src="script/script.js"></script>
+</body>
+</html>

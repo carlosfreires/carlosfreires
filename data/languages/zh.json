@@ -1,0 +1,37 @@
+{
+    "nav": {
+        "home": "主页",
+        "about": "关于",
+        "skills": "技能",
+        "projects": "项目",
+        "docs": "文档",
+        "contact": "联系"
+    },
+    "hero": {
+        "title": "将创意转化为数字现实",
+        "subtitle": "专注于现代Web体验和Machine Learning的全栈开发人员。",
+        "cta": "查看项目"
+    },
+    "section": {
+        "about": "关于我",
+        "skills": "技术技能",
+        "projects": "项目展示",
+        "docs": "可用文档",
+        "contact": "联系方式"
+    },
+    "about": {
+        "p1": "你好！我是一名热衷于创建解决实际问题的Web应用程序的开发人员。专注于干净的代码和直观的界面，我始终追求最佳的市场实践。",
+        "p2": "我有国际项目经验和敏捷团队协作经验。我最近的重点是将AI集成到Web界面中。"
+    },
+    "contact": {
+        "text": "我可用于新机会和自由职业项目。联系我！"
+    },
+    "footer": {
+        "rights": "版权所有。"
+    },
+    "buttons": {
+        "download": "下载",
+        "viewCode": "代码",
+        "viewLive": "演示"
+    }
+}

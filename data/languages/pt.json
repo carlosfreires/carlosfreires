@@ -1,0 +1,37 @@
+{
+    "nav": {
+        "home": "Início",
+        "about": "Sobre",
+        "skills": "Skills",
+        "projects": "Projetos",
+        "docs": "Docs",
+        "contact": "Contato"
+    },
+    "hero": {
+        "title": "Transformando Ideias em Realidade Digital",
+        "subtitle": "Desenvolvedor Full Stack especializado em experiências web modernas e Machine Learning.",
+        "cta": "Ver Projetos"
+    },
+    "section": {
+        "about": "Sobre Mim",
+        "skills": "Habilidades Técnicas",
+        "projects": "Projetos",
+        "docs": "Documentos",
+        "contact": "Contato"
+    },
+    "about": {
+        "p1": "Olá! Sou um desenvolvedor apaixonado por criar aplicações web que resolvem problemas reais. Com foco em código limpo e interfaces intuitivas, busco sempre as melhores práticas do mercado.",
+        "p2": "Tenho experiência em projetos internacionais e colaboração em equipes ágeis. Meu foco recente tem sido a integração de IA em interfaces web."
+    },
+    "contact": {
+        "text": "Estou disponível para novas oportunidades e projetos freelance. Entre em contato!"
+    },
+    "footer": {
+        "rights": "Todos os direitos reservados."
+    },
+    "buttons": {
+        "download": "Baixar",
+        "viewCode": "Código",
+        "viewLive": "Demo"
+    }
+}

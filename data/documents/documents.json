@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Curriculum Vitae (PDF)",
+        "size": "2.5MB",
+        "url": "/docs/cv.pdf"
+    },
+    {
+        "name": "Portfolio Presentation (PPT)",
+        "size": "15MB",
+        "url": "/docs/portfolio.pptx"
+    },
+    {
+        "name": "Certification - Full Stack Development",
+        "size": "1.2MB",
+        "url": "/docs/certificate-fullstack.pdf"
+    }
+]

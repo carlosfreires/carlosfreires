@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Email",
+        "icon": "fas fa-envelope",
+        "link": "mailto:contact@example.com"
+    },
+    {
+        "name": "LinkedIn",
+        "icon": "fab fa-linkedin",
+        "link": "https://linkedin.com/in/yourprofile"
+    },
+    {
+        "name": "GitHub",
+        "icon": "fab fa-github",
+        "link": "https://github.com/yourusername"
+    },
+    {
+        "name": "WhatsApp",
+        "icon": "fab fa-whatsapp",
+        "link": "https://wa.me/5511999999999"
+    }
+]

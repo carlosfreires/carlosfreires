@@ -1,0 +1,47 @@
+[
+    {
+        "name": "E-commerce Dashboard",
+        "desc": {
+            "pt": "Painel administrativo com análise de dados em tempo real.",
+            "en": "Admin dashboard with real-time data analytics.",
+            "es": "Panel administrativo con análisis en tiempo real.",
+            "zh": "具有实时数据分析的管理仪表板。"
+        },
+        "category": "Frontend",
+        "tech": ["React", "TypeScript", "Tailwind", "Chart.js"],
+        "links": {
+            "live": "https://example-dashboard.com",
+            "github": "https://github.com/username/ecommerce-dashboard"
+        }
+    },
+    {
+        "name": "AI Image Generator",
+        "desc": {
+            "pt": "Aplicação de geração de imagens usando modelos de Machine Learning.",
+            "en": "Image generation app using Machine Learning models.",
+            "es": "Aplicación de generación de imágenes usando Machine Learning.",
+            "zh": "使用Machine Learning模型的图像生成应用程序。"
+        },
+        "category": "AI / ML",
+        "tech": ["Python", "TensorFlow", "React", "FastAPI"],
+        "links": {
+            "live": "https://example-ai-generator.com",
+            "github": "https://github.com/username/ai-image-generator"
+        }
+    },
+    {
+        "name": "Task Manager API",
+        "desc": {
+            "pt": "API RESTful segura para gerenciamento de tarefas.",
+            "en": "Secure RESTful API for task management.",
+            "es": "API RESTful segura para gestión de tareas.",
+            "zh": "用于任务管理的安全RESTful API。"
+        },
+        "category": "Backend",
+        "tech": ["Node.js", "Express", "MongoDB", "JWT"],
+        "links": {
+            "live": "https://example-task-api.com",
+            "github": "https://github.com/username/task-manager-api"
+        }
+    }
+]
