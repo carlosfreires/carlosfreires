@@ -1,0 +1,40 @@
+name: Update NASA APIs Section
+
+on:
+  schedule:
+    - cron: '0 12 * * *'  # Diariamente ao meio-dia UTC
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+
+jobs:
+  update-nasa:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v3
+      with:
+        persist-credentials: false
+        
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+        
+    - name: Install Dependencies
+      run: pip install requests
+      
+    - name: Update NASA Section
+      env:
+        NASA_API_KEY: ${{ secrets.NASA_API_KEY }}
+      working-directory: ./scripts
+      run: python generate_apis_nasa.py
+      
+    - name: Commit NASA Changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action - NASA"
+        git add README.md
+        git diff --quiet && git diff --staged --quiet || git commit -m "🛰️ Update NASA APIs section"
+        git push

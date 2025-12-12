@@ -1,0 +1,26 @@
+<svg width="100%" height="250" viewBox="0 0 300 250" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Gradiente neon para o núcleo -->
+    <radialGradient id="neonNucleus" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="25%" stop-color="#FF29FF"/>
+      <stop offset="60%" stop-color="#00ECFF"/>
+      <stop offset="100%" stop-color="#8A2BE2"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Simulação de perspectiva inclinada (elipse achatada) -->
+  <g transform="translate(150,125) rotate(-20)"> <!-- rotaciona para ~70° efeito visual -->
+    <!-- Círculo elíptico do núcleo -->
+    <ellipse cx="0" cy="0" rx="70" ry="35" fill="url(#neonNucleus)">
+      <!-- Animação contínua de leve pulsação -->
+      <animate attributeName="rx" values="70;75;70" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="ry" values="35;30;35" dur="4s" repeatCount="indefinite"/>
+    </ellipse>
+    
+    <!-- Efeito de brilho interno, criando sensação de energia intensa -->
+    <ellipse cx="0" cy="0" rx="100" ry="50" fill="url(#neonNucleus)" opacity="0.4">
+      <animate attributeName="opacity" values="0.4;0.6;0.4" dur="3.5s" repeatCount="indefinite"/>
+    </ellipse>
+  </g>
+</svg>

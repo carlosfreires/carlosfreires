@@ -1,0 +1,61 @@
+name: Generate Snake Animation
+
+on:
+  schedule:
+    # Executa a cada 6 horas (UTC)
+    - cron: '0 */6 * * *'
+  workflow_dispatch:  # Permite execução manual
+  push:
+    branches: [ main ]
+
+jobs:
+  generate-snake:
+    runs-on: ubuntu-latest
+    
+    steps:
+      # 1. Checkout do código
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          persist-credentials: false
+      
+      # 2. Gerar cobrinha com Platane/snk
+      - name: Generate GitHub contribution snake
+        uses: Platane/snk@v3
+        id: snake-generator
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            output/github-snake.svg
+            output/github-snake-dark.svg?palette=github-dark
+      
+      # 3. Configurar Git
+      - name: Setup Git
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action - Snake"
+      
+      # 4. Commit e push das mudanças
+      - name: Commit and push snake changes
+        run: |
+          git add output/
+          
+          # Verifica se há mudanças
+          if git diff --staged --quiet; then
+            echo "✅ Nenhuma mudança na cobrinha"
+          else
+            git commit -m "🐍 Update snake animation"
+            git push
+            echo "✅ Cobrinha atualizada e commitada"
+          fi
+      
+      # 5. Log de sucesso
+      - name: Success log
+        run: |
+          echo "========================================"
+          echo "🐍 COBRINHA GERADA COM SUCESSO!"
+          echo "========================================"
+          echo "Arquivos criados:"
+          echo "- output/github-snake.svg"
+          echo "- output/github-snake-dark.svg"
+          echo "========================================"

@@ -1,0 +1,38 @@
+name: Update Cat API Section
+
+on:
+  schedule:
+    - cron: '0 18 * * *'  # Diariamente às 18h UTC
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+
+jobs:
+  update-cat:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v3
+      with:
+        persist-credentials: false
+        
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+        
+    - name: Install Dependencies
+      run: pip install requests
+      
+    - name: Update Cat Section
+      working-directory: ./scripts
+      run: python generate_apis_cat.py
+      
+    - name: Commit Cat Changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action - Cat"
+        git add README.md
+        git diff --quiet && git diff --staged --quiet || git commit -m "😺 Update cat section"
+        git push
