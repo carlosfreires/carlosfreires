@@ -10,7 +10,7 @@
 </header>
 
 <p style="text-align: center;">
-  <img src="./assets/hero.gif" alt="hero" width="960"/>
+  <img src="./assets/hero.svg" alt="hero" width="960"/>
 </p>
 
 <div style="display: flex; justify-content: center; align-items: center; width: 100%; padding-left: 0;">
