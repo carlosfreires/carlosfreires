@@ -1,83 +1,26 @@
-<header >
+<img src="./assets/elcometrans.svg" alt="logo-incial" style="width: 100%; height: auto;"/>
 
-  <div style="display: flex; justify-content: flex-start; align-items: center; height: 180px; padding-left: 20px;">
-    <img src="./assets/car2.svg" alt="Logo" style="height: 150px;">
-  </div>
+# Bem vindo a os meus repositorios
 
-<div style="display: flex; justify-content: center; align-items: center; width: 100%; padding-left: 0;">
-  <img src="./assets/border-header.svg" alt="Logo" style="width: 100%; height: auto;">
-</div>
-</header>
+<img src="./assets/border-header.svg" alt="chuva-de-codigo" style="width: 100%; height: auto;">
 
-<p style="text-align: center;">
-  <img src="./assets/hero.svg" alt="hero" width="960"/>
-</p>
+<img src="./assets/hero.svg" alt="hero" style="width: 100%; height: auto;"/>
 
-<div style="display: flex; justify-content: center; align-items: center; width: 100%; padding-left: 0;">
-  <img src="./assets/Divisoria_Laser.svg" alt="Logo" style="width: 100%; height: auto;">
-</div>
+<img src="./assets/Divisoria_Laser.svg" alt="Logo" style="width: 100%; height: auto;">
 
-<div style="display: flex; justify-content: center; align-items: center; width: 100%; padding-left: 0;">
-  <img src="./assets/barr.svg" alt="Logo" style="width: 100%; height: auto;">
-</div>
+<img src="./assets/barr.svg" alt="Logo" style="width: 100%; height: auto;">
 
-<div style="display: flex; justify-content: center; align-items: center; width: 100%; padding-left: 0;">
-  <img src="./assets/grade_neon.svg" alt="Logo" style="width: 100%; height: auto;">
-</div>
+<img src="./assets/grade_neon.svg" alt="Divisoria destacada" style="width: 100%; height: auto;">
 
-<h2 style="text-align: center; font-family: 'Arial', sans-serif; color: #9B59B6; font-size: 24px; text-shadow: 3px 3px 10px rgba(148, 0, 211, 0.6);">
-  🌈<span style="background: linear-gradient(to right, #8A2BE2, #FF6347); -webkit-background-clip: text; color: transparent; text-shadow: 0 0 5px rgba(138, 43, 226, 0.8), 0 0 10px rgba(255, 99, 71, 0.8);">
-    Vamos construir um mundo onde ideias se transformam em código, desafios viram soluções e cada linha escrita é uma declaração de propósito.
-  </span>
-</h2>
+<img src="./assets/bar copy.svg" alt="Divisoria destacada" style="width: 100%; height: auto;">
 
-<div style="display: flex; justify-content: center; align-items: center; width: 100%; padding-left: 0;">
-  <img src="./assets/grade_neon.svg" alt="Logo" style="width: 100%; height: auto;">
-</div>
+<img src="./assets/grade_neon.svg" alt="Logo" style="width: 100%; height: auto;">
 
-<blockquote style="text-align: center; font-family: 'Arial', sans-serif; color: #9B59B6; font-size: 18px; text-shadow: 3px 3px 10px rgba(148, 0, 211, 0.6); border: none;">
-  🚩 Sou um militante e ativista do Open Source.<br>
-  Acredito que a verdadeira evolução tecnológica só acontece com liberdade e democratização da tecnologia.<br>
-  Vamos, juntos, compartilhar conhecimentos e construir um futuro mais livre e colaborativo!
-  <span style="background: linear-gradient(to right, #8A2BE2, #FF6347); -webkit-background-clip: text; color: transparent; text-shadow: 0 0 5px rgba(138, 43, 226, 0.8), 0 0 10px rgba(255, 99, 71, 0.8); font-size: 20px"> ☭ </span>
-</blockquote>
+<img src="./assets/msg.44.svg" alt="Logo" style="width: 100%; height: auto;">
 
-<div style="display: flex; justify-content: center; align-items: center; width: 100%; padding-left: 0;">
-  <img src="./assets/Divisoria_Laser.svg" alt="Logo" style="width: 100%; height: auto;">
-</div>
+<img src="./assets/Divisoria_Laser.svg" alt="Logo" style="width: 100%; height: auto;">
 
-<h2 style="text-align: center; font-size: 24px">
-  <span style="background: linear-gradient(to right, #8A2BE2, #FF6347); -webkit-background-clip: text; color: transparent; text-shadow: 0 0 5px rgba(138, 43, 226, 0.8), 0 0 10px rgba(255, 99, 71, 0.8);">
-    <strong>Aqui eu espero que você:</strong>
-  </span>
-</h2>
-
-<h3 style="text-align: left; font-family: 'Arial', sans-serif; color: #9B59B6; font-size: 24px; text-shadow: 3px 3px 10px rgba(148, 0, 211, 0.6);">
-  🌌
-  <span style="background: linear-gradient(to right, #8A2BE2, #FF6347); -webkit-background-clip: text; color: transparent; text-shadow: 0 0 5px rgba(138, 43, 226, 0.8), 0 0 10px rgba(255, 99, 71, 0.8); font-size: 20px">
-    <strong>Explore</strong>
-  </span>
-</h3>
-
-<p style="text-align: left; font-family: 'Arial', sans-serif; color: #9B59B6; font-size: 14px; text-shadow: 3px 3px 10px rgba(148, 0, 211, 0.6);">Tudo que você vê aqui funciona (quase sempre 😅) e foi criado para ser experimentado. Navegue pelos projetos, teste online, explore cada detalhe. Aqui não há segredos, só inovação compartilhada.</p>
-
-<h3 style="text-align: left; font-family: 'Arial', sans-serif; color: #9B59B6; font-size: 24px; text-shadow: 3px 3px 10px rgba(148, 0, 211, 0.6);">
-  🌟
-  <span style="background: linear-gradient(to right, #8A2BE2, #FF6347); -webkit-background-clip: text; color: transparent; text-shadow: 0 0 5px rgba(138, 43, 226, 0.8), 0 0 10px rgba(255, 99, 71, 0.8); font-size: 20px">
-    <strong>Clone, faça fork e transforme</strong>
-  </span>
-</h3>
-
-<p style="text-align: left; font-family: 'Arial', sans-serif; color: #9B59B6; font-size: 14px; text-shadow: 3px 3px 10px rgba(148, 0, 211, 0.6);">Faça um fork, clone, mexa, adapte. O código é aberto e cada experimentação é uma nova realidade paralela no multiverso.</p>
-
-<h3 style="text-align: left; font-family: 'Arial', sans-serif; color: #9B59B6; font-size: 24px; text-shadow: 3px 3px 10px rgba(148, 0, 211, 0.6);">
-  🤝
-  <span style="background: linear-gradient(to right, #8A2BE2, #FF6347); -webkit-background-clip: text; color: transparent; text-shadow: 0 0 5px rgba(138, 43, 226, 0.8), 0 0 10px rgba(255, 99, 71, 0.8); font-size: 20px">
-    <strong>Contribua à sua maneira</strong>
-  </span>
-</h3>
-
-<p style="text-align: left; font-family: 'Arial', sans-serif; color: #9B59B6; font-size: 14px; text-shadow: 3px 3px 10px rgba(148, 0, 211, 0.6);">Correções, ideias, melhorias, feedbacks ou até sugestões inusitadas: tudo conta! Se você quiser contribuir, seja bem-vindo! ❤️</p>
+<img src="./assets/console.svg" alt="Logo" style="width: 100%; height: auto;">
 
 ---
 
@@ -276,59 +219,64 @@
 <!-- ========================================================= -->
 <!-- =================  EXPLORAÇÃO ESPACIAL  ================== -->
 <!-- ========================================================= -->
-<div style="margin: 60px auto; padding: 30px; max-width: 1200px; 
-            background: linear-gradient(135deg, rgba(26,13,39,0.95), rgba(42,0,71,0.95));
-            border-radius: 20px; box-shadow: 0 10px 40px rgba(148,0,211,0.4);
-            border: 1px solid #8A2BE2;">
+<div style="margin: 60px auto; padding: 30px; max-width: 1200px;
+background: linear-gradient(135deg, rgba(26,13,39,0.95), rgba(42,0,71,0.95));
+border-radius: 20px; box-shadow: 0 10px 40px rgba(148,0,211,0.4);
+border: 1px solid #8A2BE2;">
 
-<h2 style="text-align: center; font-size: 36px; margin-bottom: 40px; 
-           background: linear-gradient(45deg, #FF416C, #FF4B2B, #8A2BE2);
-           -webkit-background-clip: text; -webkit-text-fill-color: transparent;
-           text-shadow: 0 0 30px rgba(255,65,108,0.3);">
+  <h2 style="text-align: center; font-size: 36px; margin-bottom: 40px;
+  background: linear-gradient(45deg, #FF416C, #FF4B2B, #8A2BE2);
+  -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 30px rgba(255,65,108,0.3);">
   🚀 EXPLORAÇÃO COSMOS &nbsp; • &nbsp; 🌌 NASA APIs
-</h2>
+  </h2>
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 30px;">
-
-  <div style="background: rgba(0,0,0,0.7); padding: 25px; border-radius: 15px; 
-              border: 2px solid #8A2BE2; box-shadow: 0 5px 20px rgba(138,43,226,0.3);">
-    <h3 style="color: #FF6347; text-align: center; font-size: 22px; margin: 0 0 20px 0;">
-      <span style="color: #FF6347;">📷</span> IMAGEM ASTRONÔMICA DO DIA
-    </h3>
-    <a href="https://apod.nasa.gov/apod/image/2512/Firefox-Lehtonen-Dennis1024.jpg" target="_blank" style="display: block; text-decoration: none;">
-      <div style="width: 100%; height: 200px; border-radius: 10px; border: 2px solid #FF6347;
-                  overflow: hidden; background: #000; display: flex; align-items: center; justify-content: center;">
-        <img src="https://apod.nasa.gov/apod/image/2512/Firefox-Lehtonen-Dennis1024.jpg" alt="Northern Fox Fires" 
-             style="max-width: 100%; max-height: 100%; object-fit: cover;">
-      </div>
-    </a>
-    <div style="margin-top: 15px;">
-      <h4 style="color: #00FFFF; font-size: 18px; margin: 10px 0;">Northern Fox Fires</h4>
-      <p style="color: #9B59B6; font-size: 14px; line-height: 1.5; margin: 10px 0;">
-        In a Finnish myth, when an arctic fox runs so fast that its bushy tail brushes the mountains, flaming sparks are cast into the heavens creating the northern lights. In fact the Fin...
-      </p>
-      <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 15px;">
-        <span style="color: #FFD700; font-size: 12px;">📅 2025-12-12</span>
-        <a href="https://apod.nasa.gov/apod/astropix.html" target="_blank" 
-           style="color: #FF6347; text-decoration: none; font-size: 12px;">
-          🌐 Ver no site da NASA
-        </a>
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); 
+  gap: 30px;">
+    <div style="background: rgba(0,0,0,0.7); padding: 25px; border-radius: 15px;
+    border: 2px solid #8A2BE2; box-shadow: 0 5px 20px rgba(138,43,226,0.3);">
+      <h3 style="color: #FF6347; text-align: center; font-size: 22px; margin: 0 0 20px 0;">
+        <span style="color: #FF6347;">📷</span> IMAGEM ASTRONÔMICA DO DIA
+      </h3>
+      <a href="https://apod.nasa.gov/apod/image/2512/Firefox-Lehtonen-Dennis1024.jpg"
+      target="_blank" style="display: block; text-decoration: none;">
+        <div style="width: 100%; height: 200px; border-radius: 10px; border: 2px solid #FF6347;
+        overflow: hidden; background: #000; display: flex; align-items: center; justify-content: center;">
+          <img
+          src="https://apod.nasa.gov/apod/image/2512/Firefox-Lehtonen-Dennis1024.jpg"
+          alt="Northern Fox Fires"
+          style="max-width: 100%; max-height: 100%; object-fit: cover;"/>
+        </div>
+      </a>
+      <div style="margin-top: 15px;">
+        <h4 style="color: #00FFFF; font-size: 18px; margin: 10px 0;">Northern Fox Fires</h4>
+        <p style="color: #9B59B6; font-size: 14px; line-height: 1.5; margin: 10px 0;">
+          In a Finnish myth, when an arctic fox runs so fast that its bushy tail brushes the mountains, flaming sparks are cast into the heavens creating the northern lights. In fact the Fin...
+        </p>
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 15px;">
+          <span style="color: #FFD700; font-size: 12px;">📅 2025-12-12</span>
+          <a
+          href="https://apod.nasa.gov/apod/astropix.html" target="_blank"
+          style="color: #FF6347; text-decoration: none; font-size: 12px;">
+            🌐 Ver no site da NASA
+          </a>
+        </div>
       </div>
     </div>
   </div>
 
-  <div style="background: rgba(0,0,0,0.7); padding: 25px; border-radius: 15px; 
-              border: 2px solid #00FFFF; box-shadow: 0 5px 20px rgba(0,255,255,0.3);">
+  <div 
+  style="background: rgba(0,0,0,0.7); padding: 25px; border-radius: 15px;
+  border: 2px solid #00FFFF; box-shadow: 0 5px 20px rgba(0,255,255,0.3);">
     <h3 style="color: #00FFFF; text-align: center; font-size: 22px; margin: 0 0 20px 0;">
       <span style="color: #00FFFF;">🛰️</span> ESTAÇÃO ESPACIAL INTERNACIONAL
     </h3>
     <div style="text-align: center;">
-      <div style="position: relative; width: 200px; height: 200px; margin: 0 auto 20px; 
-                  background: radial-gradient(circle at center, rgba(0,255,255,0.1) 0%, transparent 70%);
-                  border: 2px dashed #00FFFF; border-radius: 50%;">
+      <div style="position: relative; width: 200px; height: 200px; margin: 0 auto 20px;
+      background: radial-gradient(circle at center, rgba(0,255,255,0.1) 0%, transparent 70%);
+      border: 2px dashed #00FFFF; border-radius: 50%;">
         <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
-                    width: 20px; height: 20px; background: #FF6347; border-radius: 50%;
-                    box-shadow: 0 0 20px #FF6347;">
+        width: 20px; height: 20px; background: #FF6347; border-radius: 50%; box-shadow: 0 0 20px #FF6347;">
         </div>
       </div>
       <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin: 20px 0;">
@@ -346,7 +294,6 @@
       </div>
     </div>
   </div>
-
 </div>
 
 <div style="margin-top: 30px; padding: 15px; background: rgba(138,43,226,0.1); 
@@ -766,3 +713,5 @@
 <!-- END CAT_APIS -->
 
 <!-- ... resto do README permanece igual ... -->
+
+<img src="./assets/car2.svg" alt="Logo" style="height: 150px;">
