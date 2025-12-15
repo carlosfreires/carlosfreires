@@ -280,7 +280,7 @@
 
 ## 🚀 NASA API
 
-![NASA Status](assets/nasa_status.svg)
+![NASA Status](output/nasa_status.svg)
 
 <!-- NEWS APIs -->
 <!-- BEGIN NEWS_APIS -->
