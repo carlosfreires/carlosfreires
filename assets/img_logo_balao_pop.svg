@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 1200 200"
+     role="img"
+     aria-label="Vaporwave Open Source Title">
+
+
+    <style>
+    .balloon {
+      animation: floatUp 6s linear infinite;
+    }
+
+    @keyframes floatUp {
+      0% {
+        transform: translateY(400px);
+        opacity: 0;
+      }
+      10% {
+        opacity: 1;
+      }
+      90% {
+        opacity: 1;
+      }
+      100% {
+        transform: translateY(-50px);
+        opacity: 0;
+      }
+    }
+
+    .string {
+      stroke: #555;
+      stroke-width: 1;
+      opacity: 0.7;
+    }
+  </style>
+
+  <defs>
+    <!-- Gradiente principal (SUAS CORES) -->
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8A2BE2"/>
+      <stop offset="50%" stop-color="#9B59B6"/>
+      <stop offset="100%" stop-color="#FF6347"/>
+    </linearGradient>
+
+    <!-- Glow neon -->
+    <filter id="neonGlow">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Névoa vaporwave -->
+    <radialGradient id="fog" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#8A2BE2" stop-opacity="0.25"/>
+      <stop offset="60%" stop-color="#FF6347" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Scanline -->
+    <linearGradient id="scan" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FF6347" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- FUNDO VAPORWAVE TRANSPARENTE -->
+  <ellipse cx="600" cy="100" rx="520" ry="120"
+           fill="url(#fog)"/>
+
+  <!-- Grid synthwave -->
+  <g stroke="#9B59B6" stroke-width="1" opacity="0.12">
+    <line x1="0" y1="140" x2="1200" y2="140"/>
+    <line x1="0" y1="160" x2="1200" y2="160"/>
+    <line x1="0" y1="180" x2="1200" y2="180"/>
+  </g>
+  
+  <!-- Balões animados -->
+  <!-- Balão vermelho -->
+  <g class="balloon" style="animation-delay: 0s;">
+    <ellipse cx="80" cy="0" rx="15" ry="20" fill="url(#fog)"/>
+    <line x1="80" y1="20" x2="80" y2="50" class="string"/>
+  </g>
+
+  <!-- Balão azul -->
+  <g class="balloon" style="animation-delay: 2s;">
+    <ellipse cx="200" cy="0" rx="12" ry="18" fill="url(#fog)"/>
+    <line x1="200" y1="18" x2="200" y2="45" class="string"/>
+  </g>
+
+  <!-- Balão verde -->
+  <g class="balloon" style="animation-delay: 4s;">
+    <ellipse cx="320" cy="0" rx="14" ry="19" fill="url(#fog)"/>
+    <line x1="320" y1="19" x2="320" y2="47" class="string"/>
+  </g>
+
+    <!-- Balão azul -->
+  <g transform="translate(0, 90)">
+    <ellipse cx="480" cy="0" rx="12" ry="18" fill="url(#textGrad)"/>
+    <line x1="480" y1="18" x2="480" y2="45" class="string"/>
+  </g>
+
+  <!-- TEXTO -->
+  <text x="600" y="120"
+        text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="32"
+        fill="url(#textGrad)"
+        filter="url(#neonGlow)">
+    Balão Pop
+  </text>
+
+
+
+  <!-- Scanline animada -->
+  <rect x="0" y="-40" width="1200" height="40" fill="url(#scan)">
+    <animate attributeName="y"
+             from="-40" to="200"
+             dur="6s"
+             repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Respiração -->
+  <animate
+    attributeName="opacity"
+    values="0.85;1;0.85"
+    dur="4s"
+    repeatCount="indefinite"/>
+
+</svg>

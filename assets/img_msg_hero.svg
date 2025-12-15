@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260">
+
+  <defs>
+    <linearGradient id="neon" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F5FF"/>
+      <stop offset="25%" stop-color="#8A2BE2"/>
+      <stop offset="50%" stop-color="#FF00FF"/>
+      <stop offset="75%" stop-color="#FF6347"/>
+      <stop offset="100%" stop-color="#00F5FF"/>
+    </linearGradient>
+
+    <linearGradient id="ghost" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F5FF" stop-opacity="0.15"/>
+      <stop offset="50%" stop-color="#FF00FF" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#FF6347" stop-opacity="0.15"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Camada de energia -->
+  <rect x="-400" y="0" width="2000" height="260" fill="url(#ghost)">
+    <animateTransform attributeName="transform"
+      type="translate"
+      from="0 0"
+      to="400 0"
+      dur="9s"
+      repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Linhas caóticas -->
+  <g opacity="0.8">
+    <rect x="0" y="60" width="1200" height="2" fill="url(#neon)">
+      <animate attributeName="opacity"
+        values="0.2;1;0.2"
+        dur="1.8s"
+        repeatCount="indefinite"/>
+    </rect>
+
+    <rect x="0" y="210" width="1200" height="2" fill="url(#neon)">
+      <animate attributeName="opacity"
+        values="0.1;0.8;0.1"
+        dur="2.6s"
+        repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- TEXTO -->
+  <text x="600" y="110"
+    text-anchor="middle"
+    font-family="monospace"
+    font-size="30"
+    letter-spacing="3"
+    fill="url(#neon)">
+    Vamos construir um mundo
+  </text>
+
+  <text x="600" y="145"
+    text-anchor="middle"
+    font-family="monospace"
+    font-size="24"
+    letter-spacing="2"
+    fill="url(#neon)">
+    onde ideias se transformam em código, desafios viram soluções
+  </text>
+
+  <text x="600" y="180"
+    text-anchor="middle"
+    font-family="monospace"
+    font-size="24"
+    letter-spacing="2"
+    fill="url(#neon)">
+    e cada linha escrita é uma declaração de propósito.
+  </text>
+
+  <!-- Subtexto -->
+  <text x="600" y="240"
+    text-anchor="middle"
+    font-family="monospace"
+    font-size="13"
+    fill="#FF00FF"
+    opacity="0.6">
+    open source · evolving · alive
+  </text>
+
+</svg>

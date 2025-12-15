@@ -1,0 +1,23 @@
+<svg width="100%" height="30" viewBox="0 0 1200 30" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ultraLaser" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF00FF"/>
+      <stop offset="50%" stop-color="#00ECFF"/>
+      <stop offset="100%" stop-color="#FF00FF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Linha principal ultra fina -->
+  <rect y="13" width="1200" height="2" fill="url(#ultraLaser)">
+    <animate attributeName="x" from="-1200" to="1200" dur="2.5s" repeatCount="indefinite" />
+  </rect>
+
+  <!-- Linha secundária fina e deslocada -->
+  <rect y="8" width="800" height="1.5" fill="url(#ultraLaser)">
+    <animate attributeName="x" from="1200" to="-1200" dur="3s" repeatCount="indefinite" />
+  </rect>
+
+  <rect y="18" width="800" height="1.5" fill="url(#ultraLaser)">
+    <animate attributeName="x" from="-1200" to="1200" dur="3.2s" repeatCount="indefinite" />
+  </rect>
+</svg>

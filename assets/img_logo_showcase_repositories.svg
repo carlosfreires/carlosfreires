@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 1200 180"
+     role="img"
+     aria-label="Manifesto Open Source Cyberpunk">
+
+  <defs>
+    <!-- GRADIENTE CORRETO (O SEU, SEM ALTERAÇÃO) -->
+    <linearGradient id="coreGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8A2BE2"/>
+      <stop offset="100%" stop-color="#FF6347"/>
+    </linearGradient>
+
+    <!-- Glow roxo -->
+    <filter id="purpleGlow">
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Glow quente secundário -->
+    <filter id="hotGlow">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feColorMatrix type="matrix"
+        values="
+        1 0 0 0 0
+        0 0.6 0 0 0
+        0 0 0.6 0 0
+        0 0 0 0.9 0"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Scanline cyberpunk -->
+    <linearGradient id="scanline" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FF6347" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FF6347" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#FF6347" stop-opacity="0"/>
+    </linearGradient>
+
+
+      <!-- Scanline cyberpunk -->
+    <linearGradient id="scanlinelig" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FF6347" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FF6347" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#FF6347" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Barras HUD -->
+  <g opacity="0.6">
+    <rect x="120" y="38" width="300" height="2" fill="url(#coreGrad)"/>
+    <rect x="780" y="38" width="300" height="2" fill="url(#coreGrad)"/>
+    <rect x="200" y="145" width="800" height="1.5" fill="url(#coreGrad)"/>
+  </g>
+
+  <!-- LÂMPADA SVG REFINADA (BASE ROXA) ANIMADA -->
+  <g transform="translate(385, 75) scale(1.5)" filter="url(#hotGlow)">
+    
+    <!-- Forma Principal da Lâmpada (o bulbo) usa o gradiente coreGrad) -->
+    <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" fill="url(#scanlinelig)"/>
+    
+    <!-- Base Rosqueada da Lâmpada usa cor sólida roxa (#800080) -->
+    <rect x="10.5" y="20" width="3" height="1" fill="#800080"/>
+    <rect x="9.5" y="21" width="5" height="1" fill="#800080"/>
+    <rect x="10.5" y="22" width="3" height="1" fill="#800080"/>
+    <rect x="9.5" y="23" width="5" height="1" fill="#800080"/>
+    <rect x="10.5" y="24" width="3" height="1" fill="#800080"/>
+    <rect x="11.5" y="25" width="1" height="1" fill="#800080"/>
+
+
+    <!-- ANIMAÇÃO DE OPACIDADE (PISCAR) -->
+    <!-- Aplicada ao grupo principal para animar bulbo e base juntos -->
+    <animate
+      attributeName="opacity"
+      values="1;0.4;1"
+      dur="4.2s"
+      repeatCount="indefinite"
+    />
+  </g>
+
+    <!-- LÂMPADA SVG PARA REPOSITÓRIO SHOWCASE (IDEIA/SOLUÇÃO)  
+  <g transform="translate(490, 80) scale(1.5)" fill="url(#coreGrad)" filter="url(#purpleGlow)">
+    <path d="M10 14.8c1-.7 2-1.4 2-2.8V7c0-2.21-1.79-4-4-4S4 4.79 4 7v5c0 1.4 1 2.1 2 2.8V20h8v-5.2zM12 21c0 .55-.45 1-1 1H5c-.55 0-1-.45-1-1v-1h8v1z"/>
+    -->
+    <!-- Adicionando raios de luz sutis para dar a ideia que está "acesa" 
+    <path d="M14 3h-4v2h4V3zm-4 17h4v2h-4v-2zm-6-8H2v2h2v-2zm16 0h-2v2h2v-2zm-4-4h2v2h-2v-2zm-2 8h2v2h-2v-2z"/>
+  </g> -->
+
+    <!-- Novo Grupo para o Ícone SVG Customizado 
+  <g transform="translate(500, 110) scale(1.5)" fill="url(#coreGrad)" filter="url(#purpleGlow)">
+    <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/>
+  </g> -->
+
+  <!-- TEXTO (FORTE, LIMPO, CYBER) -->
+  <text x="600" y="110"
+        text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="28"
+        font-weight="600"
+        letter-spacing="1.5"
+        fill="url(#coreGrad)"
+        filter="url(#purpleGlow)">
+    Showcase Repositories
+  </text>
+
+  <!-- Scanline animada -->
+  <rect x="0" y="-30" width="1200" height="30" fill="url(#scanline)">
+    <animate attributeName="y"
+             from="-30" to="180"
+             dur="5s"
+             repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Respiração sutil -->
+  <animate
+    attributeName="opacity"
+    values="0.9;1;0.9"
+    dur="3.2s"
+    repeatCount="indefinite"/>
+
+</svg>

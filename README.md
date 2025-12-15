@@ -1,39 +1,22 @@
-<img src="./assets/elcometrans.svg" alt="logo-incial" style="width: 100%; height: auto;"/>
+<img src="./assets/img_title_header.svg" alt="logo-incial" style="width: 100%; height: auto;"/>
 
 # Bem vindo a os meus repositorios
 
-<img src="./assets/border-header.svg" alt="chuva-de-codigo" style="width: 100%; height: auto;">
+<img src="./assets/img_fission_laser_wide.svg" alt="Divisoria destacada" style="width: 100%; height: auto;">
 
-<img src="./assets/hero.svg" alt="hero" style="width: 100%; height: auto;"/>
+<img src="./assets/img_msg_hero.svg" alt="Divisoria destacada" style="width: 100%; height: auto;">
 
-<img src="./assets/Divisoria_Laser.svg" alt="Logo" style="width: 100%; height: auto;">
+<img src="./assets/img_fission_laser_wide.svg" alt="Divisoria destacada" style="width: 100%; height: auto;">
 
-<img src="./assets/barr.svg" alt="Logo" style="width: 100%; height: auto;">
+<img src="./assets/img_msg_colab_visitor.svg" alt="Logo" style="width: 100%; height: auto;">
 
-<img src="./assets/grade_neon.svg" alt="Divisoria destacada" style="width: 100%; height: auto;">
-
-<img src="./assets/bar copy.svg" alt="Divisoria destacada" style="width: 100%; height: auto;">
-
-<img src="./assets/grade_neon.svg" alt="Logo" style="width: 100%; height: auto;">
-
-<img src="./assets/msg.44.svg" alt="Logo" style="width: 100%; height: auto;">
-
-<img src="./assets/Divisoria_Laser.svg" alt="Logo" style="width: 100%; height: auto;">
-
-<img src="./assets/console.svg" alt="Logo" style="width: 100%; height: auto;">
-
----
+<img src="./assets/img_fission_laser_slim.svg" alt="Logo" style="width: 100%; height: auto;">
 
 <!-- ========================================================= -->
 <!-- =======================  SKILLS  ======================== -->
 <!-- ========================================================= -->
-<h2 style="text-align: center; font-family: 'Arial', sans-serif; font-size: 32px; color: #9B59B6; text-shadow: 3px 3px 10px rgba(148, 0, 211, 0.6); margin-top: 60px;">✨
-  <span style="background: linear-gradient(to right, #8A2BE2, #FF6347);
-               -webkit-background-clip: text; color: transparent;
-               text-shadow: 0 0 5px rgba(138,43,226,0.8), 0 0 10px rgba(255,99,71,0.8);">
-    Tech Stack
-  </span>
-</h2>
+<img src="./assets/img_logo_tech_stach.svg" alt="Logo" style="width: 100%; height: auto;">
+
 
 <span style="text-align: center; font-family: 'Arial', sans-serif; font-size: 32px; color: #9B59B6; text-shadow: 3px 3px 10px rgba(148, 0, 211, 0.6); margin-top: 60px;">
 
@@ -59,113 +42,219 @@
 
 </span>
 
----
-
+<img src="./assets/img_fission_laser_slim.svg" alt="Logo" style="width: 100%; height: auto;">
 <!-- ========================================================= -->
 <!-- =======================  PROJETOS  ===================== -->
 <!-- ========================================================= -->
-<h2 style="text-align: center; font-family: 'Arial', sans-serif; font-size: 32px; color: #9B59B6; text-shadow: 3px 3px 10px rgba(148, 0, 211, 0.6); margin-top: 60px;">🌟
-  <span style="background: linear-gradient(to right, #8A2BE2, #FF6347); -webkit-background-clip: text; color: transparent; text-shadow: 0 0 5px rgba(138,43,226,0.8), 0 0 10px rgba(255,99,71,0.8);">
-    Showcase Repositories
-  </span>
-</h2>
+<img src="./assets/img_logo_showcase_repositories.svg" alt="Logo" style="width: 100%; height: auto;">
 
 <!-- Tocador de Rádio Online -->
-<h3 style="text-align: center; font-family: 'Arial', sans-serif; font-size: 32px; color: #9B59B6; text-shadow: 3px 3px 10px rgba(148, 0, 211, 0.6); margin-top: 60px;">
-  🎧 <a href="https://github.com/carlosfreires/TocadorDeRadioOnline" style="background: linear-gradient(to right, #8A2BE2, #FF6347); -webkit-background-clip: text; color: transparent; text-shadow: 0 0 5px rgba(138,43,226,0.8), 0 0 10px rgba(255,99,71,0.8);"><strong>Tocador De Radio Online</strong></a>
-</h3>
-<p style="text-align: left; font-family: 'Arial', sans-serif; color: #9B59B6; font-size: 14px; text-shadow: 3px 3px 10px rgba(148, 0, 211, 0.6);">
-  Este projeto é um tocador de rádio online, desenvolvido com Angular CLI 19.0.2, que permite reprodução de links de rádios online ou outras fontes. O layout homenageia astronomia e ufologia, com uma réplica animada do sistema solar e uma nave espacial no ponteiro do mouse.
-</p>
-<p style="text-align: left; font-family: 'Arial', sans-serif; font-size: 16px;">
-  🔗 <a href="https://carlosfreires.github.io/TocadorDeRadioOnline/" style="color:#FF6347; text-decoration:none;"><strong>GitHub Pages</strong></a>
-</p>
 
----
+<img src="./assets/img_logo_tocador_radio_online.svg" alt="Logo" style="width: 100%; height: auto;">
+
+<img src="./assets/img_desc_tocador_radio_online.svg" alt="Logo" style="width: 100%; height: auto;">
+
+<a href="https://carlosfreires.github.io/TocadorDeRadioOnline/" style="float: left; width: 40%; height: auto; box-sizing: border-box; padding-right: 10px;">
+    <img src="./assets/img_btn_acc_online.svg" alt="Logo Esquerda" style="width: 100%; height: auto;">
+</a>
+
+<a href="https://carlosfreires.github.io/TocadorDeRadioOnline/" style="float: right; width: 40%; height: auto; box-sizing: border-box; padding-left: 10px;">
+    <img src="./assets/img_btn_acc_online.svg" alt="Logo Direita" style="width: 100%; height: auto;">
+</a>
+
+<img src="./assets/img_fission_laser_slim.svg" alt="Logo" style="width: 100%; height: auto;">
 
 <!-- TV Online -->
-<h3 style="text-align: center; font-family: 'Arial', sans-serif; font-size: 32px; color: #9B59B6; text-shadow: 3px 3px 10px rgba(148, 0, 211, 0.6); margin-top: 60px;">
-  📺 <a href="https://github.com/carlosfreires/tvOnline" style="background: linear-gradient(to right, #8A2BE2, #FF6347); -webkit-background-clip: text; color: transparent; text-shadow: 0 0 5px rgba(138,43,226,0.8), 0 0 10px rgba(255,99,71,0.8);"><strong>TV Online</strong></a>
-</h3>
-<p style="text-align: left; font-family: 'Arial', sans-serif; color: #9B59B6; font-size: 14px; text-shadow: 3px 3px 10px rgba(148, 0, 211, 0.6);">
-  Projeto simples de TV ao vivo via URLs M3U, exibindo canais com nomes e logos, permitindo seleção para reprodução em tempo real.
-</p>
-<p style="text-align: left; font-family: 'Arial', sans-serif; font-size: 16px;">
-  🔗 <a href="https://carlosfreires.github.io/tvOnline/" style="color:#FF6347; text-decoration:none;"><strong>GitHub Pages</strong></a>
-</p>
 
----
+<img src="./assets/img_logo_tv_online.svg" alt="Logo" style="width: 100%; height: auto;">
+
+<img src="./assets/img_desc_tv_online.svg" alt="Logo" style="width: 100%; height: auto;">
+
+<a href="https://carlosfreires.github.io/tvOnline/" style="float: left; width: 40%; height: auto; box-sizing: border-box; padding-right: 10px;">
+    <img src="./assets/img_btn_acc_online.svg" alt="Logo Esquerda" style="width: 100%; height: auto;">
+</a>
+
+<a href="https://github.com/carlosfreires/tvOnline" style="float: right; width: 40%; height: auto; box-sizing: border-box; padding-left: 10px;">
+    <img src="./assets/img_btn_acc_repos.svg" alt="Logo Direita" style="width: 100%; height: auto;">
+</a>
+
+<img src="./assets/img_fission_laser_slim.svg" alt="Logo" style="width: 100%; height: auto;">
 
 <!-- Webcam Page -->
-<h3 style="text-align: center; font-family: 'Arial', sans-serif; font-size: 32px; color: #9B59B6; text-shadow: 3px 3px 10px rgba(148, 0, 211, 0.6); margin-top: 60px;">
-  🎥 <a href="https://github.com/carlosfreires/webcam_page" style="background: linear-gradient(to right, #8A2BE2, #FF6347); -webkit-background-clip: text; color: transparent; text-shadow: 0 0 5px rgba(138,43,226,0.8),0 0 10px rgba(255,99,71,0.8);"><strong>Webcam Page</strong></a>
-</h3>
-<p style="text-align: left; font-family: 'Arial', sans-serif; color: #9B59B6; font-size: 14px; text-shadow: 3px 3px 10px rgba(148,0,211,0.6);">
-  Captura e grava vídeo e áudio da webcam/microfone, permite download e reprodução de gravações.
-</p>
-<p style="text-align: left; font-family: 'Arial', sans-serif; font-size: 16px;">
-  🔗 <a href="https://carlosfreires.github.io/webcam_page/" style="color:#FF6347; text-decoration:none;"><strong>GitHub Pages</strong></a>
-</p>
 
----
+<img src="./assets/img_logo_webcam_page.svg" alt="Logo" style="width: 100%; height: auto;">
+
+<img src="./assets/img_desc_webcam_page.svg" alt="Logo" style="width: 100%; height: auto;">
+
+<a href="https://carlosfreires.github.io/webcam_page/" style="float: left; width: 40%; height: auto; box-sizing: border-box; padding-right: 10px;">
+    <img src="./assets/img_btn_acc_online.svg" alt="Logo Esquerda" style="width: 100%; height: auto;">
+</a>
+
+<a href="https://github.com/carlosfreires/webcam_page" style="float: right; width: 40%; height: auto; box-sizing: border-box; padding-left: 10px;">
+    <img src="./assets/img_btn_acc_repos.svg" alt="Logo Direita" style="width: 100%; height: auto;">
+</a>
+
+<img src="./assets/img_fission_laser_slim.svg" alt="Logo" style="width: 100%; height: auto;">
 
 <!-- Gerador de Hash -->
-<h3 style="text-align: center; font-family: 'Arial', sans-serif; font-size: 32px; color: #9B59B6; text-shadow: 3px 3px 10px rgba(148,0,211,0.6); margin-top: 60px;">
-  🔐 <a href="https://github.com/carlosfreires/geradorDeHash-bcrypt" style="background: linear-gradient(to right, #8A2BE2, #FF6347); -webkit-background-clip: text; color: transparent; text-shadow: 0 0 5px rgba(138,43,226,0.8),0 0 10px rgba(255,99,71,0.8);"><strong>Gerador De Hash - bcrypt</strong></a>
-</h3>
-<p style="text-align: left; font-family: 'Arial', sans-serif; color: #9B59B6; font-size: 14px; text-shadow: 3px 3px 10px rgba(148,0,211,0.6);">
-  Script em Node.js que utiliza bcrypt para gerar hashes seguros de senhas, resistente a ataques de força bruta.
-</p>
 
----
+<img src="./assets/img_logo_gerador_hash.svg" alt="Logo" style="width: 100%; height: auto;">
+
+<img src="./assets/img_desc_gerador_hash.svg" alt="Logo" style="width: 100%; height: auto;">
+
+<a href="https://carlosfreires.github.io/TocadorDeRadioOnline/" style="float: left; width: 40%; height: auto; box-sizing: border-box; padding-right: 10px;">
+    <img src="./assets/img_btn_acc_online.svg" alt="Logo Esquerda" style="width: 100%; height: auto;">
+</a>
+
+<a href="https://carlosfreires.github.io/TocadorDeRadioOnline/" style="float: right; width: 40%; height: auto; box-sizing: border-box; padding-left: 10px;">
+    <img src="./assets/img_btn_acc_repos.svg" alt="Logo Direita" style="width: 100%; height: auto;">
+</a>
+
+<img src="./assets/img_fission_laser_slim.svg" alt="Logo" style="width: 100%; height: auto;">
 
 <!-- Monitor de Dispositivos -->
-<h3 style="text-align: center; font-family: 'Arial', sans-serif; font-size: 32px; color: #9B59B6; text-shadow: 3px 3px 10px rgba(148,0,211,0.6); margin-top: 60px;">
-  🖥️ <a href="https://github.com/carlosfreires/Projeto_MonitorDeDispositivosEmRede_backend" style="background: linear-gradient(to right, #8A2BE2, #FF6347); -webkit-background-clip: text; color: transparent; text-shadow: 0 0 5px rgba(138,43,226,0.8),0 0 10px rgba(255,99,71,0.8);"><strong>Monitor De Dispositivos Em Rede</strong></a>
-</h3>
-<p style="text-align: left; font-family: 'Arial', sans-serif; color: #9B59B6; font-size: 14px; text-shadow: 3px 3px 10px rgba(148,0,211,0.6);">
-  Sistema para monitoramento de equipamentos, gerenciamento de usuários e logs, com ferramentas de teste de conectividade (Ping, Telnet, Tracert).
-</p>
 
----
+<img src="./assets/img_logo_monitor_dispositivos_rede.svg" alt="Logo" style="width: 100%; height: auto;">
+
+<img src="./assets/img_desc_monitor_dispositivos_rede.svg" alt="Logo" style="width: 100%; height: auto;">
+
+<a href="https://carlosfreires.github.io/TocadorDeRadioOnline/" style="float: left; width: 40%; height: auto; box-sizing: border-box; padding-right: 10px;">
+    <img src="./assets/img_btn_acc_online.svg" alt="Logo Esquerda" style="width: 100%; height: auto;">
+</a>
+
+<a href="https://carlosfreires.github.io/TocadorDeRadioOnline/" style="float: right; width: 40%; height: auto; box-sizing: border-box; padding-left: 10px;">
+    <img src="./assets/img_btn_acc_repos.svg" alt="Logo Direita" style="width: 100%; height: auto;">
+</a>
+
+<img src="./assets/img_fission_laser_slim.svg" alt="Logo" style="width: 100%; height: auto;">
+
+<!-- Balão Pop -->
+
+<img src="./assets/img_logo_balao_pop.svg" alt="Logo" style="width: 100%; height: auto;">
+
+<img src="./assets/img_desc_balao_pop.svg" alt="Logo" style="width: 100%; height: auto;">
+
+<a href="https://carlosfreires.github.io/TocadorDeRadioOnline/" style="float: left; width: 40%; height: auto; box-sizing: border-box; padding-right: 10px;">
+    <img src="./assets/img_btn_acc_online.svg" alt="Logo Esquerda" style="width: 100%; height: auto;">
+</a>
+
+<a href="https://carlosfreires.github.io/TocadorDeRadioOnline/" style="float: right; width: 40%; height: auto; box-sizing: border-box; padding-left: 10px;">
+    <img src="./assets/img_btn_acc_repos.svg" alt="Logo Direita" style="width: 100%; height: auto;">
+</a>
+
+<img src="./assets/img_fission_laser_slim.svg" alt="Logo" style="width: 100%; height: auto;">
+
+<!-- ComunaBot -->
+
+<img src="./assets/img_logo_comunabot.svg" alt="Logo" style="width: 100%; height: auto;">
+
+<img src="./assets/img_desc_comunabot.svg" alt="Logo" style="width: 100%; height: auto;">
+
+<a href="https://carlosfreires.github.io/TocadorDeRadioOnline/" style="float: left; width: 40%; height: auto; box-sizing: border-box; padding-right: 10px;">
+    <img src="./assets/img_btn_acc_online.svg" alt="Logo Esquerda" style="width: 100%; height: auto;">
+</a>
+
+<a href="https://carlosfreires.github.io/TocadorDeRadioOnline/" style="float: right; width: 40%; height: auto; box-sizing: border-box; padding-left: 10px;">
+    <img src="./assets/img_btn_acc_repos.svg" alt="Logo Direita" style="width: 100%; height: auto;">
+</a>
+
+<img src="./assets/img_fission_laser_slim.svg" alt="Logo" style="width: 100%; height: auto;">
+
+<!-- Simple Portfolio -->
+
+<img src="./assets/img_logo_simple_portfolio.svg" alt="Logo" style="width: 100%; height: auto;">
+
+<img src="./assets/img_desc_simple_portfolio.svg" alt="Logo" style="width: 100%; height: auto;">
+
+<a href="https://carlosfreires.github.io/TocadorDeRadioOnline/" style="float: left; width: 40%; height: auto; box-sizing: border-box; padding-right: 10px;">
+    <img src="./assets/img_btn_acc_online.svg" alt="Logo Esquerda" style="width: 100%; height: auto;">
+</a>
+
+<a href="https://carlosfreires.github.io/TocadorDeRadioOnline/" style="float: right; width: 40%; height: auto; box-sizing: border-box; padding-left: 10px;">
+    <img src="./assets/img_btn_acc_repos.svg" alt="Logo Direita" style="width: 100%; height: auto;">
+</a>
+
+<img src="./assets/img_fission_laser_slim.svg" alt="Logo" style="width: 100%; height: auto;">
+
+<!-- Contador de Palavras -->
+
+<img src="./assets/img_logo_contador_palavras.svg" alt="Logo" style="width: 100%; height: auto;">
+
+<img src="./assets/img_desc_contador_palavras.svg" alt="Logo" style="width: 100%; height: auto;">
+
+<a href="https://carlosfreires.github.io/TocadorDeRadioOnline/" style="float: left; width: 40%; height: auto; box-sizing: border-box; padding-right: 10px;">
+    <img src="./assets/img_btn_acc_online.svg" alt="Logo Esquerda" style="width: 100%; height: auto;">
+</a>
+
+<a href="https://carlosfreires.github.io/TocadorDeRadioOnline/" style="float: right; width: 40%; height: auto; box-sizing: border-box; padding-left: 10px;">
+    <img src="./assets/img_btn_acc_repos.svg" alt="Logo Direita" style="width: 100%; height: auto;">
+</a>
+
+<img src="./assets/img_fission_laser_slim.svg" alt="Logo" style="width: 100%; height: auto;">
 
 <!-- freires - botpress -->
-<h3 style="text-align: center; font-family: 'Arial', sans-serif; font-size: 32px; color: #9B59B6; text-shadow: 3px 3px 10px rgba(148,0,211,0.6); margin-top: 60px;">
-  🤖 <a href="https://github.com/carlosfreires/freires-botpress-dev" style="background: linear-gradient(to right, #8A2BE2, #FF6347); -webkit-background-clip: text; color: transparent; text-shadow: 0 0 5px rgba(138,43,226,0.8),0 0 10px rgba(255,99,71,0.8);"><strong>freires - botpress - dev</strong></a>
-</h3>
-<p style="text-align: left; font-family: 'Arial', sans-serif; color: #9B59B6; font-size: 14px; text-shadow: 3px 3px 10px rgba(148,0,211,0.6);">
-  Configuração pronta para iniciar com Botpress usando Docker. Facilita criação e personalização de chatbots.
-</p>
 
----
+<img src="./assets/img_logo_botpress_dev.svg" alt="Logo" style="width: 100%; height: auto;">
+
+<img src="./assets/img_desc_botpress_dev.svg" alt="Logo" style="width: 100%; height: auto;">
+
+<a href="https://carlosfreires.github.io/TocadorDeRadioOnline/" style="float: left; width: 40%; height: auto; box-sizing: border-box; padding-right: 10px;">
+    <img src="./assets/img_btn_acc_online.svg" alt="Logo Esquerda" style="width: 100%; height: auto;">
+</a>
+
+<a href="https://carlosfreires.github.io/TocadorDeRadioOnline/" style="float: right; width: 40%; height: auto; box-sizing: border-box; padding-left: 10px;">
+    <img src="./assets/img_btn_acc_repos.svg" alt="Logo Direita" style="width: 100%; height: auto;">
+</a>
+
+<img src="./assets/img_fission_laser_slim.svg" alt="Logo" style="width: 100%; height: auto;">
 
 <!-- Docker PostgreSQL -->
-<h3 style="text-align: center; font-family: 'Arial', sans-serif; font-size: 32px; color: #9B59B6; text-shadow: 3px 3px 10px rgba(148,0,211,0.6); margin-top: 60px;">
-  🐘 <a href="https://github.com/carlosfreires/Docker_PostgreSQL-V13" style="background: linear-gradient(to right, #8A2BE2, #FF6347); -webkit-background-clip: text; color: transparent; text-shadow: 0 0 5px rgba(138,43,226,0.8),0 0 10px rgba(255,99,71,0.8);"><strong>Docker PostgreSQL - V13</strong></a>
-</h3>
-<p style="text-align: left; font-family: 'Arial', sans-serif; color: #9B59B6; font-size: 14px; text-shadow: 3px 3px 10px rgba(148,0,211,0.6);">
-  Ambiente isolado com PostgreSQL usando Docker e Docker Compose, incluindo persistência de dados e banco inicial.
-</p>
 
----
+<img src="./assets/img_logo_docker_postgresql.svg" alt="Logo" style="width: 100%; height: auto;">
+
+<img src="./assets/img_desc_docker_postgresql.svg" alt="Logo" style="width: 100%; height: auto;">
+
+<a href="https://carlosfreires.github.io/TocadorDeRadioOnline/" style="float: left; width: 40%; height: auto; box-sizing: border-box; padding-right: 10px;">
+    <img src="./assets/img_btn_acc_online.svg" alt="Logo Esquerda" style="width: 100%; height: auto;">
+</a>
+
+<a href="https://carlosfreires.github.io/TocadorDeRadioOnline/" style="float: right; width: 40%; height: auto; box-sizing: border-box; padding-left: 10px;">
+    <img src="./assets/img_btn_acc_repos.svg" alt="Logo Direita" style="width: 100%; height: auto;">
+</a>
+
+<img src="./assets/img_fission_laser_slim.svg" alt="Logo" style="width: 100%; height: auto;">
 
 <!-- Docker MongoDB -->
-<h3 style="text-align: center; font-family: 'Arial', sans-serif; font-size: 32px; color: #9B59B6; text-shadow: 3px 3px 10px rgba(148,0,211,0.6); margin-top: 60px;">
-  🍃 <a href="https://github.com/carlosfreires/Docker_MongoDB-V4.4" style="background: linear-gradient(to right, #8A2BE2, #FF6347); -webkit-background-clip: text; color: transparent; text-shadow: 0 0 5px rgba(138,43,226,0.8),0 0 10px rgba(255,99,71,0.8);"><strong>Docker MongoDB - V4.4</strong></a>
-</h3>
-<p style="text-align: left; font-family: 'Arial', sans-serif; color: #9B59B6; font-size: 14px; text-shadow: 3px 3px 10px rgba(148,0,211,0.6);">
-  Ambiente isolado para desenvolvimento e testes com MongoDB via Docker e Docker Compose.
-</p>
 
----
+<img src="./assets/img_logo_docker_mongodb.svg" alt="Logo" style="width: 100%; height: auto;">
+
+<img src="./assets/img_desc_docker_mongodb.svg" alt="Logo" style="width: 100%; height: auto;">
+
+<a href="https://carlosfreires.github.io/TocadorDeRadioOnline/" style="float: left; width: 40%; height: auto; box-sizing: border-box; padding-right: 10px;">
+    <img src="./assets/img_btn_acc_online.svg" alt="Logo Esquerda" style="width: 100%; height: auto;">
+</a>
+
+<a href="https://carlosfreires.github.io/TocadorDeRadioOnline/" style="float: right; width: 40%; height: auto; box-sizing: border-box; padding-left: 10px;">
+    <img src="./assets/img_btn_acc_repos.svg" alt="Logo Direita" style="width: 100%; height: auto;">
+</a>
+
+<img src="./assets/img_fission_laser_slim.svg" alt="Logo" style="width: 100%; height: auto;">
 
 <!-- Docker MySQL -->
-<h3 style="text-align: center; font-family: 'Arial', sans-serif; font-size: 32px; color: #9B59B6; text-shadow: 3px 3px 10px rgba(148,0,211,0.6); margin-top: 60px;">
-  🐬 <a href="https://github.com/carlosfreires/Docker_MySQL-V8" style="background: linear-gradient(to right, #8A2BE2, #FF6347); -webkit-background-clip: text; color: transparent; text-shadow: 0 0 5px rgba(138,43,226,0.8),0 0 10px rgba(255,99,71,0.8);"><strong>Docker MySQL - V8</strong></a>
-</h3>
-<p style="text-align: left; font-family: 'Arial', sans-serif; color: #9B59B6; font-size: 14px; text-shadow: 3px 3px 10px rgba(148,0,211,0.6);">
-  Ambiente isolado para desenvolvimento com MySQL via Docker e Docker Compose, incluindo persistência de dados.
-</p>
+
+<img src="./assets/img_logo_docker_mysql.svg" alt="Logo" style="width: 100%; height: auto;">
+
+<img src="./assets/img_desc_docker_mysql.svg" alt="Logo" style="width: 100%; height: auto;">
+
+<a href="https://carlosfreires.github.io/TocadorDeRadioOnline/" style="float: left; width: 40%; height: auto; box-sizing: border-box; padding-right: 10px;">
+    <img src="./assets/img_btn_acc_online.svg" alt="Logo Esquerda" style="width: 100%; height: auto;">
+</a>
+
+<a href="https://carlosfreires.github.io/TocadorDeRadioOnline/" style="float: right; width: 40%; height: auto; box-sizing: border-box; padding-left: 10px;">
+    <img src="./assets/img_btn_acc_repos.svg" alt="Logo Direita" style="width: 100%; height: auto;">
+</a>
+
+<img src="./assets/img_fission_laser_slim.svg" alt="Logo" style="width: 100%; height: auto;">
 
 ---
 
@@ -181,32 +270,9 @@
   🐍 GitHub Contribution Snake
 </h2>
 
-<p style="color: #9B59B6; font-size: 16px; margin-bottom: 30px;">
-  Minha contribuição no GitHub transformada em um jogo da cobrinha! 
-  A cobrinha percorre meus commits dos últimos 52 semanas.
+<p align="center">
+  <img src="github.com" alt="Snake game" />
 </p>
-
-<!-- Imagem da cobrinha com suporte a dark mode -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="output/github-snake.svg" />
-  <img alt="GitHub Snake Animation" src="output/github-snake.svg" 
-       style="width: 100%; max-width: 800px; border-radius: 15px; 
-              box-shadow: 0 10px 30px rgba(0,255,0,0.2);" />
-</picture>
-
-<div style="margin-top: 20px; color: #32CD32; font-size: 14px;">
-  <p>
-    🔄 <strong>Atualizado automaticamente a cada 6 horas</strong> • 
-    🎮 <strong>Jogo da cobrinha baseado em commits</strong>
-  </p>
-  <p style="color: #9B59B6; font-size: 12px; margin-top: 10px;">
-    ⚡ Tecnologia: <a href="https://github.com/Platane/snk" target="_blank" style="color: #00FFFF;">Platane/snk</a> • 
-    📊 Dados: GitHub Contributions API
-  </p>
-</div>
-
-</div>
 
 <!-- ========================================================= -->
 <!-- ===================  APIs AUTOMÁTICAS ================== -->
@@ -713,5 +779,3 @@ border: 1px solid #8A2BE2;">
 <!-- END CAT_APIS -->
 
 <!-- ... resto do README permanece igual ... -->
-
-<img src="./assets/car2.svg" alt="Logo" style="height: 150px;">

@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="150" viewBox="0 0 1500 150">
+  <defs>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00f2ff" />
+      <stop offset="50%" stop-color="#ff00de" />
+      <stop offset="100%" stop-color="#7000ff" />
+    </linearGradient>
+
+    <linearGradient id="sunGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffcc00" />
+      <stop offset="50%" stop-color="#ff0055" />
+      <stop offset="100%" stop-color="#3b0066" />
+    </linearGradient>
+
+    <pattern id="scanlinePattern" width="100%" height="4" patternUnits="userSpaceOnUse">
+      <rect width="100%" height="1" fill="#000" fill-opacity="0.08" />
+    </pattern>
+
+    <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.5" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <mask id="sunMask">
+      <rect width="100%" height="100%" fill="white" />
+      <g fill="black">
+        <rect x="0" y="82" width="1500" height="2" />
+        <rect x="0" y="90" width="1500" height="4" />
+        <rect x="0" y="100" width="1500" height="6" />
+        <rect x="0" y="112" width="1500" height="8" />
+      </g>
+    </mask>
+  </defs>
+
+  <style>
+    @keyframes textGlitch {
+      0% { transform: translate(0); text-shadow: 1px 0 #ff00de, -1px 0 #00f2ff; }
+      40% { transform: translate(1px, -1px); text-shadow: -1px 0 #ff00de, 1px 0 #00f2ff; }
+      100% { transform: translate(0); }
+    }
+    @keyframes noiseFlicker {
+      0% { opacity: 0.01; }
+      50% { opacity: 0.03; }
+      100% { opacity: 0.01; }
+    }
+
+    /* Grade bem mais transparente */
+    .grid-lines {
+      stroke: #ff00de;
+      stroke-width: 0.6;
+      stroke-opacity: 0.3; 
+    }
+    .glitch-text {
+      font-family: 'Segoe UI', Impact, sans-serif;
+      font-weight: 900;
+      font-style: italic;
+      letter-spacing: 4px;
+      animation: textGlitch 0.4s infinite alternate-reverse;
+    }
+    .vhs-noise {
+      animation: noiseFlicker 0.15s infinite;
+    }
+  </style>
+
+  <circle cx="1300" cy="70" r="55" fill="url(#sunGrad)" mask="url(#sunMask)" filter="url(#neonGlow)" opacity="0.9" />
+
+  <g transform="translate(0, 80)">
+    <line x1="0" y1="0" x2="1500" y2="0" class="grid-lines" />
+    <line x1="0" y1="15" x2="1500" y2="15" class="grid-lines" />
+    <line x1="0" y1="35" x2="1500" y2="35" class="grid-lines" />
+    <line x1="0" y1="65" x2="1500" y2="65" class="grid-lines" stroke-width="1" />
+    
+    <g class="grid-lines">
+      <line x1="750" y1="0" x2="100" y2="70" />
+      <line x1="750" y1="0" x2="400" y2="70" />
+      <line x1="750" y1="0" x2="750" y2="70" />
+      <line x1="750" y1="0" x2="1100" y2="70" />
+      <line x1="750" y1="0" x2="1400" y2="70" />
+    </g>
+  </g>
+
+  <text x="50%" y="75" text-anchor="middle" font-size="55" fill="url(#textGrad)" class="glitch-text" filter="url(#neonGlow)">
+    CARLOS FREIRES DEVELOPER
+  </text>
+
+  <rect width="1500" height="150" fill="url(#scanlinePattern)" pointer-events="none" />
+  <rect width="1500" height="150" fill="white" class="vhs-noise" opacity="0.01" pointer-events="none" />
+</svg>

@@ -26,14 +26,14 @@ if errorlevel 1 (
     echo [AVISO] Não foi possível instalar/atualizar requests. Continuando...
 )
 
-REM Criar diretório output se não existir
+REM Criar diretório output se não existir (mantido caso seus outros scripts precisem)
 if not exist "output" mkdir output
 
 REM Verificar variáveis de ambiente
 echo.
 echo Verificando configurações...
 if "%GITHUB_TOKEN%"=="" (
-    echo [AVISO] GITHUB_TOKEN não definida. A cobra usará dados de exemplo.
+    echo [AVISO] GITHUB_TOKEN não definida. Scripts podem usar dados de exemplo.
     echo         Para dados reais, defina a variável:
     echo         setx GITHUB_TOKEN "seu_token_github"
 )
@@ -42,15 +42,14 @@ REM Executar scripts Python
 echo.
 echo Executando scripts Python...
 
-echo 1. Gerando animação da cobra...
-python generate_snake.py
+REM A linha 'python generate_snake.py' foi removida daqui.
 
-echo 2. Testando token do GitHub (se disponível)...
+echo 1. Testando token do GitHub (se disponível)...
 if not "%GITHUB_TOKEN%"=="" (
     python test_token.py
 )
 
-echo 3. Atualizando seção de APIs no README...
+echo 2. Atualizando seção de APIs no README...
 python generate_apis.py
 
 echo.
@@ -60,15 +59,14 @@ echo ============================================
 echo.
 echo O que foi feito:
 echo - Dependências Python verificadas
-echo - Cobra de contribuição gerada em output/
-echo - Seção de APIs atualizada no README.md
+echo - Secao de APIs e Token testados/atualizados
 echo.
 echo Próximos passos:
-echo 1. Commit e push das alterações:
+echo 1. Commit e push das alteracoes:
 echo    git add .
-echo    git commit -m "Atualização automática: cobra e APIs"
+echo    git commit -m "Atualizacao automatica: APIs"
 echo    git push origin main
 echo.
-echo 2. Para atualizações automáticas, configure GitHub Actions.
+echo 2. Para atualizacoes automaticas, configure GitHub Actions.
 echo.
 pause

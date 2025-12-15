@@ -11,6 +11,9 @@ on:
 jobs:
   generate-snake:
     runs-on: ubuntu-latest
+    # Adiciona permissão de escrita para o GITHUB_TOKEN padrão
+    permissions:
+      contents: write 
     
     steps:
       # 1. Checkout do código
@@ -40,13 +43,13 @@ jobs:
         run: |
           git add output/
           
-          # Verifica se há mudanças
+          # Verifica se há mudanças antes de commitar
           if git diff --staged --quiet; then
-            echo "✅ Nenhuma mudança na cobrinha"
+            echo "✅ Nenhuma mudança na cobrinha, pulando commit."
           else
             git commit -m "🐍 Update snake animation"
             git push
-            echo "✅ Cobrinha atualizada e commitada"
+            echo "✅ Cobrinha atualizada e commitada."
           fi
       
       # 5. Log de sucesso
