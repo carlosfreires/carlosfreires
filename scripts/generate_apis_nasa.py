@@ -1,11 +1,12 @@
 """
-NASA APIs - VERSÃO 2.0 (SVG)
-Gera SVG para exibição no GitHub README
+NASA APIs - VERSÃO 2.1 
+Gera SVG com imagens em Base64 para compatibilidade com GitHub
 """
 import requests
 import os
 import math
-from datetime import datetime
+import base64
+from datetime import datetime, timezone
 from utils import validate_api_response
 
 NASA_API_KEY = os.getenv("NASA_API_KEY", "DEMO_KEY")
@@ -24,12 +25,40 @@ def get_nasa_apod():
     """Obtém Astronomy Picture of the Day"""
     url = "https://api.nasa.gov/planetary/apod"
     params = {"api_key": NASA_API_KEY, "thumbs": "True"}
-    return safe_get(url, params, api_name="NASA APOD")
+    data = safe_get(url, params, api_name="NASA APOD")
+    
+    # Validar que é uma imagem (não vídeo)
+    if data and data.get("media_type") != "image":
+        print(f"⚠️  APOD é vídeo (não imagem): {data.get('media_type')}")
+        return None
+    
+    return data
 
 def get_iss_location():
     """Localização da Estação Espacial"""
     url = "http://api.open-notify.org/iss-now.json"
     return safe_get(url, timeout=5, api_name="ISS Location")
+
+def image_to_base64(url):
+    """Converte imagem para Base64"""
+    try:
+        response = requests.get(url, timeout=15)
+        response.raise_for_status()
+        
+        # Determinar content type
+        content_type = response.headers.get('content-type', 'image/jpeg')
+        
+        # Converter para base64
+        encoded = base64.b64encode(response.content).decode('utf-8')
+        return f"data:{content_type};base64,{encoded}"
+    except Exception as e:
+        print(f"⚠️  Falha ao converter imagem para Base64: {e}")
+        return None
+
+def get_fallback_image():
+    """Imagem de fallback em Base64"""
+    # Pixel transparente como fallback
+    return "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
 
 def escape_xml(text):
     """Escapa caracteres especiais para XML"""
@@ -52,13 +81,20 @@ def generate_nasa_svg(apod_data, iss_data):
     # Dados padrão para fallback
     default_apod = {
         'title': 'Universo em Foco',
-        'url': 'https://apod.nasa.gov/apod/image/2401/aurora_jin_960.jpg',
         'explanation': 'Explore o cosmos com imagens diárias da NASA.',
-        'date': datetime.now().strftime('%Y-%m-%d')
+        'date': datetime.now(timezone.utc).strftime('%Y-%m-%d'),
+        'url': 'https://apod.nasa.gov/apod/image/2401/aurora_jin_960.jpg'
     }
     
     apod = apod_data or default_apod
     has_iss = iss_data and 'iss_position' in iss_data
+    
+    # Obter imagem em Base64
+    print("🖼️  CONVERTENDO IMAGEM PARA BASE64...")
+    img_base64 = image_to_base64(apod['url'])
+    if not img_base64:
+        img_base64 = get_fallback_image()
+        print("⚠️  Usando imagem de fallback")
     
     # Processar dados da ISS
     if has_iss:
@@ -80,7 +116,7 @@ def generate_nasa_svg(apod_data, iss_data):
     title = escape_xml(apod['title'][:50])
     explanation = escape_xml(apod['explanation'][:150])
     
-    # Gerar SVG
+    # Gerar SVG com Base64
     svg = f'''<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="700" viewBox="0 0 1200 700">
   <defs>
@@ -130,13 +166,13 @@ def generate_nasa_svg(apod_data, iss_data):
         📷 IMAGEM ASTRONÔMICA DO DIA
       </text>
       
-      <!-- Imagem APOD -->
+      <!-- Imagem APOD em Base64 -->
       <a xlink:href="{apod['url']}" target="_blank">
         <g transform="translate(60, 70)">
           <rect x="0" y="0" width="400" height="200" rx="10" ry="10" 
                 fill="#000" stroke="#FF6347" stroke-width="2"/>
           <image x="0" y="0" width="400" height="200" 
-                 xlink:href="{apod['url']}" clip-path="url(#imageClip)"/>
+                 xlink:href="{img_base64}" clip-path="url(#imageClip)"/>
         </g>
       </a>
       
@@ -147,10 +183,11 @@ def generate_nasa_svg(apod_data, iss_data):
       </text>
       
       <!-- Descrição -->
-      <text x="260" y="330" text-anchor="middle" font-size="14" 
-            fill="#9B59B6" font-family="Arial, Helvetica, sans-serif">
-        {explanation}...
-      </text>
+      <foreignObject x="60" y="330" width="400" height="80">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="color:#9B59B6;font-size:14px;font-family:Arial,sans-serif;line-height:1.4;">
+          {apod['explanation'][:180]}...
+        </div>
+      </foreignObject>
       
       <!-- Rodapé APOD -->
       <g transform="translate(60, 430)">
@@ -233,7 +270,7 @@ def generate_nasa_svg(apod_data, iss_data):
   <!-- Rodapé -->
   <text x="600" y="650" text-anchor="middle" font-size="14" 
         fill="#00FFFF" font-family="Arial, Helvetica, sans-serif">
-    🔭 Dados em tempo real via NASA API • Atualizado: {datetime.now().strftime('%Y-%m-%d %H:%M UTC')}
+    🔭 Dados em tempo real via NASA API • Atualizado: {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}
   </text>
 </svg>'''
     
@@ -242,7 +279,7 @@ def generate_nasa_svg(apod_data, iss_data):
 def main():
     """Ponto de entrada principal"""
     print("=" * 60)
-    print("🚀 GERANDO NASA STATUS SVG")
+    print("🚀 GERANDO NASA STATUS SVG (VERSÃO CORRIGIDA)")
     print("=" * 60)
     
     # Obter dados
@@ -254,7 +291,7 @@ def main():
     print(f"✅ ISS: {'Recebido' if iss_data else 'Indisponível'}")
     
     # Gerar SVG
-    print("🎨 CRIANDO SVG...")
+    print("🎨 CRIANDO SVG COM BASE64...")
     svg_content = generate_nasa_svg(apod_data, iss_data)
     
     # Salvar arquivo
@@ -263,7 +300,7 @@ def main():
         f.write(svg_content)
     
     print("=" * 60)
-    print("✅ SVG GERADO: output/nasa_status.svg")
+    print("✅ SVG GERADO COM SUCESSO: output/nasa_status.svg")
     print("=" * 60)
     return True
 

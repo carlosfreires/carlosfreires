@@ -20,7 +20,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
-        python-version: '3.9'
+        python-version: '3.10'
         
     - name: Install Dependencies
       run: pip install requests
@@ -31,10 +31,16 @@ jobs:
       working-directory: ./scripts
       run: python generate_apis_nasa_svg.py
       
+    - name: Verify SVG Generation
+      run: |
+        echo "🔍 Verificando SVG gerado..."
+        ls -la output/
+        head -5 output/nasa_status.svg
+      
     - name: Commit NASA Changes
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action - NASA"
         git add output/nasa_status.svg
-        git diff --quiet && git diff --staged --quiet || git commit -m "🛰️ Update NASA status SVG"
+        git diff --quiet && git diff --staged --quiet || git commit -m "🛰️ Update NASA status SVG [$(date +'%Y-%m-%d %H:%M')]"
         git push
