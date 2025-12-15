@@ -26,6 +26,7 @@ jobs:
           outputs: |
             output/github-snake.svg
             output/github-snake-dark.svg?palette=github-dark
+            output/github-snake.gif?color_snake=orange
           # ***  ativar o commit automático: ***
           commit_message: "🐍 Update snake animation [skip ci]"
           git_add: output/

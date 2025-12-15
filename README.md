@@ -270,9 +270,7 @@
   🐍 GitHub Contribution Snake
 </h2>
 
-<p align="center">
-  <img src="github.com" alt="Snake game" />
-</p>
+<img src="./output/github-snake.gif" alt="GitHub Snake" />
 
 <!-- ========================================================= -->
 <!-- ===================  APIs AUTOMÁTICAS ================== -->
