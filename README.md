@@ -58,7 +58,7 @@
     <img src="./assets/img_btn_acc_online.svg" alt="Logo Esquerda" style="width: auto; height: auto;">
 </a>
 
-<a href="https://carlosfreires.github.io/TocadorDeRadioOnline/" style="float: right; width: 40%; height: auto; box-sizing: border-box; padding-left: 10px;">
+<a href="https://carlosfreires.github.io/TocadorDeRadioOnline/" style="display: block; margin-left: auto; width: 40%; padding-left: 10px;">
     <img src="./assets/img_btn_acc_online.svg" alt="Logo Direita" style="width: auto; height: auto;">
 </a>
 
