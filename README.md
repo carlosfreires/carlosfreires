@@ -270,6 +270,10 @@
   🐍 GitHub Contribution Snake
 </h2>
 
+<p align="center">
+  <img src="./output/github-snake.svg" alt="GitHub Snake" />
+</p>
+
 <img src="./output/github-snake.gif" alt="GitHub Snake" />
 
 <!-- ========================================================= -->
