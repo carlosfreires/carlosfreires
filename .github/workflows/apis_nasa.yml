@@ -11,11 +11,16 @@ jobs:
   update-nasa:
     runs-on: ubuntu-latest
     
+    # ⬇️⬇️⬇️ PERMISSÕES CRÍTICAS ⬇️⬇️⬇️
+    permissions:
+      contents: write  # PERMISSÃO PARA ESCREVER NO REPOSITÓRIO
+    
     steps:
     - name: Checkout Repository
       uses: actions/checkout@v3
       with:
-        persist-credentials: false
+        token: ${{ secrets.GITHUB_TOKEN }}  # ⬅️ TOKEN CORRETO
+        fetch-depth: 0  # ⬅️ PEGA TODO HISTÓRICO
         
     - name: Set up Python
       uses: actions/setup-python@v4
@@ -31,16 +36,47 @@ jobs:
       working-directory: ./scripts
       run: python generate_apis_nasa_svg.py
       
-    - name: Verify SVG Generation
+    - name: Debug - Verificar Arquivos Gerados
       run: |
-        echo "🔍 Verificando SVG gerado..."
-        ls -la output/
-        head -5 output/nasa_status.svg
+        echo "📁 Estrutura de pastas:"
+        find . -name "*.svg" -type f
+        echo ""
+        echo "📁 Conteúdo de output/:"
+        ls -la output/ || echo "❌ Pasta output não existe"
+        echo ""
+        echo "📁 Primeiras linhas do SVG:"
+        cat output/nasa_status.svg 2>/dev/null | head -10 || echo "❌ Arquivo não encontrado"
       
-    - name: Commit NASA Changes
+    - name: Setup Git
       run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action - NASA"
-        git add output/nasa_status.svg
-        git diff --quiet && git diff --staged --quiet || git commit -m "🛰️ Update NASA status SVG [$(date +'%Y-%m-%d %H:%M')]"
-        git push
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git config --global user.name "github-actions[bot]"
+        git config --global pull.rebase true
+      
+    - name: Commit and Push Changes
+      run: |
+        # Verificar se há mudanças
+        if [ -f "output/nasa_status.svg" ]; then
+          echo "✅ SVG encontrado, preparando commit..."
+          
+          # Adicionar arquivo
+          git add output/nasa_status.svg
+          
+          # Verificar se há mudanças para commitar
+          if ! git diff --cached --quiet; then
+            echo "📤 Realizando commit..."
+            git commit -m "🛰️ Update NASA status SVG [$(date -u +'%Y-%m-%d %H:%M UTC')]"
+            
+            # Fazer pull primeiro para evitar conflitos
+            git pull origin main --no-edit
+            
+            # Fazer push
+            git push origin main
+            echo "✅ Push realizado com sucesso!"
+          else
+            echo "ℹ️ Nenhuma mudança para commitar"
+          fi
+        else
+          echo "❌ ERRO: SVG não foi gerado!"
+          exit 1
+        fi
