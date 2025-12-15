@@ -14,7 +14,6 @@ jobs:
       contents: write
     
     steps:
-
       - name: Checkout repository
         uses: actions/checkout@v3
 
@@ -27,17 +26,28 @@ jobs:
             output/github-snake.svg
             output/github-snake-dark.svg?palette=github-dark
             output/github-snake.gif?color_snake=orange
-          # ***  ativar o commit automático: ***
-          commit_message: "🐍 Update snake animation [skip ci]"
-          git_add: output/
-          # git_branch: dev # Opcional, detecta automaticamente o branch
-      
+
+      - name: Deploy to GitHub
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add output/
+          
+          # Verifica se há mudanças para commit
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "🐍 Update snake animation"
+            git push
+          fi
+
       - name: Success log
         run: |
           echo "========================================"
           echo "🐍 COBRINHA GERADA COM SUCESSO!"
           echo "========================================"
           echo "Arquivos criados:"
-          echo "- output/github-snake.svg"
-          echo "- output/github-snake-dark.svg"
+          ls -la output/
           echo "========================================"
