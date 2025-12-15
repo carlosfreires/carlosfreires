@@ -55,11 +55,11 @@
 <img src="./assets/img_desc_tocador_radio_online.svg" alt="Logo" style="width: 100%; height: auto;">
 
 <a href="https://carlosfreires.github.io/TocadorDeRadioOnline/" style="float: left; width: 40%; height: auto; box-sizing: border-box; padding-right: 10px;">
-    <img src="./assets/img_btn_acc_online.svg" alt="Logo Esquerda" style="width: 100%; height: auto;">
+    <img src="./assets/img_btn_acc_online.svg" alt="Logo Esquerda" style="width: auto; height: auto;">
 </a>
 
 <a href="https://carlosfreires.github.io/TocadorDeRadioOnline/" style="float: right; width: 40%; height: auto; box-sizing: border-box; padding-left: 10px;">
-    <img src="./assets/img_btn_acc_online.svg" alt="Logo Direita" style="width: 100%; height: auto;">
+    <img src="./assets/img_btn_acc_online.svg" alt="Logo Direita" style="width: auto; height: auto;">
 </a>
 
 <img src="./assets/img_fission_laser_slim.svg" alt="Logo" style="width: 100%; height: auto;">
