@@ -30,21 +30,24 @@
 <picture>
   <img src="./assets/img_logo_github_stats.svg" alt="Logo" style="width: 100%; height: auto; pointer-events: none; user-select: none;">
 </picture>
-<!--
-<p align="center">
-  <img src="./output/github-snake.svg" alt="GitHub Snake" />
-</p> float: right
--->
 
+<!-- ==================  GITHUB SNAKE GAME  ================== -->
 <picture>
   <img src="./output/github-snake.svg" alt="Logo" style="width: 100%; height: auto; pointer-events: none; user-select: none;">
 </picture>
 
-<picture>
-  <div style="float: right; margin-left: 15px; pointer-events: none; user-select: none; align:center">
-    <img src="https://komarev.com/ghpvc/?username=carlosfreires&color=blue" alt="GitHub Snake"/>
-  </div>
-</picture>
+<table align="right">
+  <tr>
+    <td>
+      <picture>
+        <img src="https://komarev.com/ghpvc/?username=carlosfreires&color=blue" 
+             alt="GitHub Snake" 
+             style="pointer-events: none; user-select: none;" 
+             draggable="false">
+      </picture>
+    </td>
+  </tr>
+</table>
 
 <picture>
   <div align="center">
@@ -90,16 +93,25 @@
   <img src="https://skillicons.dev/icons?i=docker,linux,windows,postman,github,git" alt="Logo" style="width: 100%; height: auto;"/>
 </picture>
 
-<img src="./assets/img_fission_laser_slim.svg" alt="Logo" style="width: 100%; height: auto;">
+<picture>
+  <img src="./assets/img_fission_laser_slim.svg" alt="Logo" style="width: 100%; height: auto;">
+</picture>
+
 <!-- ========================================================= -->
 <!-- =======================  PROJETOS  ===================== -->
 <!-- ========================================================= -->
-<img src="./assets/img_logo_showcase_repositories.svg" alt="Logo" style="width: 100%; height: auto;">
+<picture>
+  <img src="./assets/img_logo_showcase_repositories.svg" alt="Logo" style="width: 100%; height: auto;">
+</picture>
 
 <!-- Tocador de Rádio Online -->
+<picture>
+  <img src="./assets/img_logo_tocador_radio_online.svg" alt="Logo" style="width: 100%;">
+</picture>
 
-<img src="./assets/img_logo_tocador_radio_online.svg" alt="Logo" style="width: 100%;">
-<img src="./assets/img_desc_tocador_radio_online.svg" alt="Descrição" style="width: 100%;">
+<picture>
+  <img src="./assets/img_desc_tocador_radio_online.svg" alt="Descrição" style="width: 100%;">
+</picture>
 
 <p align="center">
   <a href="https://carlosfreires.github.io/TocadorDeRadioOnline/">
@@ -109,14 +121,19 @@
     <img src="./assets/img_btn_acc_repos.svg" alt="Logo Direita" width="45%">
   </a>
 </p>
-
-<img src="./assets/img_fission_laser_slim.svg" alt="Logo" style="width: 100%; height: auto;">
+<picture>
+  <img src="./assets/img_fission_laser_slim.svg" alt="Logo" style="width: 100%; height: auto;">
+</picture>
 
 <!-- TV Online -->
 
-<img src="./assets/img_logo_tv_online.svg" alt="Logo" style="width: 100%; height: auto;">
+<picture>
+  <img src="./assets/img_logo_tv_online.svg" alt="Logo" style="width: 100%; height: auto;">
+</picture>
 
-<img src="./assets/img_desc_tv_online.svg" alt="Logo" style="width: 100%; height: auto;">
+<picture>
+  <img src="./assets/img_desc_tv_online.svg" alt="Logo" style="width: 100%; height: auto;">
+</picture>
 
 <p align="center">
   <a href="https://carlosfreires.github.io/tvOnline/">
@@ -127,13 +144,19 @@
   </a>
 </p>
 
-<img src="./assets/img_fission_laser_slim.svg" alt="Logo" style="width: 100%; height: auto;">
+<picture>
+  <img src="./assets/img_fission_laser_slim.svg" alt="Logo" style="width: 100%; height: auto;">
+</picture>
 
 <!-- Webcam Page -->
 
-<img src="./assets/img_logo_webcam_page.svg" alt="Logo" style="width: 100%; height: auto;">
+<picture>
+  <img src="./assets/img_logo_webcam_page.svg" alt="Logo" style="width: 100%; height: auto;">
+</picture>
 
-<img src="./assets/img_desc_webcam_page.svg" alt="Logo" style="width: 100%; height: auto;">
+<picture>
+  <img src="./assets/img_desc_webcam_page.svg" alt="Logo" style="width: 100%; height: auto;">
+</picture>
 
 <p align="center">
   <a href="https://carlosfreires.github.io/webcam_page/">
@@ -144,13 +167,19 @@
   </a>
 </p>
 
-<img src="./assets/img_fission_laser_slim.svg" alt="Logo" style="width: 100%; height: auto;">
+<picture>
+  <img src="./assets/img_fission_laser_slim.svg" alt="Logo" style="width: 100%; height: auto;">
+</picture>
 
 <!-- Gerador de Hash -->
 
-<img src="./assets/img_logo_gerador_hash.svg" alt="Logo" style="width: 100%; height: auto;">
+<picture>
+  <img src="./assets/img_logo_gerador_hash.svg" alt="Logo" style="width: 100%; height: auto;">
+</picture>
 
-<img src="./assets/img_desc_gerador_hash.svg" alt="Logo" style="width: 100%; height: auto;">
+<picture>
+  <img src="./assets/img_desc_gerador_hash.svg" alt="Logo" style="width: 100%; height: auto;">
+</picture>
 
 <p align="center">
   <a href="https://github.com/carlosfreires/geradorDeHash-bcrypt">
@@ -158,13 +187,19 @@
   </a>
 </p>
 
-<img src="./assets/img_fission_laser_slim.svg" alt="Logo" style="width: 100%; height: auto;">
+<picture>
+  <img src="./assets/img_fission_laser_slim.svg" alt="Logo" style="width: 100%; height: auto;">
+</picture>
 
 <!-- Monitor de Dispositivos -->
 
-<img src="./assets/img_logo_monitor_dispositivos_rede.svg" alt="Logo" style="width: 100%; height: auto;">
+<picture>
+  <img src="./assets/img_logo_monitor_dispositivos_rede.svg" alt="Logo" style="width: 100%; height: auto;">
+</picture>
 
-<img src="./assets/img_desc_monitor_dispositivos_rede.svg" alt="Logo" style="width: 100%; height: auto;">
+<picture>
+  <img src="./assets/img_desc_monitor_dispositivos_rede.svg" alt="Logo" style="width: 100%; height: auto;">
+</picture>
 
 <p align="center">
   <a href="https://github.com/carlosfreires/Projeto_MonitorDeDispositivosEmRede_backend">
@@ -172,13 +207,19 @@
   </a>
 </p>
 
-<img src="./assets/img_fission_laser_slim.svg" alt="Logo" style="width: 100%; height: auto;">
+<picture>
+  <img src="./assets/img_fission_laser_slim.svg" alt="Logo" style="width: 100%; height: auto;">
+</picture>
 
 <!-- Balão Pop -->
 
-<img src="./assets/img_logo_balao_pop.svg" alt="Logo" style="width: 100%; height: auto;">
+<picture>
+  <img src="./assets/img_logo_balao_pop.svg" alt="Logo" style="width: 100%; height: auto;">
+</picture>
 
-<img src="./assets/img_desc_balao_pop.svg" alt="Logo" style="width: 100%; height: auto;">
+<picture>
+  <img src="./assets/img_desc_balao_pop.svg" alt="Logo" style="width: 100%; height: auto;">
+<picture>
 
 <p align="center">
   <a href="https://carlosfreires.github.io/Balao_Pop-WebPage/">
@@ -189,13 +230,18 @@
   </a>
 </p>
 
-<img src="./assets/img_fission_laser_slim.svg" alt="Logo" style="width: 100%; height: auto;">
-
+<picture>
+  <img src="./assets/img_fission_laser_slim.svg" alt="Logo" style="width: 100%; height: auto;">
+</picture>
 <!-- ComunaBot -->
 
-<img src="./assets/img_logo_comunabot.svg" alt="Logo" style="width: 100%; height: auto;">
+<picture>
+  <img src="./assets/img_logo_comunabot.svg" alt="Logo" style="width: 100%; height: auto;">
+</picture>
 
-<img src="./assets/img_desc_comunabot.svg" alt="Logo" style="width: 100%; height: auto;">
+<picture>
+  <img src="./assets/img_desc_comunabot.svg" alt="Logo" style="width: 100%; height: auto;">
+</picture>
 
 <p align="center">
   <a href="https://github.com/carlosfreires/ComunaBotJS">
@@ -203,13 +249,19 @@
   </a>
 </p>
 
-<img src="./assets/img_fission_laser_slim.svg" alt="Logo" style="width: 100%; height: auto;">
+<picture>
+  <img src="./assets/img_fission_laser_slim.svg" alt="Logo" style="width: 100%; height: auto;">
+</picture>
 
 <!-- Simple Portfolio -->
 
-<img src="./assets/img_logo_simple_portfolio.svg" alt="Logo" style="width: 100%; height: auto;">
+<picture>
+  <img src="./assets/img_logo_simple_portfolio.svg" alt="Logo" style="width: 100%; height: auto;">
+</picture>
 
-<img src="./assets/img_desc_simple_portfolio.svg" alt="Logo" style="width: 100%; height: auto;">
+<picture>
+  <img src="./assets/img_desc_simple_portfolio.svg" alt="Logo" style="width: 100%; height: auto;">
+</picture>
 
 <p align="center">
   <a href="https://carlosfreires.github.io/simple_dev_portfolio/">
@@ -220,13 +272,19 @@
   </a>
 </p>
 
-<img src="./assets/img_fission_laser_slim.svg" alt="Logo" style="width: 100%; height: auto;">
+<picture>
+  <img src="./assets/img_fission_laser_slim.svg" alt="Logo" style="width: 100%; height: auto;">
+</picture>
 
 <!-- Contador de Palavras -->
 
-<img src="./assets/img_logo_contador_palavras.svg" alt="Logo" style="width: 100%; height: auto;">
+<picture>
+  <img src="./assets/img_logo_contador_palavras.svg" alt="Logo" style="width: 100%; height: auto;">
+</picture>
 
-<img src="./assets/img_desc_contador_palavras.svg" alt="Logo" style="width: 100%; height: auto;">
+<picture>
+  <img src="./assets/img_desc_contador_palavras.svg" alt="Logo" style="width: 100%; height: auto;">
+</picture>
 
 <p align="center">
   <a href="https://carlosfreires.github.io/contador-de-palavras-webpage/">
@@ -237,13 +295,19 @@
   </a>
 </p>
 
-<img src="./assets/img_fission_laser_slim.svg" alt="Logo" style="width: 100%; height: auto;">
+<picture>
+  <img src="./assets/img_fission_laser_slim.svg" alt="Logo" style="width: 100%; height: auto;">
+</picture>
 
 <!-- freires - botpress -->
 
-<img src="./assets/img_logo_botpress_dev.svg" alt="Logo" style="width: 100%; height: auto;">
+<picture>
+  <img src="./assets/img_logo_botpress_dev.svg" alt="Logo" style="width: 100%; height: auto;">
+</picture>
 
-<img src="./assets/img_desc_botpress_dev.svg" alt="Logo" style="width: 100%; height: auto;">
+<picture>
+  <img src="./assets/img_desc_botpress_dev.svg" alt="Logo" style="width: 100%; height: auto;">
+</picture>
 
 <p align="center">
   <a href="https://github.com/carlosfreires/freires-botpress-dev">
@@ -251,13 +315,19 @@
   </a>
 </p>
 
-<img src="./assets/img_fission_laser_slim.svg" alt="Logo" style="width: 100%; height: auto;">
+<picture>
+  <img src="./assets/img_fission_laser_slim.svg" alt="Logo" style="width: 100%; height: auto;">
+</picture>
 
 <!-- Docker PostgreSQL -->
 
-<img src="./assets/img_logo_docker_postgresql.svg" alt="Logo" style="width: 100%; height: auto;">
+<picture>
+  <img src="./assets/img_logo_docker_postgresql.svg" alt="Logo" style="width: 100%; height: auto;">
+</picture>
 
-<img src="./assets/img_desc_docker_postgresql.svg" alt="Logo" style="width: 100%; height: auto;">
+<picture>
+  <img src="./assets/img_desc_docker_postgresql.svg" alt="Logo" style="width: 100%; height: auto;">
+</picture>
 
 <p align="center">
   <a href="https://github.com/carlosfreires/Docker_PostgreSQL-V13">
@@ -265,13 +335,19 @@
   </a>
 </p>
 
-<img src="./assets/img_fission_laser_slim.svg" alt="Logo" style="width: 100%; height: auto;">
+<picture>
+  <img src="./assets/img_fission_laser_slim.svg" alt="Logo" style="width: 100%; height: auto;">
+</picture>
 
 <!-- Docker MongoDB -->
 
-<img src="./assets/img_logo_docker_mongodb.svg" alt="Logo" style="width: 100%; height: auto;">
+<picture>
+  <img src="./assets/img_logo_docker_mongodb.svg" alt="Logo" style="width: 100%; height: auto;">
+</picture>
 
-<img src="./assets/img_desc_docker_mongodb.svg" alt="Logo" style="width: 100%; height: auto;">
+<picture>
+  <img src="./assets/img_desc_docker_mongodb.svg" alt="Logo" style="width: 100%; height: auto;">
+</picture>
 
 <p align="center">
   <a href="https://github.com/carlosfreires/Docker_MongoDB-V4.4">
@@ -279,13 +355,19 @@
   </a>
 </p>
 
-<img src="./assets/img_fission_laser_slim.svg" alt="Logo" style="width: 100%; height: auto;">
+<picture>
+  <img src="./assets/img_fission_laser_slim.svg" alt="Logo" style="width: 100%; height: auto;">
+</picture>
 
 <!-- Docker MySQL -->
 
-<img src="./assets/img_logo_docker_mysql.svg" alt="Logo" style="width: 100%; height: auto;">
+<picture>
+  <img src="./assets/img_logo_docker_mysql.svg" alt="Logo" style="width: 100%; height: auto;">
+</picture>
 
-<img src="./assets/img_desc_docker_mysql.svg" alt="Logo" style="width: 100%; height: auto;">
+<picture>
+  <img src="./assets/img_desc_docker_mysql.svg" alt="Logo" style="width: 100%; height: auto;">
+</picture>
 
 <p align="center">
   <a href="https://github.com/carlosfreires/Docker_MySQL-V8">
@@ -293,23 +375,9 @@
   </a>
 </p>
 
-<img src="./assets/img_fission_laser_slim.svg" alt="Logo" style="width: 100%; height: auto;">
-
----
-
-<!-- ========================================================= -->
-<!-- ==================  GITHUB SNAKE GAME  ================== -->
-<!-- ========================================================= -->
-<div style="margin: 60px auto; text-align: center;">
-
-<h2 style="font-size: 36px; margin-bottom: 30px;
-           background: linear-gradient(45deg, #00FF00, #32CD32, #ADFF2F);
-           -webkit-background-clip: text; -webkit-text-fill-color: transparent;
-           text-shadow: 0 0 30px rgba(0,255,0,0.3);">
-  🐍 GitHub Contribution Snake
-</h2>
-
-
+<picture>
+  <img src="./assets/img_fission_laser_slim.svg" alt="Logo" style="width: 100%; height: auto;">
+</picture>
 
 <!-- ========================================================= -->
 <!-- ===================  APIs AUTOMÁTICAS ================== -->
@@ -389,9 +457,14 @@
 
 <!-- END_CATS_HORIZONTAL_SECTION -->
 
-<img src="./assets/barr666.svg" alt="Logo Direita" style="width: 100%; height: auto;">
+<picture>
+  <img src="./assets/barr666.svg" alt="Logo Direita" style="width: 100%; height: auto;">
+</picture>
 
-<img src="./assets/border-header666.svg" alt="Logo Direita" style="width: 100%; height: auto;">
+<picture>
+  <img src="./assets/border-header666.svg" alt="Logo Direita" style="width: 100%; height: auto;">
+</picture>
 
-
-<img src="./assets/hero.svg" alt="Logo Direita" style="width: 100%; height: auto;">
+<picture>
+  <img src="./assets/hero.svg" alt="Logo Direita" style="width: 100%; height: auto;">
+</picture>
