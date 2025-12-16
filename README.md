@@ -1,22 +1,22 @@
-<img src="./assets/img_title_header.svg" alt="logo-incial" style="width: 100%; height: auto;"/>
+<img  src="./assets/img_title_header.svg" alt="logo-incial" style="width: 100%; height: auto; pointer-events: none; user-select: none;"/>
 
 # Bem vindo a os meus repositorios
 
-<img src="./assets/img_fission_laser_wide.svg" alt="Divisoria destacada" style="width: 100%; height: auto;">
+<img src="./assets/img_fission_laser_wide.svg" alt="Divisoria destacada" style="width: 100%; height: auto; pointer-events: none; user-select: none;">
 
-<img src="./assets/img_msg_hero.svg" alt="Divisoria destacada" style="width: 100%; height: auto;">
+<img src="./assets/img_msg_hero.svg" alt="Divisoria destacada" style="width: 100%; height: auto; pointer-events: none; user-select: none;">
 
-<img src="./assets/img_fission_laser_wide.svg" alt="Divisoria destacada" style="width: 100%; height: auto;">
+<img src="./assets/img_fission_laser_wide.svg" alt="Divisoria destacada" style="width: 100%; height: auto; pointer-events: none; user-select: none;">
 
-<img src="./assets/img_msg_colab_visitor.svg" alt="Logo" style="width: 100%; height: auto;">
+<img src="./assets/img_msg_colab_visitor.svg" alt="Logo" style="width: 100%; height: auto; pointer-events: none; user-select: none;">
 
-<img src="./assets/img_fission_laser_slim.svg" alt="Logo" style="width: 100%; height: auto;">
+<img src="./assets/img_fission_laser_slim.svg" alt="Logo" style="width: 100%; height: auto; pointer-events: none; user-select: none;">
 
 <!-- ========================================================= -->
 <!-- =======================   STATS  ======================== -->
 <!-- ========================================================= -->
 
-<img src="./assets/img_logo_github_stats.svg" alt="Logo" style="width: 100%; height: auto;">
+<img src="./assets/img_logo_github_stats.svg" alt="Logo" style="width: 100%; height: auto; ">
 <!--
 <p align="center">
   <img src="./output/github-snake.svg" alt="GitHub Snake" />
@@ -395,14 +395,3 @@
 
 
 <img src="./assets/hero.svg" alt="Logo Direita" style="width: 100%; height: auto;">
-
-
-<style>
-  @keyframes gentleFloat {
-    0%, 100% { transform: translateY(0); }
-    50% { transform: translateY(-8px); }
-  }
-  img:hover {
-    animation: gentleFloat 2s ease-in-out infinite;
-  }
-</style>
