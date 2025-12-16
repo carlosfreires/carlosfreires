@@ -4,9 +4,13 @@
 
 # Bem vindo a os meus repositorios
 
-<img src="./assets/img_fission_laser_wide.svg" alt="Divisoria destacada" style="width: 100%; height: auto; pointer-events: none; user-select: none;">
+<picture>
+  <img src="./assets/img_fission_laser_wide.svg" alt="Divisoria destacada" style="width: 100%; height: auto; pointer-events: none; user-select: none;">
+</picture>
 
-<img src="./assets/img_msg_hero.svg" alt="Divisoria destacada" style="width: 100%; height: auto; pointer-events: none; user-select: none;">
+<picture>
+  <img src="./assets/img_msg_hero.svg" alt="Divisoria destacada" style="width: 100%; height: auto; pointer-events: none; user-select: none;">
+</picture>
 
 <img src="./assets/img_fission_laser_wide.svg" alt="Divisoria destacada" style="width: 100%; height: auto; pointer-events: none; user-select: none;">
 
