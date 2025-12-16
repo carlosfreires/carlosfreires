@@ -1,26 +1,25 @@
-name: Update NASA APIs Section
+name: Update NASA Horizontal Cards
 
 on:
   schedule:
-    - cron: '0 12 * * *'  # Diariamente ao meio-dia UTC
+    - cron: '0 */4 * * *'  # A cada 4 horas
   workflow_dispatch:
   push:
     branches: [ main ]
 
 jobs:
-  update-nasa:
+  update-nasa-horizontal:
     runs-on: ubuntu-latest
     
-    # ⬇️⬇️⬇️ PERMISSÕES CRÍTICAS ⬇️⬇️⬇️
     permissions:
-      contents: write  # PERMISSÃO PARA ESCREVER NO REPOSITÓRIO
+      contents: write
     
     steps:
     - name: Checkout Repository
       uses: actions/checkout@v3
       with:
-        token: ${{ secrets.GITHUB_TOKEN }}  # ⬅️ TOKEN CORRETO
-        fetch-depth: 0  # ⬅️ PEGA TODO HISTÓRICO
+        token: ${{ secrets.GITHUB_TOKEN }}
+        fetch-depth: 0
         
     - name: Set up Python
       uses: actions/setup-python@v4
@@ -30,53 +29,51 @@ jobs:
     - name: Install Dependencies
       run: pip install requests
         
-    - name: Generate NASA SVG
+    - name: Generate NASA Horizontal SVGs
       env:
         NASA_API_KEY: ${{ secrets.NASA_API_KEY }}
-      working-directory: ./scripts
-      run: python generate_apis_nasa_svg.py
+      run: python scripts/generate_nasa_apis_horizontal.py
       
-    - name: Debug - Verificar Arquivos Gerados
+    - name: Update README with Horizontal Section
       run: |
-        echo "📁 Estrutura de pastas:"
-        find . -name "*.svg" -type f
-        echo ""
-        echo "📁 Conteúdo de output/:"
-        ls -la output/ || echo "❌ Pasta output não existe"
-        echo ""
-        echo "📁 Primeiras linhas do SVG:"
-        cat output/nasa_status.svg 2>/dev/null | head -10 || echo "❌ Arquivo não encontrado"
-      
-    - name: Setup Git
-      run: |
-        git config --global user.email "github-actions[bot]@users.noreply.github.com"
-        git config --global user.name "github-actions[bot]"
-        git config --global pull.rebase true
+        echo "📄 Atualizando README.md com cards horizontais..."
+        
+        if [ -f "output/nasa_horizontal_section.md" ]; then
+          NASA_SECTION=$(cat output/nasa_horizontal_section.md)
+          
+          # Verificar se a seção já existe
+          if grep -q "NASA_HORIZONTAL_SECTION" README.md; then
+            # Substituir seção existente
+            sed -i '/<!-- NASA_HORIZONTAL_SECTION -->/,/<!-- END_NASA_HORIZONTAL_SECTION -->/c\
+'"$NASA_SECTION" README.md
+          else
+            # Adicionar após notícias
+            sed -i '/<!-- END NEWS_APIS -->/a\
+\n'"$NASA_SECTION" README.md
+          fi
+          
+          echo "✅ Seção NASA horizontal adicionada ao README"
+        else
+          echo "❌ Arquivo NASA horizontal não encontrado"
+          exit 1
+        fi
       
     - name: Commit and Push Changes
       run: |
-        # Verificar se há mudanças
-        if [ -f "output/nasa_status.svg" ]; then
-          echo "✅ SVG encontrado, preparando commit..."
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git config --global user.name "github-actions[bot]"
+        
+        # Adicionar arquivos SVG horizontais
+        git add output/nasa_*_horizontal.svg
+        git add README.md
+        
+        if ! git diff --cached --quiet; then
+          echo "📤 Realizando commit..."
+          git commit -m "🌌 Update NASA Horizontal Cards [$(date -u +'%Y-%m-%d %H:%M UTC')]"
           
-          # Adicionar arquivo
-          git add output/nasa_status.svg
-          
-          # Verificar se há mudanças para commitar
-          if ! git diff --cached --quiet; then
-            echo "📤 Realizando commit..."
-            git commit -m "🛰️ Update NASA status SVG [$(date -u +'%Y-%m-%d %H:%M UTC')]"
-            
-            # Fazer pull primeiro para evitar conflitos
-            git pull origin main --no-edit
-            
-            # Fazer push
-            git push origin main
-            echo "✅ Push realizado com sucesso!"
-          else
-            echo "ℹ️ Nenhuma mudança para commitar"
-          fi
+          git pull origin main --no-edit
+          git push origin main
+          echo "✅ Push realizado com sucesso!"
         else
-          echo "❌ ERRO: SVG não foi gerado!"
-          exit 1
+          echo "ℹ️ Nenhuma mudança para commitar"
         fi

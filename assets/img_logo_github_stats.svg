@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 1200 180"
+     role="img"
+     aria-label="Manifesto Open Source Cyberpunk">
+
+  <defs>
+    <!-- GRADIENTE CORRETO (O SEU, SEM ALTERAÇÃO) -->
+    <linearGradient id="coreGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8A2BE2"/>
+      <stop offset="100%" stop-color="#FF6347"/>
+    </linearGradient>
+
+    <!-- Glow roxo -->
+    <filter id="purpleGlow">
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Glow quente secundário -->
+    <filter id="hotGlow">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feColorMatrix type="matrix"
+        values="
+        1 0 0 0 0
+        0 0.6 0 0 0
+        0 0 0.6 0 0
+        0 0 0 0.9 0"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Scanline cyberpunk -->
+    <linearGradient id="scanline" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FF6347" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FF6347" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#FF6347" stop-opacity="0"/>
+    </linearGradient>
+
+
+      <!-- Scanline cyberpunk -->
+    <linearGradient id="scanlinelig" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FF6347" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FF6347" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#FF6347" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Barras HUD -->
+  <g opacity="0.6">
+    <rect x="120" y="38" width="300" height="2" fill="url(#coreGrad)"/>
+    <rect x="780" y="38" width="300" height="2" fill="url(#coreGrad)"/>
+    <rect x="200" y="145" width="800" height="1.5" fill="url(#coreGrad)"/>
+  </g>
+
+  <!-- ÍCONE DE ESTATÍSTICAS (GRÁFICO DE BARRAS) ANIMADO -->
+  <!-- Mantém a mesma posição e escala da sua lâmpada original para substituição direta -->
+  <g transform="translate(455, 74) scale(1.8)" filter="url(#hotGlow)">
+    
+    <!-- Forma Principal do Gráfico (Ícone de barras simples) -->
+    <!-- Preenchimento usa o gradiente que você definiu (coreGrad ou scanlinelig) -->
+    <path d="M4 9h4v11H4zm6-5h4v16h-4zm6 8h4v8h-4zm-6 4h4v4h-4z" fill="url(#scanlinelig)"/>
+    
+    <!-- Detalhe da base (eixo X) usando a cor sólida roxa (#800080) -->
+    <rect x="4" y="20" width="16" height="2" fill="#800080"/>
+
+    <!-- ANIMAÇÃO DE OPACIDADE (PISCAR) -->
+    <!-- Aplicada ao grupo principal para animar ícone e base juntos -->
+    <animate
+      attributeName="opacity"
+      values="1;0.4;1"
+      dur="4.2s"
+      repeatCount="indefinite"
+    />
+  </g>
+
+  <!-- TEXTO (FORTE, LIMPO, CYBER) -->
+  <text x="600" y="110"
+        text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="28"
+        font-weight="600"
+        letter-spacing="1.5"
+        fill="url(#coreGrad)"
+        filter="url(#purpleGlow)">
+    GitHub Stats
+  </text>
+
+  <!-- Scanline animada -->
+  <rect x="0" y="-30" width="1200" height="30" fill="url(#scanline)">
+    <animate attributeName="y"
+             from="-30" to="180"
+             dur="5s"
+             repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Respiração sutil -->
+  <animate
+    attributeName="opacity"
+    values="0.9;1;0.9"
+    dur="3.2s"
+    repeatCount="indefinite"/>
+
+</svg>

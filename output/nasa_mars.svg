@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+     width="400" height="500" viewBox="0 0 400 500">
+  
+  <defs>
+    <linearGradient id="marsBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3a1c1c" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#5a2c2c" stop-opacity="0.95"/>
+    </linearGradient>
+    
+    <linearGradient id="marsTitle" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF4500"/>
+      <stop offset="50%" stop-color="#DC143C"/>
+      <stop offset="100%" stop-color="#8B0000"/>
+    </linearGradient>
+    
+    <filter id="marsShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#8B0000" flood-opacity="0.4"/>
+    </filter>
+    
+    <clipPath id="marsClip">
+      <rect x="20" y="70" width="360" height="200" rx="10" ry="10"/>
+    </clipPath>
+  </defs>
+  
+  <!-- Fundo do card -->
+  <rect width="400" height="500" rx="15" ry="15" 
+        fill="url(#marsBg)" filter="url(#marsShadow)" stroke="#FF4500" stroke-width="2"/>
+  
+  <!-- Cabeçalho -->
+  <rect x="0" y="0" width="400" height="50" rx="15" ry="15" fill="#FF4500" opacity="0.3"/>
+  <text x="200" y="30" text-anchor="middle" font-size="20" font-weight="bold" 
+        fill="url(#marsTitle)" font-family="Arial, Helvetica, sans-serif">
+    🚀 MARTE: ROVER CURIOSITY
+  </text>
+  
+  <!-- Imagem -->
+  <a xlink:href="https://mars.nasa.gov/system/resources/detail_files/26895_1-PIA24546-1280.jpg" target="_blank">
+    <rect x="20" y="70" width="360" height="200" rx="10" ry="10" 
+          fill="#000000" stroke="#FF4500" stroke-width="2"/>
+    <image x="20" y="70" width="360" height="200" 
+           xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" clip-path="url(#marsClip)"
+           preserveAspectRatio="xMidYMid meet"/>
+  </a>
+  
+  <!-- Detalhes -->
+  <g transform="translate(30, 300)">
+    <text x="0" y="0" font-size="16" font-weight="bold" fill="#FFD700" font-family="Arial">
+      🤖 Detalhes da Missão
+    </text>
+    
+    <g transform="translate(0, 30)">
+      <text x="0" y="0" font-size="12" fill="#FF6347" font-family="Arial">📅 Data Terrestre:</text>
+      <text x="120" y="0" font-size="12" fill="#FFFFFF" font-family="Arial">2025-12-15</text>
+      
+      <text x="0" y="25" font-size="12" fill="#FF6347" font-family="Arial">🛰️ Rover:</text>
+      <text x="120" y="25" font-size="12" fill="#FFFFFF" font-family="Arial">Curiosity</text>
+      
+      <text x="0" y="50" font-size="12" fill="#FF6347" font-family="Arial">📷 Câmera:</text>
+      <text x="120" y="50" font-size="12" fill="#FFFFFF" font-family="Arial">Mast Camera (Mastcam)</text>
+    </g>
+  </g>
+  
+  <!-- Estatísticas -->
+  <g transform="translate(30, 410)">
+    <rect x="0" y="0" width="340" height="40" rx="8" ry="8" fill="rgba(255,69,0,0.1)"/>
+    
+    <circle cx="40" cy="20" r="12" fill="#FF4500" opacity="0.3"/>
+    <text x="40" y="25" text-anchor="middle" font-size="10" fill="#FFFFFF" font-family="Arial">
+      🔴
+    </text>
+    <text x="55" y="25" font-size="10" fill="#FFD700" font-family="Arial">Planeta Vermelho</text>
+    
+    <circle cx="220" cy="20" r="12" fill="#FF6347" opacity="0.3"/>
+    <text x="220" y="25" text-anchor="middle" font-size="10" fill="#FFFFFF" font-family="Arial">
+      📸
+    </text>
+    <text x="235" y="25" font-size="10" fill="#FFD700" font-family="Arial">Fotos Reais</text>
+  </g>
+  
+  <!-- Botão de ação -->
+  <a xlink:href="https://mars.nasa.gov/mars2020/multimedia/raw-images/" target="_blank">
+    <rect x="120" y="460" width="160" height="30" rx="6" ry="6" 
+          fill="#FF4500" opacity="0.9"/>
+    <text x="200" y="480" text-anchor="middle" font-size="12" 
+          fill="#FFFFFF" font-weight="bold" font-family="Arial">
+      🌐 EXPLORAR MARTE
+    </text>
+  </a>
+  
+  <!-- Rodapé -->
+  <text x="200" y="495" text-anchor="middle" font-size="10" 
+        fill="#FF6347" font-family="Arial, Helvetica, sans-serif">
+    NASA • Mars Exploration Program
+  </text>
+</svg>

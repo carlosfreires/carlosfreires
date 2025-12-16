@@ -1,38 +1,87 @@
-name: Update Cat API Section
+name: Update Cats Horizontal Section
 
 on:
   schedule:
-    - cron: '0 18 * * *'  # Diariamente às 18h UTC
+    - cron: '0 */6 * * *'  # A cada 6 horas
   workflow_dispatch:
   push:
     branches: [ main ]
 
 jobs:
-  update-cat:
+  update-cats-horizontal:
     runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
     
     steps:
     - name: Checkout Repository
       uses: actions/checkout@v3
       with:
-        persist-credentials: false
+        token: ${{ secrets.GITHUB_TOKEN }}
+        fetch-depth: 0
         
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
-        python-version: '3.9'
+        python-version: '3.10'
         
     - name: Install Dependencies
       run: pip install requests
+        
+    - name: Generate Cats Horizontal SVGs
+      run: python scripts/generate_cat_apis_horizontal.py
       
-    - name: Update Cat Section
-      working-directory: ./scripts
-      run: python generate_apis_cat.py
-      
-    - name: Commit Cat Changes
+    - name: Update README with Cats Section
       run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action - Cat"
+        echo "📄 Atualizando README.md com seção felina..."
+        
+        if [ -f "output/cats_section.md" ]; then
+          CATS_SECTION=$(cat output/cats_section.md)
+          
+          # Verificar se a seção já existe
+          if grep -q "CATS_HORIZONTAL_SECTION" README.md; then
+            # Substituir seção existente
+            sed -i '/<!-- CATS_HORIZONTAL_SECTION -->/,/<!-- END_CATS_HORIZONTAL_SECTION -->/c\
+'"$CATS_SECTION" README.md
+          else
+            # Verificar e substituir seção antiga
+            if grep -q "<!-- CAT_APIS -->" README.md; then
+              sed -i '/<!-- CAT_APIS -->/,/<!-- END CAT_APIS -->/c\
+'"$CATS_SECTION" README.md
+            elif grep -q "<!-- CAT_HORIZONTAL_SECTION -->" README.md; then
+              sed -i '/<!-- CAT_HORIZONTAL_SECTION -->/,/<!-- END_CAT_HORIZONTAL_SECTION -->/c\
+'"$CATS_SECTION" README.md
+            else
+              # Adicionar após NASA APIs
+              sed -i '/<!-- END_NASA_HORIZONTAL_SECTION -->/a\
+\n'"$CATS_SECTION" README.md
+            fi
+          fi
+          
+          echo "✅ Seção Cats horizontal adicionada ao README"
+        else
+          echo "❌ Arquivo Cats section não encontrado"
+          exit 1
+        fi
+      
+    - name: Commit and Push Changes
+      run: |
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git config --global user.name "github-actions[bot]"
+        
+        # Adicionar arquivos SVG
+        git add output/cat_api_card.svg
+        git add output/cataas_card.svg
         git add README.md
-        git diff --quiet && git diff --staged --quiet || git commit -m "😺 Update cat section"
-        git push
+        
+        if ! git diff --cached --quiet; then
+          echo "📤 Realizando commit..."
+          git commit -m "😺 Update Cats Horizontal Cards [$(date -u +'%Y-%m-%d %H:%M UTC')]"
+          
+          git pull origin main --no-edit
+          git push origin main
+          echo "✅ Push realizado com sucesso!"
+        else
+          echo "ℹ️ Nenhuma mudança para commitar"
+        fi

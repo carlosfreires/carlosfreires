@@ -13,6 +13,47 @@
 <img src="./assets/img_fission_laser_slim.svg" alt="Logo" style="width: 100%; height: auto;">
 
 <!-- ========================================================= -->
+<!-- =======================   STATS  ======================== -->
+<!-- ========================================================= -->
+
+<img src="./assets/img_logo_github_stats.svg" alt="Logo" style="width: 100%; height: auto;">
+<!--
+<p align="center">
+  <img src="./output/github-snake.svg" alt="GitHub Snake" />
+</p> float: right
+-->
+
+![Texto Alternativo](./output/github-snake.svg)
+
+<div style="float: right; margin-left: 15px;">
+  <img src="https://komarev.com/ghpvc/?username=carlosfreires&color=blue" alt="GitHub Snake" />
+</div>
+<!--
+{
+![Texto Alternativo](https://metrics.lecoq.io/carlosfreires?template=classic&base=header,activity,community,repositories,metadata&config.timezone=America%2FSao_Paulo)  ![Texto Alternativo](https://github-readme-stats.vercel.app/api/top-langs/?username=carlosfreires&layout=compact&theme=dark&bg_color=00000000&border_color=00000000)
+}
+-->
+
+<div align="center">
+  <!-- O div externo gerencia o layout horizontal -->
+  <div style="display: flex; justify-content: space-between; gap: 10px;">
+    <!-- Primeiro Cartão (Metrics) -->
+    <img src="https://metrics.lecoq.io/carlosfreires?template=classic&base=header,activity,community,repositories,metadata&config.timezone=America%2FSao_Paulo" alt="Métricas GitHub" style="flex-grow: 1;"/>
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=carlosfreires&layout=compact&theme=dark&bg_color=00000000&border_color=00000000" alt="Linguagens Mais Usadas" style="flex-grow: 1;"/>
+  </div>
+</div>
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=carlosfreires&theme=transparent" alt="logo-incial" style="width: 100%; height: auto;"/>
+
+<img src="https://github-readme-stats.vercel.app/api?username=carlosfreires&show_icons=true&theme=transparent&rank_icon=github" alt="logo-incial" style="width: 100%; height: auto;" />
+
+<!--
+<img style="width: 100%; height: auto" src="https://metrics.lecoq.io/carlosfreires?template=classic&base=header,activity,community,repositories,metadata&config.timezone=America%2FSao_Paulo" />
+-->
+
+
+
+<!-- ========================================================= -->
 <!-- =======================  SKILLS  ======================== -->
 <!-- ========================================================= -->
 <img src="./assets/img_logo_tech_stach.svg" alt="Logo" style="width: 100%; height: auto;">
@@ -57,8 +98,8 @@
   <a href="https://carlosfreires.github.io/TocadorDeRadioOnline/">
     <img src="./assets/img_btn_acc_online.svg" alt="Logo Esquerda" width="45%">
   </a>
-  &nbsp; <a href="https://carlosfreires.github.io/TocadorDeRadioOnline/">
-    <img src="./assets/img_btn_acc_online.svg" alt="Logo Direita" width="45%">
+  &nbsp; <a href="https://github.com/carlosfreires/TocadorDeRadioOnline">
+    <img src="./assets/img_btn_acc_repos.svg" alt="Logo Direita" width="45%">
   </a>
 </p>
 
@@ -70,13 +111,14 @@
 
 <img src="./assets/img_desc_tv_online.svg" alt="Logo" style="width: 100%; height: auto;">
 
-<a href="https://carlosfreires.github.io/tvOnline/" style="float: left; width: 40%; height: auto; box-sizing: border-box; padding-right: 10px;">
-    <img src="./assets/img_btn_acc_online.svg" alt="Logo Esquerda" style="width: 100%; height: auto;">
-</a>
-
-<a href="https://github.com/carlosfreires/tvOnline" style="float: right; width: 40%; height: auto; box-sizing: border-box; padding-left: 10px;">
-    <img src="./assets/img_btn_acc_repos.svg" alt="Logo Direita" style="width: 100%; height: auto;">
-</a>
+<p align="center">
+  <a href="https://carlosfreires.github.io/tvOnline/">
+    <img src="./assets/img_btn_acc_online.svg" alt="Logo Esquerda" width="45%">
+  </a>
+  &nbsp; <a href="https://github.com/carlosfreires/tvOnline">
+    <img src="./assets/img_btn_acc_repos.svg" alt="Logo Direita" width="45%">
+  </a>
+</p>
 
 <img src="./assets/img_fission_laser_slim.svg" alt="Logo" style="width: 100%; height: auto;">
 
@@ -86,13 +128,14 @@
 
 <img src="./assets/img_desc_webcam_page.svg" alt="Logo" style="width: 100%; height: auto;">
 
-<a href="https://carlosfreires.github.io/webcam_page/" style="float: left; width: 40%; height: auto; box-sizing: border-box; padding-right: 10px;">
-    <img src="./assets/img_btn_acc_online.svg" alt="Logo Esquerda" style="width: 100%; height: auto;">
-</a>
-
-<a href="https://github.com/carlosfreires/webcam_page" style="float: right; width: 40%; height: auto; box-sizing: border-box; padding-left: 10px;">
-    <img src="./assets/img_btn_acc_repos.svg" alt="Logo Direita" style="width: 100%; height: auto;">
-</a>
+<p align="center">
+  <a href="https://carlosfreires.github.io/webcam_page/">
+    <img src="./assets/img_btn_acc_online.svg" alt="Logo Esquerda" width="45%">
+  </a>
+  &nbsp; <a href="https://github.com/carlosfreires/webcam_page/">
+    <img src="./assets/img_btn_acc_repos.svg" alt="Logo Direita" width="45%">
+  </a>
+</p>
 
 <img src="./assets/img_fission_laser_slim.svg" alt="Logo" style="width: 100%; height: auto;">
 
@@ -102,13 +145,11 @@
 
 <img src="./assets/img_desc_gerador_hash.svg" alt="Logo" style="width: 100%; height: auto;">
 
-<a href="https://carlosfreires.github.io/TocadorDeRadioOnline/" style="float: left; width: 40%; height: auto; box-sizing: border-box; padding-right: 10px;">
-    <img src="./assets/img_btn_acc_online.svg" alt="Logo Esquerda" style="width: 100%; height: auto;">
-</a>
-
-<a href="https://carlosfreires.github.io/TocadorDeRadioOnline/" style="float: right; width: 40%; height: auto; box-sizing: border-box; padding-left: 10px;">
-    <img src="./assets/img_btn_acc_repos.svg" alt="Logo Direita" style="width: 100%; height: auto;">
-</a>
+<p align="center">
+  <a href="https://github.com/carlosfreires/geradorDeHash-bcrypt">
+    <img src="./assets/img_btn_acc_repos.svg" alt="Logo Direita" width="45%">
+  </a>
+</p>
 
 <img src="./assets/img_fission_laser_slim.svg" alt="Logo" style="width: 100%; height: auto;">
 
@@ -118,13 +159,11 @@
 
 <img src="./assets/img_desc_monitor_dispositivos_rede.svg" alt="Logo" style="width: 100%; height: auto;">
 
-<a href="https://carlosfreires.github.io/TocadorDeRadioOnline/" style="float: left; width: 40%; height: auto; box-sizing: border-box; padding-right: 10px;">
-    <img src="./assets/img_btn_acc_online.svg" alt="Logo Esquerda" style="width: 100%; height: auto;">
-</a>
-
-<a href="https://carlosfreires.github.io/TocadorDeRadioOnline/" style="float: right; width: 40%; height: auto; box-sizing: border-box; padding-left: 10px;">
-    <img src="./assets/img_btn_acc_repos.svg" alt="Logo Direita" style="width: 100%; height: auto;">
-</a>
+<p align="center">
+  <a href="https://github.com/carlosfreires/Projeto_MonitorDeDispositivosEmRede_backend">
+    <img src="./assets/img_btn_acc_repos.svg" alt="Logo Direita" width="45%">
+  </a>
+</p>
 
 <img src="./assets/img_fission_laser_slim.svg" alt="Logo" style="width: 100%; height: auto;">
 
@@ -270,279 +309,47 @@
   🐍 GitHub Contribution Snake
 </h2>
 
-<p align="center">
-  <img src="./output/github-snake.svg" alt="GitHub Snake" />
-</p>
+
 
 <!-- ========================================================= -->
 <!-- ===================  APIs AUTOMÁTICAS ================== -->
 <!-- ========================================================= -->
 
-## 🚀 NASA API
-
-![NASA Status](output/nasa_status.svg)
-
-<!-- NEWS APIs -->
-<!-- BEGIN NEWS_APIS -->
-<!-- 🔄 NOTÍCIAS TECH atualizado: 2025-12-15 12:49:09 UTC -->
-
 <!-- ========================================================= -->
-<!-- ================  NOTÍCIAS DE TECNOLOGIA  ================ -->
+<!-- =============  NASA APIs - Cards Horizontais  ============ -->
 <!-- ========================================================= -->
-<div style="margin: 60px auto; padding: 30px; max-width: 1200px;
-            background: linear-gradient(135deg, rgba(13,26,39,0.95), rgba(0,42,71,0.95));
-            border-radius: 20px; box-shadow: 0 10px 40px rgba(0,148,211,0.4);
-            border: 1px solid #00FFFF;">
 
-<h2 style="text-align: center; font-size: 36px; margin-bottom: 40px;
-           background: linear-gradient(45deg, #00FFFF, #4169E1, #8A2BE2);
-           -webkit-background-clip: text; -webkit-text-fill-color: transparent;
-           text-shadow: 0 0 30px rgba(0,255,255,0.3);">
-  💻 TECH NEWS &nbsp; • &nbsp; 🔬 INOVAÇÃO DIGITAL
-</h2>
+<!-- NASA_HORIZONTAL_SECTION -->
+<!-- Atualizado: 2024-01-01 12:00 UTC -->
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 25px;">
+## 🚀 NASA APIs em Tempo Real - Visão Expandida
 
-  <div style="background: rgba(255,255,255,0.05); padding: 25px; border-radius: 15px;
-              border: 1px solid #FF6347; transition: all 0.3s ease;
-              position: relative; overflow: hidden;">
-    
-    <div style="position: absolute; top: 0; right: 0; width: 60px; height: 60px;
-                background: #FF634720; border-bottom-left-radius: 15px;
-                display: flex; align-items: center; justify-content: center;">
-      <span style="font-size: 24px;">🚀</span>
-    </div>
-    
-    <div style="margin-bottom: 15px;">
-      <span style="background: #FF6347; color: white; padding: 4px 12px;
-             border-radius: 20px; font-size: 12px; font-weight: bold;">
-        🤖 IA
-      </span>
-      <span style="color: #FFD700; font-size: 12px; margin-left: 10px;">
-        ⏱️ 3 min
-      </span>
-    </div>
-    
-    <h3 style="color: #FF6347; font-size: 18px; margin: 10px 0; line-height: 1.4;">
-      Inteligência Artificial Revoluciona Desenvolvimento
-    </h3>
-    
-    <p style="color: #9B59B6; font-size: 14px; line-height: 1.5; margin: 15px 0;">
-      Ferramentas de IA estão transformando como escrevemos e debugamos código.
-    </p>
-    
-    <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-      <span style="color: #00FFFF; font-size: 12px;">
-        📅 Hoje • 🔥 Trending
-      </span>
-      <button style="background: #FF6347; color: white; border: none; padding: 8px 16px;
-              border-radius: 8px; font-size: 12px; cursor: pointer; transition: opacity 0.3s;"
-              onmouseover="this.style.opacity='0.8'" onmouseout="this.style.opacity='1'">
-        📖 Ler Artigo
-      </button>
-    </div>
-    
-    <div style="position: absolute; bottom: 0; left: 0; width: 100%; height: 3px;
-                background: linear-gradient(90deg, #FF6347, transparent);">
-    </div>
-  </div>
+<div align="center">
 
-  <div style="background: rgba(255,255,255,0.05); padding: 25px; border-radius: 15px;
-              border: 1px solid #00FFFF; transition: all 0.3s ease;
-              position: relative; overflow: hidden;">
-    
-    <div style="position: absolute; top: 0; right: 0; width: 60px; height: 60px;
-                background: #00FFFF20; border-bottom-left-radius: 15px;
-                display: flex; align-items: center; justify-content: center;">
-      <span style="font-size: 24px;">💡</span>
-    </div>
-    
-    <div style="margin-bottom: 15px;">
-      <span style="background: #00FFFF; color: white; padding: 4px 12px;
-             border-radius: 20px; font-size: 12px; font-weight: bold;">
-        🔓 OPEN SOURCE
-      </span>
-      <span style="color: #FFD700; font-size: 12px; margin-left: 10px;">
-        ⏱️ 4 min
-      </span>
-    </div>
-    
-    <h3 style="color: #00FFFF; font-size: 18px; margin: 10px 0; line-height: 1.4;">
-      Open Source Atinge Novo Recorde em 2024
-    </h3>
-    
-    <p style="color: #9B59B6; font-size: 14px; line-height: 1.5; margin: 15px 0;">
-      Comunidade open source cresce com colaboração global sem precedentes.
-    </p>
-    
-    <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-      <span style="color: #00FFFF; font-size: 12px;">
-        📅 Hoje • 🔥 Trending
-      </span>
-      <button style="background: #00FFFF; color: white; border: none; padding: 8px 16px;
-              border-radius: 8px; font-size: 12px; cursor: pointer; transition: opacity 0.3s;"
-              onmouseover="this.style.opacity='0.8'" onmouseout="this.style.opacity='1'">
-        📖 Ler Artigo
-      </button>
-    </div>
-    
-    <div style="position: absolute; bottom: 0; left: 0; width: 100%; height: 3px;
-                background: linear-gradient(90deg, #00FFFF, transparent);">
-    </div>
-  </div>
+### 🌟 Astronomy Picture of the Day (APOD)
+[![NASA APOD](output/nasa_apod_horizontal.svg)](https://apod.nasa.gov)
+*Imagem astronômica diária com explicação científica*
 
-  <div style="background: rgba(255,255,255,0.05); padding: 25px; border-radius: 15px;
-              border: 1px solid #FFD700; transition: all 0.3s ease;
-              position: relative; overflow: hidden;">
-    
-    <div style="position: absolute; top: 0; right: 0; width: 60px; height: 60px;
-                background: #FFD70020; border-bottom-left-radius: 15px;
-                display: flex; align-items: center; justify-content: center;">
-      <span style="font-size: 24px;">⚡</span>
-    </div>
-    
-    <div style="margin-bottom: 15px;">
-      <span style="background: #FFD700; color: white; padding: 4px 12px;
-             border-radius: 20px; font-size: 12px; font-weight: bold;">
-        ⚡ JAVASCRIPT
-      </span>
-      <span style="color: #FFD700; font-size: 12px; margin-left: 10px;">
-        ⏱️ 5 min
-      </span>
-    </div>
-    
-    <h3 style="color: #FFD700; font-size: 18px; margin: 10px 0; line-height: 1.4;">
-      JavaScript Domina Desenvolvimento Web Moderno
-    </h3>
-    
-    <p style="color: #9B59B6; font-size: 14px; line-height: 1.5; margin: 15px 0;">
-      Ecossistema JavaScript expande com novas frameworks e ferramentas.
-    </p>
-    
-    <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-      <span style="color: #00FFFF; font-size: 12px;">
-        📅 Hoje • 🔥 Trending
-      </span>
-      <button style="background: #FFD700; color: white; border: none; padding: 8px 16px;
-              border-radius: 8px; font-size: 12px; cursor: pointer; transition: opacity 0.3s;"
-              onmouseover="this.style.opacity='0.8'" onmouseout="this.style.opacity='1'">
-        📖 Ler Artigo
-      </button>
-    </div>
-    
-    <div style="position: absolute; bottom: 0; left: 0; width: 100%; height: 3px;
-                background: linear-gradient(90deg, #FFD700, transparent);">
-    </div>
-  </div>
+---
 
-  <div style="background: rgba(255,255,255,0.05); padding: 25px; border-radius: 15px;
-              border: 1px solid #9B59B6; transition: all 0.3s ease;
-              position: relative; overflow: hidden;">
-    
-    <div style="position: absolute; top: 0; right: 0; width: 60px; height: 60px;
-                background: #9B59B620; border-bottom-left-radius: 15px;
-                display: flex; align-items: center; justify-content: center;">
-      <span style="font-size: 24px;">🔬</span>
-    </div>
-    
-    <div style="margin-bottom: 15px;">
-      <span style="background: #9B59B6; color: white; padding: 4px 12px;
-             border-radius: 20px; font-size: 12px; font-weight: bold;">
-        🐍 PYTHON
-      </span>
-      <span style="color: #FFD700; font-size: 12px; margin-left: 10px;">
-        ⏱️ 4 min
-      </span>
-    </div>
-    
-    <h3 style="color: #9B59B6; font-size: 18px; margin: 10px 0; line-height: 1.4;">
-      Python Lidera em Data Science & Machine Learning
-    </h3>
-    
-    <p style="color: #9B59B6; font-size: 14px; line-height: 1.5; margin: 15px 0;">
-      Python se consolida como linguagem preferida para IA e análise de dados.
-    </p>
-    
-    <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-      <span style="color: #00FFFF; font-size: 12px;">
-        📅 Hoje • 🔥 Trending
-      </span>
-      <button style="background: #9B59B6; color: white; border: none; padding: 8px 16px;
-              border-radius: 8px; font-size: 12px; cursor: pointer; transition: opacity 0.3s;"
-              onmouseover="this.style.opacity='0.8'" onmouseout="this.style.opacity='1'">
-        📖 Ler Artigo
-      </button>
-    </div>
-    
-    <div style="position: absolute; bottom: 0; left: 0; width: 100%; height: 3px;
-                background: linear-gradient(90deg, #9B59B6, transparent);">
-    </div>
-  </div>
+### 🚀 Mars Rover Photos
+[![Mars Rover](output/nasa_mars_horizontal.svg)](https://mars.nasa.gov)
+*Fotos reais da superfície de Marte pelos rovers da NASA*
 
-  <div style="background: rgba(255,255,255,0.05); padding: 25px; border-radius: 15px;
-              border: 1px solid #4169E1; transition: all 0.3s ease;
-              position: relative; overflow: hidden;">
-    
-    <div style="position: absolute; top: 0; right: 0; width: 60px; height: 60px;
-                background: #4169E120; border-bottom-left-radius: 15px;
-                display: flex; align-items: center; justify-content: center;">
-      <span style="font-size: 24px;">🌐</span>
-    </div>
-    
-    <div style="margin-bottom: 15px;">
-      <span style="background: #4169E1; color: white; padding: 4px 12px;
-             border-radius: 20px; font-size: 12px; font-weight: bold;">
-        🐳 DEVOPS
-      </span>
-      <span style="color: #FFD700; font-size: 12px; margin-left: 10px;">
-        ⏱️ 6 min
-      </span>
-    </div>
-    
-    <h3 style="color: #4169E1; font-size: 18px; margin: 10px 0; line-height: 1.4;">
-      DevOps e Containers Transformam Infraestrutura
-    </h3>
-    
-    <p style="color: #9B59B6; font-size: 14px; line-height: 1.5; margin: 15px 0;">
-      Docker e Kubernetes revolucionam deployment de aplicações em escala.
-    </p>
-    
-    <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-      <span style="color: #00FFFF; font-size: 12px;">
-        📅 Hoje • 🔥 Trending
-      </span>
-      <button style="background: #4169E1; color: white; border: none; padding: 8px 16px;
-              border-radius: 8px; font-size: 12px; cursor: pointer; transition: opacity 0.3s;"
-              onmouseover="this.style.opacity='0.8'" onmouseout="this.style.opacity='1'">
-        📖 Ler Artigo
-      </button>
-    </div>
-    
-    <div style="position: absolute; bottom: 0; left: 0; width: 100%; height: 3px;
-                background: linear-gradient(90deg, #4169E1, transparent);">
-    </div>
-  </div>
+---
+
+### 🌍 Earth from Space (EPIC)
+[![Earth from Space](output/nasa_epic_horizontal.svg)](https://epic.gsfc.nasa.gov)
+*Terra vista do satélite DSCOVR a 1.5 milhão de km*
+
+<br>
+
+<sub>🛰️ Dados em tempo real via NASA APIs • 🔄 Atualizado automaticamente a cada 4 horas</sub>
+<sub>🎨 Design com gradiente neon #9B59B6 → #FF6347</sub>
 
 </div>
 
-<div style="margin-top: 40px; padding: 20px; background: rgba(0,255,255,0.1); 
-            border-radius: 12px; border-left: 4px solid #00FFFF;">
-  <div style="display: flex; align-items: center; justify-content: center; gap: 15px;">
-    <div style="font-size: 24px;">📡</div>
-    <div>
-      <p style="color: #00FFFF; margin: 0; font-size: 16px; font-weight: bold;">
-        MANTENHA-SE ATUALIZADO
-      </p>
-      <p style="color: #9B59B6; margin: 5px 0 0 0; font-size: 14px;">
-        O mundo da tecnologia evolui rápido. Estas são as tendências do momento.
-      </p>
-    </div>
-  </div>
-</div>
-
-</div>
-
-<!-- END NEWS_APIS -->
+<!-- END_NASA_HORIZONTAL_SECTION -->
 
 <!-- CAT APIs -->
 <!-- BEGIN CAT_APIS -->
@@ -551,130 +358,44 @@
 <!-- ========================================================= -->
 <!-- ==================  MOMENTO FELINO  ====================== -->
 <!-- ========================================================= -->
-<div style="margin: 60px auto; padding: 40px; max-width: 1200px;
-            background: linear-gradient(135deg, rgba(39,26,13,0.95), rgba(71,42,0,0.95));
-            border-radius: 20px; box-shadow: 0 10px 40px rgba(255,165,0,0.4);
-            border: 1px solid #FFD700; position: relative; overflow: hidden;">
-  
-  <!-- Elementos decorativos -->
-  <div style="position: absolute; top: -100px; right: -100px; width: 300px; height: 300px;
-              background: radial-gradient(circle, rgba(255,215,0,0.15) 0%, transparent 70%);
-              border-radius: 50%;"></div>
-  <div style="position: absolute; bottom: -100px; left: -100px; width: 250px; height: 250px;
-              background: radial-gradient(circle, rgba(255,99,71,0.15) 0%, transparent 70%);
-              border-radius: 50%;"></div>
+<!-- ========================================================= -->
+<!-- ==============  MOMENTO FELINO - APIs Reais  ============ -->
+<!-- ========================================================= -->
 
-  <h2 style="text-align: center; font-size: 36px; margin-bottom: 40px;
-             background: linear-gradient(45deg, #FFD700, #FF6347, #FFA500);
-             -webkit-background-clip: text; -webkit-text-fill-color: transparent;
-             text-shadow: 0 0 30px rgba(255,215,0,0.3);">
-    😻 MOMENTO FELINO &nbsp; • &nbsp; ✨ PAUSA INSPIRADORA
-  </h2>
+<!-- CATS_HORIZONTAL_SECTION -->
+<!-- Atualizado: 2024-01-01 12:00 UTC -->
 
-  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 40px;">
-    
-    <!-- Card da Imagem -->
-    <div style="flex: 1; min-width: 300px; max-width: 450px;">
-      <div style="background: rgba(255,255,255,0.08); padding: 20px; border-radius: 20px;
-                  border: 3px solid #FF6347; box-shadow: 0 10px 30px rgba(255,99,71,0.2);">
-        
-        <div style="position: relative; width: 100%; padding-bottom: 75%; border-radius: 15px;
-                    overflow: hidden; background: #000;">
-          <img src="https://cdn2.thecatapi.com/images/abq.gif" alt="Gato Inspirador" 
-               style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;
-                      object-fit: cover; transition: transform 0.5s ease;"
-               onmouseover="this.style.transform='scale(1.05)'"
-               onmouseout="this.style.transform='scale(1)'">
-        </div>
-        
-        <div style="display: flex; justify-content: center; gap: 20px; margin: 20px 0;">
-          <span style="color: #FFD700; font-size: 14px; display: flex; align-items: center; gap: 5px;">
-            🐾 <span style="color: #FFFFFF;">Fofura Garantida</span>
-          </span>
-          <span style="color: #FF6347; font-size: 14px; display: flex; align-items: center; gap: 5px;">
-            😸 <span style="color: #FFFFFF;">Anti-stress</span>
-          </span>
-          <span style="color: #9B59B6; font-size: 14px; display: flex; align-items: center; gap: 5px;">
-            💡 <span style="color: #FFFFFF;">Inspiração</span>
-          </span>
-        </div>
-        
-        <div style="text-align: center; padding: 15px; background: rgba(255,215,0,0.1);
-                    border-radius: 10px; margin-top: 10px;">
-          <p style="color: #FFD700; margin: 0; font-size: 14px; font-style: italic;">
-            "Um gato olhando fixamente para a tela pode ser um desenvolvedor em outra vida."
-          </p>
-        </div>
-      </div>
-    </div>
-    
-    <!-- Card da Citação -->
-    <div style="flex: 1; min-width: 300px; max-width: 500px;">
-      <div style="background: rgba(0,0,0,0.7); padding: 30px; border-radius: 20px;
-                  border: 3px solid #FFD700; box-shadow: 0 10px 30px rgba(255,215,0,0.2);
-                  height: 100%; position: relative;">
-        
-        <div style="position: absolute; top: 15px; left: 20px;">
-          <span style="background: #9B59B6; 
-                 color: white; padding: 5px 15px; border-radius: 20px; font-size: 12px;">
-            🚀 PERSEVERANÇA
-          </span>
-        </div>
-        
-        <div style="margin-top: 40px;">
-          <div style="font-size: 60px; color: #FFD700; opacity: 0.2; position: absolute; top: 40px; right: 30px;">
-            "
-          </div>
-          
-          <p style="color: #FFFFFF; font-size: 22px; line-height: 1.6; font-style: italic;
-                    margin: 20px 0 30px 0; text-shadow: 0 2px 10px rgba(0,0,0,0.5);">
-            O sucesso é a soma de pequenos esforços repetidos dia após dia.
-          </p>
-          
-          <div style="border-top: 2px solid #FF6347; padding-top: 20px; margin-top: 30px;">
-            <div style="display: flex; justify-content: space-between; align-items: center;">
-              <div>
-                <p style="color: #FFD700; margin: 0; font-size: 18px; font-weight: bold;">
-                  — Robert Collier
-                </p>
-                <p style="color: #9B59B6; margin: 5px 0 0 0; font-size: 12px;">
-                  📚 Sabedoria para desenvolvedores
-                </p>
-              </div>
-              <span style="color: #00FFFF; font-size: 12px;">
-                ⏱️ 3 min de reflexão
-              </span>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      <div style="margin-top: 25px; padding: 20px; background: rgba(255,215,0,0.1); 
-                  border-radius: 15px; border-left: 4px solid #FF6347;">
-        <div style="display: flex; align-items: center; gap: 15px;">
-          <div style="font-size: 24px; color: #FF6347;">💡</div>
-          <div>
-            <p style="color: #FFD700; margin: 0; font-size: 16px; font-weight: bold;">
-              DICA PARA DEVS:
-            </p>
-            <p style="color: #9B59B6; margin: 5px 0 0 0; font-size: 14px;">
-              Assim como gatos precisam de pausas, desenvolvedores precisam de momentos de criatividade.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+## 😻 MOMENTO FELINO - APIs Reais
 
-  <div style="margin-top: 40px; padding: 20px; background: rgba(0,0,0,0.4); 
-              border-radius: 15px; border: 1px solid #9B59B6;">
-    <p style="color: #9B59B6; text-align: center; margin: 0; font-size: 14px; font-style: italic;">
-      😺 <em>"Os gatos têm tudo: admiração, sono sem fim, e companhia apenas quando querem."</em> 
-      — Rudyard Kipling • Última atualização automática
-    </p>
-  </div>
+<div align="center">
+
+### 🐱 TheCatAPI - Raças Felinas
+[![TheCatAPI](output/cat_api_card.svg)](https://thecatapi.com)
+*Imagem aleatória com dados completos da raça*
+
+---
+
+### 🐾 CATAAS + Cat Facts
+[![CATAAS](output/cataas_card.svg)](https://cataas.com)
+*Imagens + fatos interessantes sobre gatos*
+
+<br>
+
+<sub>🎨 Design com gradiente neon #9B59B6 → #FF6347</sub>
+<sub>🔄 Atualizado automaticamente a cada 6 horas</sub>
+<sub>📡 Dados em tempo real via APIs felinas</sub>
 
 </div>
+
+<!-- END_CATS_HORIZONTAL_SECTION -->
+
+<img src="./assets/barr666.svg" alt="Logo Direita" style="width: 100%; height: auto;">
+
+<img src="./assets/border-header666.svg" alt="Logo Direita" style="width: 100%; height: auto;">
+
+
+<img src="./assets/hero.svg" alt="Logo Direita" style="width: 100%; height: auto;">
+
 
 <style>
   @keyframes gentleFloat {
@@ -685,7 +406,3 @@
     animation: gentleFloat 2s ease-in-out infinite;
   }
 </style>
-
-<!-- END CAT_APIS -->
-
-<!-- ... resto do README permanece igual ... -->
