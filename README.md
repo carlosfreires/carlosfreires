@@ -68,14 +68,26 @@
 <!-- =======================  SKILLS  ======================== -->
 <!-- ========================================================= -->
 
-<div align="center">
-  <picture>
-    <img src="./assets/img_logo_tech_stach.svg" 
-         alt="Logo" 
-         style="width: 100%; height: auto; pointer-events: none; user-select: none;" 
-         draggable="false">
-  </picture>
-</div>
+<picture>
+  <img src="./assets/img_logo_tech_stach.svg" alt="Logo" style="width: 100%; height: auto;">
+</picture>
+
+<picture>
+  <img src="https://skillicons.dev/icons?i=java,python,cs,dart,ts,js,html,css,php,c,cpp,r" alt="Logo" style="width: 100%; height: auto;"/>
+</picture>
+
+<picture>
+  <img src="https://skillicons.dev/icons?i=nodejs,react,angular,nestjs,spring,dotnet,flutter" alt="Logo" style="width: 100%; height: auto;"/>
+</picture>
+
+<picture>
+  <img src="https://skillicons.dev/icons?i=mysql,postgres,oracle,mongodb,sqlite" alt="Logo" style="width: 100%; height: auto;"/>
+</picture>
+
+<picture>
+  <img src="https://skillicons.dev/icons?i=docker,linux,windows,postman,github,git" alt="Logo" style="width: 100%; height: auto;"/>
+</picture>
+
 
 <!--
 <span style="text-align: center; font-family: 'Arial', sans-serif; font-size: 32px; color: #9B59B6; text-shadow: 3px 3px 10px rgba(148, 0, 211, 0.6); margin-top: 60px;">
@@ -83,24 +95,24 @@
 ![Tech Stack](https://skillicons.dev/icons?i=java,python,cs,dart,ts,js,html,css,php,c,cpp,r)
 
 </span> -->
-
+<!--
 <span style="text-align: center; font-family: 'Arial', sans-serif; font-size: 32px; color: #9B59B6; text-shadow: 3px 3px 10px rgba(148, 0, 211, 0.6); margin-top: 60px;">
 
 ![Frameworks](https://skillicons.dev/icons?i=nodejs,react,angular,nestjs,spring,dotnet,flutter)
 
-</span>
-
+</span> -->
+<!--
 <span style="text-align: center; font-family: 'Arial', sans-serif; font-size: 32px; color: #9B59B6; text-shadow: 3px 3px 10px rgba(148, 0, 211, 0.6); margin-top: 60px;">
 
 ![Databases](https://skillicons.dev/icons?i=mysql,postgres,oracle,mongodb,sqlite)
 
-</span>
-
+</span> -->
+<!--
 <span style="text-align: center; font-family: 'Arial', sans-serif; font-size: 32px; color: #9B59B6; text-shadow: 3px 3px 10px rgba(148, 0, 211, 0.6); margin-top: 60px;">
 
 ![Tools](https://skillicons.dev/icons?i=docker,linux,windows,postman,github,git)
 
-</span>
+</span> -->
 
 <img src="./assets/img_fission_laser_slim.svg" alt="Logo" style="width: 100%; height: auto;">
 <!-- ========================================================= -->
