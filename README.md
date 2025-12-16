@@ -41,7 +41,9 @@
 </picture>
 
 <picture>
-    <img src="https://komarev.com/ghpvc/?username=carlosfreires&color=blue" alt="GitHub Snake" style="float: right; margin-left: 15px; pointer-events: none; user-select: none; align: center"/>
+  <div style="float: right; margin-left: 15px; pointer-events: none; user-select: none; align:center">
+    <img src="https://komarev.com/ghpvc/?username=carlosfreires&color=blue" alt="GitHub Snake"/>
+  </div>
 </picture>
 
 <picture>
@@ -66,9 +68,14 @@
 <!-- =======================  SKILLS  ======================== -->
 <!-- ========================================================= -->
 
-<picture>
-  <img src="./assets/img_logo_tech_stach.svg" alt="Logo" style="width: 100%; height: auto;">
-</picture>
+<div align="center">
+  <picture>
+    <img src="./assets/img_logo_tech_stach.svg" 
+         alt="Logo" 
+         style="width: 100%; height: auto; pointer-events: none; user-select: none;" 
+         draggable="false">
+  </picture>
+</div>
 
 <!--
 <span style="text-align: center; font-family: 'Arial', sans-serif; font-size: 32px; color: #9B59B6; text-shadow: 3px 3px 10px rgba(148, 0, 211, 0.6); margin-top: 60px;">
