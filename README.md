@@ -1,4 +1,6 @@
-<img  src="./assets/img_title_header.svg" alt="logo-incial" style="width: 100%; height: auto; pointer-events: none; user-select: none;"/>
+<picture>
+  <img  src="./assets/img_title_header.svg" alt="logo-incial" style="width: 100%; height: auto; pointer-events: none; user-select: none;"/>
+</picture>
 
 # Bem vindo a os meus repositorios
 
