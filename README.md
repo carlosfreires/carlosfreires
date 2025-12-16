@@ -11,59 +11,66 @@
 <picture>
   <img src="./assets/img_msg_hero.svg" alt="Divisoria destacada" style="width: 100%; height: auto; pointer-events: none; user-select: none;">
 </picture>
+<picture>
+  <img src="./assets/img_fission_laser_wide.svg" alt="Divisoria destacada" style="width: 100%; height: auto; pointer-events: none; user-select: none;">
+</picture>
 
-<img src="./assets/img_fission_laser_wide.svg" alt="Divisoria destacada" style="width: 100%; height: auto; pointer-events: none; user-select: none;">
+<picture>
+  <img src="./assets/img_msg_colab_visitor.svg" alt="Logo" style="width: 100%; height: auto; pointer-events: none; user-select: none;">
+</picture>
 
-<img src="./assets/img_msg_colab_visitor.svg" alt="Logo" style="width: 100%; height: auto; pointer-events: none; user-select: none;">
-
-<img src="./assets/img_fission_laser_slim.svg" alt="Logo" style="width: 100%; height: auto; pointer-events: none; user-select: none;">
+<picture>
+  <img src="./assets/img_fission_laser_slim.svg" alt="Logo" style="width: 100%; height: auto; pointer-events: none; user-select: none;">
+</picture>
 
 <!-- ========================================================= -->
 <!-- =======================   STATS  ======================== -->
 <!-- ========================================================= -->
 
-<img src="./assets/img_logo_github_stats.svg" alt="Logo" style="width: 100%; height: auto; ">
+<picture>
+  <img src="./assets/img_logo_github_stats.svg" alt="Logo" style="width: 100%; height: auto; pointer-events: none; user-select: none;">
+</picture>
 <!--
 <p align="center">
   <img src="./output/github-snake.svg" alt="GitHub Snake" />
 </p> float: right
 -->
 
-![Texto Alternativo](./output/github-snake.svg)
+<picture>
+  <img src="./output/github-snake.svg" alt="Logo" style="width: 100%; height: auto; pointer-events: none; user-select: none;">
+</picture>
 
-<div style="float: right; margin-left: 15px;">
-  <img src="https://komarev.com/ghpvc/?username=carlosfreires&color=blue" alt="GitHub Snake" />
-</div>
-<!--
-{
-![Texto Alternativo](https://metrics.lecoq.io/carlosfreires?template=classic&base=header,activity,community,repositories,metadata&config.timezone=America%2FSao_Paulo)  ![Texto Alternativo](https://github-readme-stats.vercel.app/api/top-langs/?username=carlosfreires&layout=compact&theme=dark&bg_color=00000000&border_color=00000000)
-}
--->
-
-<div align="center">
-  <!-- O div externo gerencia o layout horizontal -->
-  <div style="display: flex; justify-content: space-between; gap: 10px;">
-    <!-- Primeiro Cartão (Metrics) -->
-    <img src="https://metrics.lecoq.io/carlosfreires?template=classic&base=header,activity,community,repositories,metadata&config.timezone=America%2FSao_Paulo" alt="Métricas GitHub" style="flex-grow: 1;"/>
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=carlosfreires&layout=compact&theme=dark&bg_color=00000000&border_color=00000000" alt="Linguagens Mais Usadas" style="flex-grow: 1;"/>
+<picture>
+  <div style="float: right; margin-left: 15px; pointer-events: none; user-select: none;">
+    <img src="https://komarev.com/ghpvc/?username=carlosfreires&color=blue" alt="GitHub Snake"/>
   </div>
-</div>
+</picture>
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=carlosfreires&theme=transparent" alt="logo-incial" style="width: 100%; height: auto;"/>
+<picture>
+  <div align="center">
+    <!-- O div externo gerencia o layout horizontal -->
+    <div style="display: flex; justify-content: space-between; gap: 10px;">
+      <!-- Primeiro Cartão (Metrics) -->
+      <img src="https://metrics.lecoq.io/carlosfreires?template=classic&base=header,activity,community,repositories,metadata&config.timezone=America%2FSao_Paulo" alt="Métricas GitHub" style="flex-grow: 1;"/>
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=carlosfreires&layout=compact&theme=dark&bg_color=00000000&border_color=00000000" alt="Linguagens Mais Usadas" style="flex-grow: 1;"/>
+    </div>
+  </div>
+</picture>
+<picture>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=carlosfreires&theme=transparent" alt="logo-incial" style="width: 100%; height: auto" />
+</picture>
 
-<img src="https://github-readme-stats.vercel.app/api?username=carlosfreires&show_icons=true&theme=transparent&rank_icon=github" alt="logo-incial" style="width: 100%; height: auto;" />
-
-<!--
-<img style="width: 100%; height: auto" src="https://metrics.lecoq.io/carlosfreires?template=classic&base=header,activity,community,repositories,metadata&config.timezone=America%2FSao_Paulo" />
--->
-
-
+<picture>
+  <img src="https://github-readme-stats.vercel.app/api?username=carlosfreires&show_icons=true&theme=transparent&rank_icon=github" alt="logo-incial" style="width: 100%; height: auto;" />
+</picture>
 
 <!-- ========================================================= -->
 <!-- =======================  SKILLS  ======================== -->
 <!-- ========================================================= -->
-<img src="./assets/img_logo_tech_stach.svg" alt="Logo" style="width: 100%; height: auto;">
 
+<picture>
+  <img src="./assets/img_logo_tech_stach.svg" alt="Logo" style="width: 100%; height: auto;">
+</picture>
 
 <span style="text-align: center; font-family: 'Arial', sans-serif; font-size: 32px; color: #9B59B6; text-shadow: 3px 3px 10px rgba(148, 0, 211, 0.6); margin-top: 60px;">
 
