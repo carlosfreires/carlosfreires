@@ -36,13 +36,13 @@
   <img src="./output/github-snake.svg" alt="Logo" style="width: 100%; height: auto; pointer-events: none; user-select: none;">
 </picture>
 
-<table align="right">
-  <tr>
-    <td>
+<table align="right" style="border-spacing: 0; border-collapse: collapse; border: none; background-color: transparent;">
+  <tr style="border: none; background-color: transparent;">
+    <td style="border: none; background-color: transparent;">
       <picture>
         <img src="https://komarev.com/ghpvc/?username=carlosfreires&color=blue" 
-             alt="GitHub Snake" 
-             style="pointer-events: none; user-select: none;" 
+             alt="GitHub Snake"
+             style="pointer-events: none; user-select: none; border: none;"
              draggable="false">
       </picture>
     </td>
