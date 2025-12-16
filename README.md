@@ -64,6 +64,8 @@
   <img src="https://github-readme-stats.vercel.app/api?username=carlosfreires&show_icons=true&theme=transparent&rank_icon=github" alt="logo-incial" style="width: 100%; height: auto;" />
 </picture>
 
+<img src="./assets/img_fission_laser_slim.svg" alt="Logo" style="width: 100%; height: auto;">
+
 <!-- ========================================================= -->
 <!-- =======================  SKILLS  ======================== -->
 <!-- ========================================================= -->
@@ -87,32 +89,6 @@
 <picture>
   <img src="https://skillicons.dev/icons?i=docker,linux,windows,postman,github,git" alt="Logo" style="width: 100%; height: auto;"/>
 </picture>
-
-
-<!--
-<span style="text-align: center; font-family: 'Arial', sans-serif; font-size: 32px; color: #9B59B6; text-shadow: 3px 3px 10px rgba(148, 0, 211, 0.6); margin-top: 60px;">
-
-![Tech Stack](https://skillicons.dev/icons?i=java,python,cs,dart,ts,js,html,css,php,c,cpp,r)
-
-</span> -->
-<!--
-<span style="text-align: center; font-family: 'Arial', sans-serif; font-size: 32px; color: #9B59B6; text-shadow: 3px 3px 10px rgba(148, 0, 211, 0.6); margin-top: 60px;">
-
-![Frameworks](https://skillicons.dev/icons?i=nodejs,react,angular,nestjs,spring,dotnet,flutter)
-
-</span> -->
-<!--
-<span style="text-align: center; font-family: 'Arial', sans-serif; font-size: 32px; color: #9B59B6; text-shadow: 3px 3px 10px rgba(148, 0, 211, 0.6); margin-top: 60px;">
-
-![Databases](https://skillicons.dev/icons?i=mysql,postgres,oracle,mongodb,sqlite)
-
-</span> -->
-<!--
-<span style="text-align: center; font-family: 'Arial', sans-serif; font-size: 32px; color: #9B59B6; text-shadow: 3px 3px 10px rgba(148, 0, 211, 0.6); margin-top: 60px;">
-
-![Tools](https://skillicons.dev/icons?i=docker,linux,windows,postman,github,git)
-
-</span> -->
 
 <img src="./assets/img_fission_laser_slim.svg" alt="Logo" style="width: 100%; height: auto;">
 <!-- ========================================================= -->
@@ -204,13 +180,14 @@
 
 <img src="./assets/img_desc_balao_pop.svg" alt="Logo" style="width: 100%; height: auto;">
 
-<a href="https://carlosfreires.github.io/TocadorDeRadioOnline/" style="float: left; width: 40%; height: auto; box-sizing: border-box; padding-right: 10px;">
-    <img src="./assets/img_btn_acc_online.svg" alt="Logo Esquerda" style="width: 100%; height: auto;">
-</a>
-
-<a href="https://carlosfreires.github.io/TocadorDeRadioOnline/" style="float: right; width: 40%; height: auto; box-sizing: border-box; padding-left: 10px;">
-    <img src="./assets/img_btn_acc_repos.svg" alt="Logo Direita" style="width: 100%; height: auto;">
-</a>
+<p align="center">
+  <a href="https://carlosfreires.github.io/Balao_Pop-WebPage/">
+    <img src="./assets/img_btn_acc_online.svg" alt="Logo Esquerda" width="45%">
+  </a>
+  &nbsp; <a href="https://github.com/carlosfreires/Balao_Pop-WebPage">
+    <img src="./assets/img_btn_acc_repos.svg" alt="Logo Direita" width="45%">
+  </a>
+</p>
 
 <img src="./assets/img_fission_laser_slim.svg" alt="Logo" style="width: 100%; height: auto;">
 
@@ -220,13 +197,11 @@
 
 <img src="./assets/img_desc_comunabot.svg" alt="Logo" style="width: 100%; height: auto;">
 
-<a href="https://carlosfreires.github.io/TocadorDeRadioOnline/" style="float: left; width: 40%; height: auto; box-sizing: border-box; padding-right: 10px;">
-    <img src="./assets/img_btn_acc_online.svg" alt="Logo Esquerda" style="width: 100%; height: auto;">
-</a>
-
-<a href="https://carlosfreires.github.io/TocadorDeRadioOnline/" style="float: right; width: 40%; height: auto; box-sizing: border-box; padding-left: 10px;">
-    <img src="./assets/img_btn_acc_repos.svg" alt="Logo Direita" style="width: 100%; height: auto;">
-</a>
+<p align="center">
+  <a href="https://github.com/carlosfreires/ComunaBotJS">
+    <img src="./assets/img_btn_acc_repos.svg" alt="Logo Direita" width="45%">
+  </a>
+</p>
 
 <img src="./assets/img_fission_laser_slim.svg" alt="Logo" style="width: 100%; height: auto;">
 
@@ -236,13 +211,14 @@
 
 <img src="./assets/img_desc_simple_portfolio.svg" alt="Logo" style="width: 100%; height: auto;">
 
-<a href="https://carlosfreires.github.io/TocadorDeRadioOnline/" style="float: left; width: 40%; height: auto; box-sizing: border-box; padding-right: 10px;">
-    <img src="./assets/img_btn_acc_online.svg" alt="Logo Esquerda" style="width: 100%; height: auto;">
-</a>
-
-<a href="https://carlosfreires.github.io/TocadorDeRadioOnline/" style="float: right; width: 40%; height: auto; box-sizing: border-box; padding-left: 10px;">
-    <img src="./assets/img_btn_acc_repos.svg" alt="Logo Direita" style="width: 100%; height: auto;">
-</a>
+<p align="center">
+  <a href="https://carlosfreires.github.io/simple_dev_portfolio/">
+    <img src="./assets/img_btn_acc_online.svg" alt="Logo Esquerda" width="45%">
+  </a>
+  &nbsp; <a href="https://github.com/carlosfreires/simple_dev_portfolio">
+    <img src="./assets/img_btn_acc_repos.svg" alt="Logo Direita" width="45%">
+  </a>
+</p>
 
 <img src="./assets/img_fission_laser_slim.svg" alt="Logo" style="width: 100%; height: auto;">
 
@@ -252,13 +228,14 @@
 
 <img src="./assets/img_desc_contador_palavras.svg" alt="Logo" style="width: 100%; height: auto;">
 
-<a href="https://carlosfreires.github.io/TocadorDeRadioOnline/" style="float: left; width: 40%; height: auto; box-sizing: border-box; padding-right: 10px;">
-    <img src="./assets/img_btn_acc_online.svg" alt="Logo Esquerda" style="width: 100%; height: auto;">
-</a>
-
-<a href="https://carlosfreires.github.io/TocadorDeRadioOnline/" style="float: right; width: 40%; height: auto; box-sizing: border-box; padding-left: 10px;">
-    <img src="./assets/img_btn_acc_repos.svg" alt="Logo Direita" style="width: 100%; height: auto;">
-</a>
+<p align="center">
+  <a href="https://carlosfreires.github.io/contador-de-palavras-webpage/">
+    <img src="./assets/img_btn_acc_online.svg" alt="Logo Esquerda" width="45%">
+  </a>
+  &nbsp; <a href="https://github.com/carlosfreires/contador-de-palavras-webpage">
+    <img src="./assets/img_btn_acc_repos.svg" alt="Logo Direita" width="45%">
+  </a>
+</p>
 
 <img src="./assets/img_fission_laser_slim.svg" alt="Logo" style="width: 100%; height: auto;">
 
@@ -268,13 +245,11 @@
 
 <img src="./assets/img_desc_botpress_dev.svg" alt="Logo" style="width: 100%; height: auto;">
 
-<a href="https://carlosfreires.github.io/TocadorDeRadioOnline/" style="float: left; width: 40%; height: auto; box-sizing: border-box; padding-right: 10px;">
-    <img src="./assets/img_btn_acc_online.svg" alt="Logo Esquerda" style="width: 100%; height: auto;">
-</a>
-
-<a href="https://carlosfreires.github.io/TocadorDeRadioOnline/" style="float: right; width: 40%; height: auto; box-sizing: border-box; padding-left: 10px;">
-    <img src="./assets/img_btn_acc_repos.svg" alt="Logo Direita" style="width: 100%; height: auto;">
-</a>
+<p align="center">
+  <a href="https://github.com/carlosfreires/freires-botpress-dev">
+    <img src="./assets/img_btn_acc_repos.svg" alt="Logo Direita" width="45%">
+  </a>
+</p>
 
 <img src="./assets/img_fission_laser_slim.svg" alt="Logo" style="width: 100%; height: auto;">
 
@@ -284,13 +259,11 @@
 
 <img src="./assets/img_desc_docker_postgresql.svg" alt="Logo" style="width: 100%; height: auto;">
 
-<a href="https://carlosfreires.github.io/TocadorDeRadioOnline/" style="float: left; width: 40%; height: auto; box-sizing: border-box; padding-right: 10px;">
-    <img src="./assets/img_btn_acc_online.svg" alt="Logo Esquerda" style="width: 100%; height: auto;">
-</a>
-
-<a href="https://carlosfreires.github.io/TocadorDeRadioOnline/" style="float: right; width: 40%; height: auto; box-sizing: border-box; padding-left: 10px;">
-    <img src="./assets/img_btn_acc_repos.svg" alt="Logo Direita" style="width: 100%; height: auto;">
-</a>
+<p align="center">
+  <a href="https://github.com/carlosfreires/Docker_PostgreSQL-V13">
+    <img src="./assets/img_btn_acc_repos.svg" alt="Logo Direita" width="45%">
+  </a>
+</p>
 
 <img src="./assets/img_fission_laser_slim.svg" alt="Logo" style="width: 100%; height: auto;">
 
@@ -300,13 +273,11 @@
 
 <img src="./assets/img_desc_docker_mongodb.svg" alt="Logo" style="width: 100%; height: auto;">
 
-<a href="https://carlosfreires.github.io/TocadorDeRadioOnline/" style="float: left; width: 40%; height: auto; box-sizing: border-box; padding-right: 10px;">
-    <img src="./assets/img_btn_acc_online.svg" alt="Logo Esquerda" style="width: 100%; height: auto;">
-</a>
-
-<a href="https://carlosfreires.github.io/TocadorDeRadioOnline/" style="float: right; width: 40%; height: auto; box-sizing: border-box; padding-left: 10px;">
-    <img src="./assets/img_btn_acc_repos.svg" alt="Logo Direita" style="width: 100%; height: auto;">
-</a>
+<p align="center">
+  <a href="https://github.com/carlosfreires/Docker_MongoDB-V4.4">
+    <img src="./assets/img_btn_acc_repos.svg" alt="Logo Direita" width="45%">
+  </a>
+</p>
 
 <img src="./assets/img_fission_laser_slim.svg" alt="Logo" style="width: 100%; height: auto;">
 
@@ -316,13 +287,11 @@
 
 <img src="./assets/img_desc_docker_mysql.svg" alt="Logo" style="width: 100%; height: auto;">
 
-<a href="https://carlosfreires.github.io/TocadorDeRadioOnline/" style="float: left; width: 40%; height: auto; box-sizing: border-box; padding-right: 10px;">
-    <img src="./assets/img_btn_acc_online.svg" alt="Logo Esquerda" style="width: 100%; height: auto;">
-</a>
-
-<a href="https://carlosfreires.github.io/TocadorDeRadioOnline/" style="float: right; width: 40%; height: auto; box-sizing: border-box; padding-left: 10px;">
-    <img src="./assets/img_btn_acc_repos.svg" alt="Logo Direita" style="width: 100%; height: auto;">
-</a>
+<p align="center">
+  <a href="https://github.com/carlosfreires/Docker_MySQL-V8">
+    <img src="./assets/img_btn_acc_repos.svg" alt="Logo Direita" width="45%">
+  </a>
+</p>
 
 <img src="./assets/img_fission_laser_slim.svg" alt="Logo" style="width: 100%; height: auto;">
 
