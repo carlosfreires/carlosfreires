@@ -41,9 +41,7 @@
 </picture>
 
 <picture>
-  <div style="float: right; margin-left: 15px; pointer-events: none; user-select: none; align: center">
-    <img src="https://komarev.com/ghpvc/?username=carlosfreires&color=blue" alt="GitHub Snake"/>
-  </div>
+    <img src="https://komarev.com/ghpvc/?username=carlosfreires&color=blue" alt="GitHub Snake" style="float: right; margin-left: 15px; pointer-events: none; user-select: none; align: center"/>
 </picture>
 
 <picture>
