@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120">
+
+  <defs>
+    <linearGradient id="neon-title" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F5FF"/>
+      <stop offset="30%" stop-color="#8A2BE2"/>
+      <stop offset="60%" stop-color="#FF00FF"/>
+      <stop offset="100%" stop-color="#FF6347"/>
+    </linearGradient>
+
+    <linearGradient id="ghost-title" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F5FF" stop-opacity="0.12"/>
+      <stop offset="50%" stop-color="#FF00FF" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#FF6347" stop-opacity="0.12"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Fundo energético -->
+  <rect x="-400" y="0" width="2000" height="120" fill="url(#ghost-title)">
+    <animateTransform
+      attributeName="transform"
+      type="translate"
+      from="0 0"
+      to="400 0"
+      dur="7.5s"
+      repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Linha superior -->
+  <rect x="0" y="10" width="1200" height="2" fill="url(#neon-title)">
+    <animate attributeName="opacity"
+      values="0.15;1;0.15"
+      dur="2s"
+      repeatCount="indefinite"/>
+  </rect>
+
+<!-- 🌌 SISTEMA PLANETÁRIO -->
+  <g transform="translate(365 60)" fill="none" stroke="url(#ghost-title)" stroke-width="1.2">
+
+    <!-- ☀️ Sol -->
+    <circle cx="0" cy="0" r="6" fill="url(#neon-title)">
+      <animate
+        attributeName="r"
+        values="5;7;5"
+        dur="2s"
+        repeatCount="indefinite"/>
+      <animate
+        attributeName="opacity"
+        values="0.8;1;0.8"
+        dur="2s"
+        repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Órbita Mercúrio -->
+    <circle r="16"/>
+    <circle r="2" fill="url(#neon-title)">
+      <animateMotion
+        dur="7s"
+        repeatCount="indefinite"
+        path="M 16 0 A 16 16 0 1 0 -16 0 A 16 16 0 1 0 16 0"/>
+    </circle>
+
+    <!-- Órbita Vênus -->
+    <circle r="24"/>
+    <circle r="2.5" fill="url(#neon-title)">
+      <animateMotion
+        dur="15s"
+        repeatCount="indefinite"
+        path="M 24 0 A 24 24 0 1 0 -24 0 A 24 24 0 1 0 24 0"/>
+    </circle>
+
+    <!-- Órbita Terra -->
+    <circle r="34"/>
+    <g>
+      <!-- Terra -->
+      <circle r="3" fill="url(#neon-title)">
+        <animateMotion
+          dur="21s"
+          repeatCount="indefinite"
+          path="M 34 0 A 34 34 0 1 0 -34 0 A 34 34 0 1 0 34 0"/>
+      </circle>
+
+    </g>
+
+    <!-- Órbita Marte -->
+    <circle r="44"/>
+    <circle r="2" fill="url(#neon-title)">
+      <animateMotion
+        dur="29s"
+        repeatCount="indefinite"
+        path="M 44 0 A 44 44 0 1 0 -44 0 A 44 44 0 1 0 44 0"/>
+    </circle>
+
+  </g>
+
+
+  <!-- Título -->
+  <text x="600" y="74"
+    text-anchor="middle"
+    font-family="monospace"
+    font-size="32"
+    letter-spacing="4"
+    fill="url(#neon-title)">
+    COSMOLOGY SPACE
+    <animate attributeName="opacity"
+      values="0.85;1;0.85"
+      dur="1.6s"
+      repeatCount="indefinite"/>
+  </text>
+
+  <!-- Linha inferior -->
+  <rect x="0" y="107" width="1200" height="2" fill="url(#neon-title)">
+    <animate attributeName="opacity"
+      values="0.1;0.6;0.1"
+      dur="2.6s"
+      repeatCount="indefinite"/>
+  </rect>
+
+</svg>

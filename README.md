@@ -1,5 +1,5 @@
 <picture>
-  <img  src="./assets/img_title_header.svg" alt="logo-incial" style="width: 100%; height: auto; pointer-events: none; user-select: none;"/>
+  <img  src="./assets/img_title_header.svg" alt="Titulo do README.md : Carlos Freires - Developer" style="width: 100%; height: auto; pointer-events: none; user-select: none;"/>
 </picture>
 
 # Bem vindo a os meus repositorios
@@ -9,18 +9,19 @@
 </picture>
 
 <picture>
-  <img src="./assets/img_msg_hero.svg" alt="Divisoria destacada" style="width: 100%; height: auto; pointer-events: none; user-select: none;">
+  <img src="./assets/img_msg_hero.svg" alt="Texto idealista" style="width: 100%; height: auto; pointer-events: none; user-select: none;">
 </picture>
+
 <picture>
   <img src="./assets/img_fission_laser_wide.svg" alt="Divisoria destacada" style="width: 100%; height: auto; pointer-events: none; user-select: none;">
 </picture>
 
 <picture>
-  <img src="./assets/img_msg_colab_visitor.svg" alt="Logo" style="width: 100%; height: auto; pointer-events: none; user-select: none;">
+  <img src="./assets/img_msg_colab_visitor.svg" alt="Texto sobre expectativas" style="width: 100%; height: auto; pointer-events: none; user-select: none;">
 </picture>
 
 <picture>
-  <img src="./assets/img_fission_laser_slim.svg" alt="Logo" style="width: 100%; height: auto; pointer-events: none; user-select: none;">
+  <img src="./assets/img_fission_laser_slim.svg" alt="Divisoria simples" style="width: 100%; height: auto; pointer-events: none; user-select: none;">
 </picture>
 
 <!-- ========================================================= -->
@@ -28,12 +29,12 @@
 <!-- ========================================================= -->
 
 <picture>
-  <img src="./assets/img_logo_github_stats.svg" alt="Logo" style="width: 100%; height: auto; pointer-events: none; user-select: none;">
+  <img src="./assets/img_logo_github_stats.svg" alt="Titulo da seção: Stats" style="width: 100%; height: auto; pointer-events: none; user-select: none;">
 </picture>
 
 <!-- ==================  GITHUB SNAKE GAME  ================== -->
 <picture>
-  <img src="./output/github-snake.svg" alt="Logo" style="width: 100%; height: auto; pointer-events: none; user-select: none;">
+  <img src="./output/github-snake.svg" alt="Cobrinha comendo commits" style="width: 100%; height: auto; pointer-events: none; user-select: none;">
 </picture>
 
 <p align="right" style="border-spacing: 0; border-collapse: collapse; border: none; background-color: transparent;">
@@ -41,7 +42,7 @@
     <td style="border: none; background-color: transparent;">
       <picture>
         <img src="https://komarev.com/ghpvc/?username=carlosfreires&color=blue" 
-             alt="GitHub Snake"
+             alt="Contador de visitantes"
              style="pointer-events: none; user-select: none; border: none;"
              draggable="false">
       </picture>
@@ -59,70 +60,73 @@
     </div>
   </div>
 </picture>
+
 <picture>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=carlosfreires&theme=transparent" alt="logo-incial" style="width: 100%; height: auto" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=carlosfreires&theme=transparent" alt="Métricas de contribuições no GitHub" style="width: 100%; height: auto" />
 </picture>
 
 <picture>
-  <img src="https://github-readme-stats.vercel.app/api?username=carlosfreires&show_icons=true&theme=transparent&rank_icon=github" alt="logo-incial" style="width: 100%; height: auto;" />
+  <img src="https://github-readme-stats.vercel.app/api?username=carlosfreires&show_icons=true&theme=transparent&rank_icon=github" alt="Estatisticas rapidas" style="width: 100%; height: auto;" />
 </picture>
 
-<img src="./assets/img_fission_laser_slim.svg" alt="Logo" style="width: 100%; height: auto;">
+<picture>
+  <img src="./assets/img_fission_laser_slim.svg" alt="Divisoria simples" style="width: 100%; height: auto;">
+</picture>
 
 <!-- ========================================================= -->
 <!-- =======================  SKILLS  ======================== -->
 <!-- ========================================================= -->
 
 <picture>
-  <img src="./assets/img_logo_tech_stach.svg" alt="Logo" style="width: 100%; height: auto;">
+  <img src="./assets/img_logo_tech_stach.svg" alt="Titulo da seção: Skills" style="width: 100%; height: auto;">
 </picture>
 
 <picture>
-  <img src="https://skillicons.dev/icons?i=java,python,cs,dart,ts,js,html,css,php,c,cpp,r" alt="Logo" style="width: 100%; height: auto;"/>
+  <img src="https://skillicons.dev/icons?i=java,python,cs,dart,ts,js,html,css,php,c,cpp,r" alt="Lista de linguagens de programação" style="width: 100%; height: auto;"/>
 </picture>
 
 <picture>
-  <img src="https://skillicons.dev/icons?i=nodejs,react,angular,nestjs,spring,dotnet,flutter" alt="Logo" style="width: 100%; height: auto;"/>
+  <img src="https://skillicons.dev/icons?i=nodejs,react,angular,nestjs,spring,dotnet,flutter" alt="Lista de frameworks de programação" style="width: 100%; height: auto;"/>
 </picture>
 
 <picture>
-  <img src="https://skillicons.dev/icons?i=mysql,postgres,oracle,mongodb,sqlite" alt="Logo" style="width: 100%; height: auto;"/>
+  <img src="https://skillicons.dev/icons?i=mysql,postgres,oracle,mongodb,sqlite" alt="Lista de banco de dados" style="width: 100%; height: auto;"/>
 </picture>
 
 <picture>
-  <img src="https://skillicons.dev/icons?i=docker,linux,windows,postman,github,git" alt="Logo" style="width: 100%; height: auto;"/>
+  <img src="https://skillicons.dev/icons?i=docker,linux,windows,postman,github,git" alt="Lista de ferramentas e ambientes" style="width: 100%; height: auto;"/>
 </picture>
 
 <picture>
-  <img src="./assets/img_fission_laser_slim.svg" alt="Logo" style="width: 100%; height: auto;">
+  <img src="./assets/img_fission_laser_slim.svg" alt="Divisoria simples" style="width: 100%; height: auto;">
 </picture>
 
 <!-- ========================================================= -->
 <!-- =======================  PROJETOS  ===================== -->
 <!-- ========================================================= -->
 <picture>
-  <img src="./assets/img_logo_showcase_repositories.svg" alt="Logo" style="width: 100%; height: auto;">
+  <img src="./assets/img_logo_showcase_repositories.svg" alt="Titulo da seção: Projects" style="width: 100%; height: auto;">
 </picture>
 
 <!-- Tocador de Rádio Online -->
 <picture>
-  <img src="./assets/img_logo_tocador_radio_online.svg" alt="Logo" style="width: 100%;">
+  <img src="./assets/img_logo_tocador_radio_online.svg" alt="Titulo do repositorio: Radio Online" style="width: 100%;">
 </picture>
 
 <picture>
-  <img src="./assets/img_desc_tocador_radio_online.svg" alt="Descrição" style="width: 100%;">
+  <img src="./assets/img_desc_tocador_radio_online.svg" alt="Descrição do repositorio: Radio Online" style="width: 100%;">
 </picture>
 
 <p align="center">
   <a href="https://carlosfreires.github.io/TocadorDeRadioOnline/">
-    <img src="./assets/img_btn_acc_online.svg" alt="Logo Esquerda" width="45%">
+    <img src="./assets/img_btn_acc_online.svg" alt="Botão para acessar o site online" width="45%">
   </a>
   &nbsp; <a href="https://github.com/carlosfreires/TocadorDeRadioOnline">
-    <img src="./assets/img_btn_acc_repos.svg" alt="Logo Direita" width="45%">
+    <img src="./assets/img_btn_acc_repos.svg" alt="Botão para acessar o repositorio" width="45%">
   </a>
 </p>
 <picture>
-  <img src="./assets/img_fission_laser_slim.svg" alt="Logo" style="width: 100%; height: auto;">
+  <img src="./assets/img_fission_laser_slim.svg" alt="divisoria simples" style="width: 100%; height: auto;">
 </picture>
 
 <!-- TV Online -->
@@ -387,79 +391,56 @@
 <!-- =============  NASA APIs - Cards Horizontais  ============ -->
 <!-- ========================================================= -->
 
-<!-- NASA_HORIZONTAL_SECTION -->
+<!-- NASA_SECTION -->
 <!-- Atualizado: 2024-01-01 12:00 UTC -->
 
-## 🚀 NASA APIs em Tempo Real - Visão Expandida
+barr_cosmos.svg
 
-<div align="center">
+<picture>
+  <img src="./assets/img_logo_cosmo.svg" alt="Logo" style="width: 100%; height: auto;">
+</picture>
 
-### 🌟 Astronomy Picture of the Day (APOD)
-[![NASA APOD](output/nasa_apod_horizontal.svg)](https://apod.nasa.gov)
-*Imagem astronômica diária com explicação científica*
+<picture>
+  <img src="./assets/barr_cosmos.svg" alt="Logo" style="width: 100%; height: auto;">
+</picture>
 
----
+<picture>
+  <img src="./output/nasa_apod.svg" alt="Logo" style="width: 100%; height: auto;">
+</picture>
 
-### 🚀 Mars Rover Photos
-[![Mars Rover](output/nasa_mars_horizontal.svg)](https://mars.nasa.gov)
-*Fotos reais da superfície de Marte pelos rovers da NASA*
 
----
-
-### 🌍 Earth from Space (EPIC)
-[![Earth from Space](output/nasa_epic_horizontal.svg)](https://epic.gsfc.nasa.gov)
-*Terra vista do satélite DSCOVR a 1.5 milhão de km*
-
-<br>
 
 <sub>🛰️ Dados em tempo real via NASA APIs • 🔄 Atualizado automaticamente a cada 4 horas</sub>
-<sub>🎨 Design com gradiente neon #9B59B6 → #FF6347</sub>
 
-</div>
+<picture>
+  <img src="./assets/img_fission_laser_slim.svg" alt="Logo" style="width: 100%; height: auto;">
+</picture>
 
-<!-- END_NASA_HORIZONTAL_SECTION -->
+<!-- END_NASA_SECTION -->
 
-<!-- CAT APIs -->
-<!-- BEGIN CAT_APIS -->
+<!-- CAT API -->
+<!-- BEGIN CAT_API -->
 <!-- 🔄 GATO DO DIA atualizado: 2025-12-12 17:21:26 UTC -->
 
-<!-- ========================================================= -->
-<!-- ==================  MOMENTO FELINO  ====================== -->
-<!-- ========================================================= -->
-<!-- ========================================================= -->
-<!-- ==============  MOMENTO FELINO - APIs Reais  ============ -->
-<!-- ========================================================= -->
-
-<!-- CATS_HORIZONTAL_SECTION -->
-<!-- Atualizado: 2024-01-01 12:00 UTC -->
-
-## 😻 MOMENTO FELINO - APIs Reais
-
-<div align="center">
-
-### 🐱 TheCatAPI - Raças Felinas
-[![TheCatAPI](output/cat_api_card.svg)](https://thecatapi.com)
-*Imagem aleatória com dados completos da raça*
-
----
-
-### 🐾 CATAAS + Cat Facts
-[![CATAAS](output/cataas_card.svg)](https://cataas.com)
-*Imagens + fatos interessantes sobre gatos*
-
-<br>
-
-<sub>🎨 Design com gradiente neon #9B59B6 → #FF6347</sub>
-<sub>🔄 Atualizado automaticamente a cada 6 horas</sub>
-<sub>📡 Dados em tempo real via APIs felinas</sub>
-
-</div>
-
-<!-- END_CATS_HORIZONTAL_SECTION -->
+<picture>
+  <img src="./assets/img_title_cat_space.svg" alt="Logo" style="width: 100%; height: auto;">
+</picture>
 
 <picture>
   <img src="./assets/barr666.svg" alt="Logo Direita" style="width: 100%; height: auto;">
 </picture>
+
+<picture>
+  <img src="./output/space_cat_api.svg" alt="Logo" style="width: 100%; height: auto;">
+</picture>
+
+<picture>
+  <img src="./output/space_cat_cataas.svg" alt="Logo" style="width: 100%; height: auto;">
+</picture>
+
+<!-- END CAT_API -->
+
+
 
 <picture>
   <img src="./assets/border-header666.svg" alt="Logo Direita" style="width: 100%; height: auto;">
@@ -467,4 +448,9 @@
 
 <picture>
   <img src="./assets/hero.svg" alt="Logo Direita" style="width: 100%; height: auto;">
+</picture>
+
+
+<picture>
+  <img src="./assets/btngg.svg" alt="Logo Direita" style="width: 100%; height: auto;">
 </picture>
