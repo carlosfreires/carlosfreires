@@ -1,14 +1,14 @@
-name: Update NASA Horizontal Cards
+name: Update NASA API Cards
 
 on:
   schedule:
-    - cron: '0 */4 * * *'  # A cada 4 horas
+    - cron: '0 */12 * * *'  # A cada 12 horas
   workflow_dispatch:
   push:
     branches: [ main ]
 
 jobs:
-  update-nasa-horizontal:
+  update-nasa-cards:
     runs-on: ubuntu-latest
     
     permissions:
@@ -27,51 +27,27 @@ jobs:
         python-version: '3.10'
         
     - name: Install Dependencies
-      run: pip install requests
-        
-    - name: Generate NASA Horizontal SVGs
-      env:
-        NASA_API_KEY: ${{ secrets.NASA_API_KEY }}
-      run: python scripts/generate_nasa_apis_horizontal.py
-      
-    - name: Update README with Horizontal Section
       run: |
-        echo "📄 Atualizando README.md com cards horizontais..."
+        python -m pip install --upgrade pip
+        pip install requests
         
-        if [ -f "output/nasa_horizontal_section.md" ]; then
-          NASA_SECTION=$(cat output/nasa_horizontal_section.md)
-          
-          # Verificar se a seção já existe
-          if grep -q "NASA_HORIZONTAL_SECTION" README.md; then
-            # Substituir seção existente
-            sed -i '/<!-- NASA_HORIZONTAL_SECTION -->/,/<!-- END_NASA_HORIZONTAL_SECTION -->/c\
-'"$NASA_SECTION" README.md
-          else
-            # Adicionar após notícias
-            sed -i '/<!-- END NEWS_APIS -->/a\
-\n'"$NASA_SECTION" README.md
-          fi
-          
-          echo "✅ Seção NASA horizontal adicionada ao README"
-        else
-          echo "❌ Arquivo NASA horizontal não encontrado"
-          exit 1
-        fi
+    - name: Generate NASA API SVGs
+      run: python generate_api_nasa.py
       
     - name: Commit and Push Changes
       run: |
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
         git config --global user.name "github-actions[bot]"
         
-        # Adicionar arquivos SVG horizontais
-        git add output/nasa_*_horizontal.svg
-        git add README.md
+        # Adicionar apenas o SVG gerado
+        git add output/nasa_apod.svg
         
         if ! git diff --cached --quiet; then
           echo "📤 Realizando commit..."
-          git commit -m "🌌 Update NASA Horizontal Cards [$(date -u +'%Y-%m-%d %H:%M UTC')]"
+          git commit -m "🌌 Update NASA APOD SVG [$(date -u +'%Y-%m-%d %H:%M UTC')]"
           
-          git pull origin main --no-edit
+          # Puxar alterações remotas antes de enviar
+          git pull origin main --rebase --no-edit
           git push origin main
           echo "✅ Push realizado com sucesso!"
         else

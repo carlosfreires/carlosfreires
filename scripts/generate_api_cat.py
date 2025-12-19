@@ -314,7 +314,7 @@ def main():
     with open(f"{OUTPUT_DIR}/cats_section.md", "w", encoding="utf-8") as f:
         f.write("![Cat](./space_cat_api.svg)\n\n![Cat](./space_cat_cataas.svg)")
 
-    print("✨ SVGs gerados com sucesso. Versão FINAL em produção.")
+    print("✨ SVGs gerados com sucesso.")
 
 
 if __name__ == "__main__":

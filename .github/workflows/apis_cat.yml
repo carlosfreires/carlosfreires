@@ -1,14 +1,14 @@
-name: Update Cats Horizontal Section
+name: Update Cats API Cards
 
 on:
   schedule:
-    - cron: '0 */6 * * *'  # A cada 6 horas
+    - cron: '0 */3 * * *'  # A cada 3 horas
   workflow_dispatch:
   push:
     branches: [ main ]
 
 jobs:
-  update-cats-horizontal:
+  update-cats-cards:
     runs-on: ubuntu-latest
     
     permissions:
@@ -27,59 +27,28 @@ jobs:
         python-version: '3.10'
         
     - name: Install Dependencies
-      run: pip install requests
-        
-    - name: Generate Cats Horizontal SVGs
-      run: python scripts/generate_cat_apis_horizontal.py
-      
-    - name: Update README with Cats Section
       run: |
-        echo "📄 Atualizando README.md com seção felina..."
+        python -m pip install --upgrade pip
+        pip install requests
         
-        if [ -f "output/cats_section.md" ]; then
-          CATS_SECTION=$(cat output/cats_section.md)
-          
-          # Verificar se a seção já existe
-          if grep -q "CATS_HORIZONTAL_SECTION" README.md; then
-            # Substituir seção existente
-            sed -i '/<!-- CATS_HORIZONTAL_SECTION -->/,/<!-- END_CATS_HORIZONTAL_SECTION -->/c\
-'"$CATS_SECTION" README.md
-          else
-            # Verificar e substituir seção antiga
-            if grep -q "<!-- CAT_APIS -->" README.md; then
-              sed -i '/<!-- CAT_APIS -->/,/<!-- END CAT_APIS -->/c\
-'"$CATS_SECTION" README.md
-            elif grep -q "<!-- CAT_HORIZONTAL_SECTION -->" README.md; then
-              sed -i '/<!-- CAT_HORIZONTAL_SECTION -->/,/<!-- END_CAT_HORIZONTAL_SECTION -->/c\
-'"$CATS_SECTION" README.md
-            else
-              # Adicionar após NASA APIs
-              sed -i '/<!-- END_NASA_HORIZONTAL_SECTION -->/a\
-\n'"$CATS_SECTION" README.md
-            fi
-          fi
-          
-          echo "✅ Seção Cats horizontal adicionada ao README"
-        else
-          echo "❌ Arquivo Cats section não encontrado"
-          exit 1
-        fi
+    - name: Generate Cats SVGs
+      run: python generate_api_cat.py
       
     - name: Commit and Push Changes
       run: |
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
         git config --global user.name "github-actions[bot]"
         
-        # Adicionar arquivos SVG
-        git add output/cat_api_card.svg
-        git add output/cataas_card.svg
-        git add README.md
+        # Adicionar os SVGs gerados
+        git add output/space_cat_api.svg
+        git add output/space_cat_cataas.svg
         
         if ! git diff --cached --quiet; then
           echo "📤 Realizando commit..."
-          git commit -m "😺 Update Cats Horizontal Cards [$(date -u +'%Y-%m-%d %H:%M UTC')]"
+          git commit -m "😺 Update Cats API SVGs [$(date -u +'%Y-%m-%d %H:%M UTC')]"
           
-          git pull origin main --no-edit
+          # Puxar alterações remotas antes de enviar
+          git pull origin main --rebase --no-edit
           git push origin main
           echo "✅ Push realizado com sucesso!"
         else

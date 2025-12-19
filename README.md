@@ -438,16 +438,9 @@ barr_cosmos.svg
 
 <!-- END CAT_API -->
 
-
-
 <picture>
   <img src="./assets/border-header666.svg" alt="Logo Direita" style="width: 100%; height: auto;">
 </picture>
-
-<picture>
-  <img src="./assets/hero.svg" alt="Logo Direita" style="width: 100%; height: auto;">
-</picture>
-
 
 <picture>
   <img src="./assets/btngg.svg" alt="Logo Direita" style="width: 100%; height: auto;">
