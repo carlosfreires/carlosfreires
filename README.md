@@ -2,8 +2,6 @@
   <img  src="./assets/img_title_header.svg" alt="Titulo do README.md : Carlos Freires - Developer" style="width: 100%; height: auto; pointer-events: none; user-select: none;"/>
 </picture>
 
-# Bem vindo a os meus repositorios
-
 <picture>
   <img src="./assets/img_fission_laser_wide.svg" alt="Divisoria destacada" style="width: 100%; height: auto; pointer-events: none; user-select: none;">
 </picture>
