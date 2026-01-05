@@ -32,7 +32,7 @@ jobs:
         pip install requests
         
     - name: Generate NASA API SVGs
-      run: python generate_api_nasa.py
+      run: python scripts/generate_api_nasa.py
       
     - name: Commit and Push Changes
       run: |
