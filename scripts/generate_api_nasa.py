@@ -64,9 +64,9 @@ def image_to_base64(url):
     
     # URLs alternativas para fallback
     fallback_urls = [
-        "https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=800&h=400&fit=crop",  # Espaço
-        "https://images.unsplash.com/photo-1502134249126-9f3755a50d78?w=800&h=400&fit=crop",  # Estrelas
-        "https://images.unsplash.com/photo-1465101162946-4377e57745c3?w=800&h=400&fit=crop",  # Galáxia
+        "https://cdn.eso.org/images/screen/eso1907a.jpg",  # Black Hole eso
+        "https://cdn.eso.org/images/screen/eso2208-eht-mwh.jpg",  # Black Hole eso
+        "https://cdn.eso.org/images/screen/eso2406a.jpg",  # Black Hole eso
     ]
     
     # Tenta a URL principal
