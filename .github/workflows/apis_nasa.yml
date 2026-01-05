@@ -39,15 +39,16 @@ jobs:
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
         git config --global user.name "github-actions[bot]"
         
+        # Puxar alterações remotas primeiro
+        git pull origin main --rebase --autostash
+
         # Adicionar apenas o SVG gerado
         git add output/nasa_apod.svg
         
+        # Fazer commit se houver mudanças
         if ! git diff --cached --quiet; then
           echo "📤 Realizando commit..."
           git commit -m "🌌 Update NASA APOD SVG [$(date -u +'%Y-%m-%d %H:%M UTC')]"
-          
-          # Puxar alterações remotas antes de enviar
-          git pull origin main --rebase --no-edit
           git push origin main
           echo "✅ Push realizado com sucesso!"
         else
