@@ -2,9 +2,7 @@
   <img  src="./assets/img_title_header.svg" alt="Titulo do README.md : Carlos Freires - Developer" style="width: 100%; height: auto; pointer-events: none; user-select: none;"/>
 </picture>
 
-# Welcome to my repositories
-
-<p align="center">
+<p style="text-align: right;>
   <a href="https://linkedin.com/in/freires">
     <img src="https://img.shields.io/badge/LinkedIn-Profile-purple?logo=linkedin" alt="LinkedIn">
   </a>
@@ -12,6 +10,8 @@
     <img src="https://img.shields.io/badge/Portfolio-Site-purple" alt="Portfolio">
   </a>
 </p>
+
+# Welcome to my repositories
 
 ## 🚩 Manifesto
 
